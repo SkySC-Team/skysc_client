@@ -67,6 +67,6 @@
     ],
     "formatVersion": 1,
     "game": "minecraft",
-    "name": "Land Client",
-    "versionId": "v1.6-1.18.2"
+    "name": "Sky SC Client",
+    "versionId": "v1.0+buildtype"
 }

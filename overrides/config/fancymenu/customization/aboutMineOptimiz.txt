@@ -57,7 +57,7 @@ element {
 
 element {
   interactable = true
-  source = 本客户端用于游玩Land 3服%n%Minecraft版本: {"placeholder":"mcversion"}%n%客户端版本：{"placeholder":"mpuc:current-modpack-version"}%n%基于MineOptimiz 1.18.2 Forge修改%n%客户端作者：Small__Mushroom
+  source = 本客户端用于游玩Sky SC 模组服%n%Minecraft版本: {"placeholder":"mcversion"}%n%客户端版本：{"placeholder":"mpuc:current-modpack-version"}%n%基于MineOptimiz 1.18.2 Forge修改%n%客户端作者：Small__Mushroom
   source_mode = direct
   shadow = true
   scale = 1.0

@@ -86,7 +86,7 @@ element {
 
 element {
   interactable = true
-  source = 加入Land
+  source = 加入Sky SC
   source_mode = direct
   shadow = true
   scale = 1.0
