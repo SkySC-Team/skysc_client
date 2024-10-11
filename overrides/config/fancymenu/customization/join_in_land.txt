@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = com.gitee.smallmushroomovo.join_in_land
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1726918197397
+  last_edited_time = 1728625752940
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:31d78c4b-9f0b-4684-97b6-03e760a71313-1726918194122] = [groups:][instances:]
+  [loading_requirement_container_meta:bd29682b-05e0-4a46-84c9-5cd5eb907b00-1728625739529] = [groups:][instances:]
 }
 
 customization {
@@ -57,7 +57,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 254131d6-3c8c-4606-99aa-5cf5885bb4d0-1726917556562
-  [executable_action_instance:5d8191ab-88a4-4da1-9019-f48b20bce24f-1726917576064][action_type:joinserver] = play.simpfun.cn:22054
+  [executable_action_instance:5d8191ab-88a4-4da1-9019-f48b20bce24f-1726917576064][action_type:joinserver] = shenzhen-a8bf9282.ofalias.net:55675
   [executable_block:254131d6-3c8c-4606-99aa-5cf5885bb4d0-1726917556562][type:generic] = [executables:5d8191ab-88a4-4da1-9019-f48b20bce24f-1726917576064;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
