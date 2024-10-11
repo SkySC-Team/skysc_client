@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = com.gitee.smallmushroomovo.bugreports
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1726917124282
+  last_edited_time = 1728640453464
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:fad9a80c-4e43-4ed5-861f-0ca1dc604bc2-1726917031889] = [groups:][instances:]
+  [loading_requirement_container_meta:244b7f72-f8fd-4ab2-82a6-100527247ba0-1728640407255] = [groups:][instances:]
 }
 
 customization {
@@ -57,7 +57,7 @@ element {
 
 element {
   interactable = true
-  source = 要反馈bug，请加入Q群147275490
+  source = 要反馈bug，请加入Q群784679160
   source_mode = direct
   shadow = true
   scale = 1.0
