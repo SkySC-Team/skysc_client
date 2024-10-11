@@ -3,8 +3,8 @@
   "currentVersion": "v3.0+buildtype",
   "modpackName": "Sky SC Client",
   "modpackAuthor": "Small__Mushroom",
-  "modpackReleaseType": "beta",
-  "updateCheckerId": "",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://123smallmushroom.github.io/check-update-skysc_client",
   "advanced": {
     "bccEnabled": false,
     "expandButton": false,
