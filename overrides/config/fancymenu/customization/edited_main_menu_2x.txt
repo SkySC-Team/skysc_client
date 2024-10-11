@@ -34,7 +34,7 @@ scroll_list_customization {
 
 element {
   button_element_executable_block_identifier = ddda5c22-abd3-4e5c-93e5-e39fa8b91a40-1710515396754
-  [executable_action_instance:74a1a98e-7a3c-41f3-85d7-db0d990fe7f0-1726916090363][action_type:joinserver] = play.simpfun.cn:22054
+  [executable_action_instance:74a1a98e-7a3c-41f3-85d7-db0d990fe7f0-1726916090363][action_type:joinserver] = shenzhen-a8bf9282.ofalias.net:55675
   [executable_block:ddda5c22-abd3-4e5c-93e5-e39fa8b91a40-1710515396754][type:generic] = [executables:74a1a98e-7a3c-41f3-85d7-db0d990fe7f0-1726916090363;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
