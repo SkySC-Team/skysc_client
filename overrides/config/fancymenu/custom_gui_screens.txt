@@ -1,21 +1,12 @@
 type = custom_gui_screens
 
 overridden_screens {
-  net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen = com.gitee.smallmushroomovo.join_in_land
+  join_multiplayer_screen = com.gitee.smallmushroomovo.join_in_land
 }
 
 custom_gui {
   identifier = io.123smallmushroom.engmode
   title = English Support of GUI
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-}
-
-custom_gui {
-  identifier = io.123smallmushroom.choosegame
-  title = 开始游戏
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
@@ -86,6 +77,69 @@ custom_gui {
 }
 
 custom_gui {
+  identifier = io.123smallmushroom.licence
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = io.123smallmushroom.credits
+  title = 鸣谢与著作权说明
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = com.github.smallmushroomovo.uisettings
+  title = UI设置
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = io.123smallmushroom.linuxupdate
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = io.123smallmushroom.linuxrepair
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = io.123smallmushroom.updatechoose
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = io.123smallmushroom.choosegame
+  title = 开始游戏
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
   identifier = com.gitee.smallmushroomovo.bugreports
   title = 
   allow_esc = true
@@ -113,15 +167,6 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = io.123smallmushroom.licence
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-}
-
-custom_gui {
   identifier = io.123smallmushroom.keysettings
   title = 键位设置
   allow_esc = true
@@ -131,34 +176,7 @@ custom_gui {
 }
 
 custom_gui {
-  identifier = io.123smallmushroom.quitgame
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-}
-
-custom_gui {
   identifier = io.123smallmushroom.justinfabric
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-}
-
-custom_gui {
-  identifier = io.123smallmushroom.linuxupdate
-  title = 
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-}
-
-custom_gui {
-  identifier = io.123smallmushroom.linuxrepair
   title = 
   allow_esc = true
   transparent_world_background = true
@@ -196,15 +214,6 @@ custom_gui {
 custom_gui {
   identifier = io.123smallmushroom.jubao
   title = 彩蛋
-  allow_esc = true
-  transparent_world_background = true
-  transparent_world_background_overlay = true
-  pause_game = true
-}
-
-custom_gui {
-  identifier = io.123smallmushroom.updatechoose
-  title = 
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true
