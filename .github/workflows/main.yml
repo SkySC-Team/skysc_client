@@ -37,7 +37,7 @@ jobs:
           rm -rf .git
           rm README.md
           zip -r "./MineOptimiz.zip" ./*
-          mv MineOptimiz.zip "Sky SC Client v3.2+${{ env.SHORT_SHA }}.mrpack"
+          mv MineOptimiz.zip "Sky SC Client v3.3+${{ env.SHORT_SHA }}.mrpack"
       
       - uses: actions/upload-artifact@v3
         with:
