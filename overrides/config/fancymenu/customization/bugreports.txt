@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = com.gitee.smallmushroomovo.bugreports
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1728640453464
+  last_edited_time = 1729752307923
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:244b7f72-f8fd-4ab2-82a6-100527247ba0-1728640407255] = [groups:][instances:]
+  [loading_requirement_container_meta:c80a892a-321b-4ee3-9449-e98ffd94af98-1729752299665] = [groups:][instances:]
 }
 
 customization {
@@ -28,7 +28,7 @@ scroll_list_customization {
 
 element {
   button_element_executable_block_identifier = 7fcc8620-c43d-4c3b-81b4-0b7d9c52851f-1726917035433
-  [executable_action_instance:10b9e07b-147d-4d9d-9c74-55940a568e71-1726917056105][action_type:opengui] = io.123smallmushroom.settings
+  [executable_action_instance:10b9e07b-147d-4d9d-9c74-55940a568e71-1726917056105][action_type:opengui] = com.github.smallmushroomovo.about
   [executable_block:7fcc8620-c43d-4c3b-81b4-0b7d9c52851f-1726917035433][type:generic] = [executables:10b9e07b-147d-4d9d-9c74-55940a568e71-1726917056105;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
@@ -37,12 +37,21 @@ element {
   nine_slice_border_y = 5
   label = 返回
   navigatable = true
+  widget_active_state_requirement_container_identifier = 9ba73a38-74d0-4289-8346-b6c18947b2d3-1729752299665
+  [loading_requirement_container_meta:9ba73a38-74d0-4289-8346-b6c18947b2d3-1729752299665] = [groups:][instances:]
   element_type = custom_button
   instance_identifier = f6298e1a-f2bd-4dae-b19f-7950d5c97089-1726917035433
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in = false
+  fade_in_v2 = no_fading
   fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
   anchor_point = bottom-centered
   x = -51
   y = -45
@@ -83,8 +92,15 @@ element {
   instance_identifier = 708b3ddc-ce50-4ead-847d-08c7eb6257d7-1726917079617
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
-  fade_in = false
+  fade_in_v2 = no_fading
   fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
   anchor_point = mid-centered
   x = -64
   y = -33
