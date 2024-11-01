@@ -2,8 +2,6 @@ name: Package Modpack
 
 on:
   push:
-    branches:
-      - skysc_client
     paths-ignore: 
       - 'README.md'
       - 'versions/*'
