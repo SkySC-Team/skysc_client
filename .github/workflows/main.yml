@@ -26,8 +26,8 @@ jobs:
 
       - name: Append short SHA to file content
         run: |
-          sed -i "s/\(version\)/v3.5+${{ env.SHORT_SHA }}/g" modrinth.index.json
-          sed -i "s/\(version\)/v3.5+${{ env.SHORT_SHA }}/g" ./overrides/config/modpack-update-checker/config.json
+          sed -i "s/\(version\)/v3.6+${{ env.SHORT_SHA }}/g" modrinth.index.json
+          sed -i "s/\(version\)/v3.6+${{ env.SHORT_SHA }}/g" ./overrides/config/modpack-update-checker/config.json
       
       - name: Package Modpack
         run: |
@@ -35,10 +35,10 @@ jobs:
           rm -rf .git
           rm README.md
           zip -r "./MineOptimiz.zip" ./*
-          mv MineOptimiz.zip "Sky SC Client v3.5+${{ env.SHORT_SHA }}.mrpack"
+          mv MineOptimiz.zip "Sky SC Client v3.6+${{ env.SHORT_SHA }}.mrpack"
       
       - uses: actions/upload-artifact@v3
         with:
-          name: Sky SC Client v3.5+${{ env.SHORT_SHA }}.zip
-          path: "./Sky SC Client v3.5+${{ env.SHORT_SHA }}.mrpack"
+          name: Sky SC Client v3.6+${{ env.SHORT_SHA }}.zip
+          path: "./Sky SC Client v3.6+${{ env.SHORT_SHA }}.mrpack"
      
