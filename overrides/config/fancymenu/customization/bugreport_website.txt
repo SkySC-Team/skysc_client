@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = com.github.smallmushroomovo.bugreport_website
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1729302881494
+  last_edited_time = 1731301032347
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:e89efd50-9528-4c7c-a845-9fb486e688a3-1729302628107] = [groups:][instances:]
+  [loading_requirement_container_meta:4c521cea-336d-4dbf-85d0-b92853097d69-1731301013184] = [groups:][instances:]
 }
 
 customization {
@@ -24,13 +24,11 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
-  show_screen_background_overlay_on_custom_background = false
-  apply_vanilla_background_blur = false
 }
 
 element {
   interactable = true
-  source = 确定要打开网页：%n%%n%吗？
+  source = 确定要加入%n%%n%吗？
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -63,10 +61,10 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1600
-  auto_sizing_base_screen_height = 848
+  auto_sizing_base_screen_height = 840
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -37
+  x = -38
   y = -32
   width = 200
   height = 40
@@ -79,7 +77,7 @@ element {
 
 element {
   interactable = true
-  source = https://github.com/MineOptimiz-Team/MineOptimiz-3rd/issues
+  source = Sky SC官方交流群
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -112,13 +110,13 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1600
-  auto_sizing_base_screen_height = 848
+  auto_sizing_base_screen_height = 840
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 64b5b6d1-7e90-4d93-83e8-a5f40f892e71-1729302634043
-  x = -88
+  x = 1
   y = 11
-  width = 252
+  width = 126
   height = 40
   stretch_x = false
   stretch_y = false
@@ -129,7 +127,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 908a9ca2-57a1-4246-8da5-299266fd135c-1729302753819
-  [executable_action_instance:a1d21fa5-a9e7-4086-bbfa-aed299615315-1729302797691][action_type:openlink] = https://github.com/MineOptimiz-Team/MineOptimiz-3rd/issues
+  [executable_action_instance:a1d21fa5-a9e7-4086-bbfa-aed299615315-1729302797691][action_type:openlink] = http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=J-ODSiVKnGbKTMwTbLYqiKTmNp_bG6HV&authKey=nC%2Bsx6UjCAjbh6Fzn6l9tJTI1iAtueKIGCXZhBTlN9mxmMp%2FnP72BjaQ7jFf3RYv&noverify=0&group_code=784679160
   [executable_block:908a9ca2-57a1-4246-8da5-299266fd135c-1729302753819][type:generic] = [executables:a1d21fa5-a9e7-4086-bbfa-aed299615315-1729302797691;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
@@ -167,7 +165,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 4241ed3f-0e40-4e9e-bb05-811f0c30eaca-1729302773579
-  [executable_action_instance:15bcbe59-d7e2-4413-a6d4-fed418ed6f8d-1729302810763][action_type:copytoclipboard] = https://github.com/MineOptimiz-Team/MineOptimiz-3rd/issues
+  [executable_action_instance:15bcbe59-d7e2-4413-a6d4-fed418ed6f8d-1729302810763][action_type:copytoclipboard] = 784679160
   [executable_block:4241ed3f-0e40-4e9e-bb05-811f0c30eaca-1729302773579][type:generic] = [executables:15bcbe59-d7e2-4413-a6d4-fed418ed6f8d-1729302810763;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
