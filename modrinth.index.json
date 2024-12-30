@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "forge": "40.2.21",
+        "forge": "40.2.31",
         "minecraft": "1.18.2"
     },
     "files": [
