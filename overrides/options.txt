@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["mod_resources","vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.18.2.zip","file/Masa Family Bucket Translation Pack v1.0.4.zip","file/Midnighttiggers-FCT-Default_1.17_V4.zip","black_icons","file/Fast Better Grass.zip"]
-incompatibleResourcePacks:["file/Masa Family Bucket Translation Pack v1.0.4.zip","file/Midnighttiggers-FCT-Default_1.17_V4.zip","file/Fast Better Grass.zip"]
+resourcePacks:["mod_resources","vanilla","file/Minecraft-Mod-Language-Modpack-Converted-1.18.2.zip","file/Masa Family Bucket Translation Pack v1.0.4.zip","black_icons","file/Fast Better Grass.zip","builtin/default_ctm_resources","builtin/glass_pane_fix_resources"]
+incompatibleResourcePacks:["file/Masa Family Bucket Translation Pack v1.0.4.zip","file/Fast Better Grass.zip"]
 lastServer:
 lang:zh_cn
 soundDevice:
