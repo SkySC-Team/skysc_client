@@ -1,0 +1,13 @@
+name = "Waila Events"
+filename = "WailaEvents-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e4675ec1921a79f335f468af8f12c76eba23134"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2253019
+project-id = 235140

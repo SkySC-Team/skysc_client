@@ -1,0 +1,481 @@
+hash-format = "sha256"
+
+[[files]]
+file = "CustomSkinLoader/CustomSkinLoader.json"
+hash = "60f2abe569c0847f16b2716ecddf541df6bb9923cfdd248edd7278b4df3f3612"
+
+[[files]]
+file = "config/AppleCore.cfg"
+hash = "e389dcd715b573bead04fa0740ca64d58725780df43b40f1c1f0ba9dcd1fb54f"
+
+[[files]]
+file = "config/CodeChickenCore.cfg"
+hash = "8141fb9cbca4a3366111cfd1bac90c940921a00471e69e021775e7b4d43bffaa"
+
+[[files]]
+file = "config/InvTweaks.cfg"
+hash = "21c3b6417402d8aff19e5d0db544a840549251e68b49c95791e9daa2f110ca25"
+
+[[files]]
+file = "config/InvTweaksRules.txt"
+hash = "0000352266492dce0737a2e841dae5160365d7b56a7fe9a9abb8acab2c5d0827"
+
+[[files]]
+file = "config/InvTweaksTree.txt"
+hash = "cff08041dc5ce51b8d565b238ad9292774a6b34ef5bff22213d18cc37e3b1d5f"
+
+[[files]]
+file = "config/NEI/client.cfg"
+hash = "ea3497a9d3111dfe1b63130f434c23abc4021c5cc033507d242aa2441398332d"
+
+[[files]]
+file = "config/NEI/collapsibleitems.cfg"
+hash = "dbe7dba4577dd51b1fbfc7a97e3abdacc805ecab045cb8dac766de21ce983c78"
+
+[[files]]
+file = "config/NEI/enableautofocus.cfg"
+hash = "0e23694895239e786f0f839dd4083c3c34cad26ffd9bb15588c2203cd4c751da"
+
+[[files]]
+file = "config/NEI/guidfilters.cfg"
+hash = "e3cae81087e2b1b13d0b9e002f7ffd4c1bed4c90b58abc22f7e8f4665ff3a1d3"
+
+[[files]]
+file = "config/NEI/handlerordering.csv"
+hash = "1b409580f87566b306d5e5edf4b79a75ece570b78bd6ee56f2d13f6ef8ba902d"
+
+[[files]]
+file = "config/NEI/heighthackhandlers.cfg"
+hash = "2560cd0bd26aced21edf8cd2612609aefcbdc53e1a09157c326ce5a67aef70ab"
+
+[[files]]
+file = "config/NEI/hiddenhandlers.cfg"
+hash = "057f9263c3620365798f589e124e590cd82e7bd585f0ee3efa6b51ab66eecdbb"
+
+[[files]]
+file = "config/NEI/hiddenitems.cfg"
+hash = "b2d13e2897e1c7a3eed2299980bda49bf4108d6649449aa7dc18c10635dff37f"
+
+[[files]]
+file = "config/NEI/serialhandlers.cfg"
+hash = "fdb82ae74e096148cde7eed130e9180914db698b3364be2fc760d329a2ad340b"
+
+[[files]]
+file = "config/NovaCraft/NovaCraft_Base.cfg"
+hash = "e8cef2af006245b5d057b38a16086d2f4c83bbce153cb07eb5315addb510343b"
+
+[[files]]
+file = "config/NovaCraft/Texture_Overrides.cfg"
+hash = "1757b0df86df11397b7013d068d18d451fbc8c389caceaf5ecd99ed7717591a1"
+
+[[files]]
+file = "config/UpdateCheckLib.cfg"
+hash = "0d805af945a0c80885a35b755f8c11bccbbddd6c7006f86cccd6043834b0f8fb"
+
+[[files]]
+file = "config/Waila.cfg"
+hash = "9b4d4d026bbe8deba443dbaa0ce7a4a8eb3ee27d9446ca58d7732234d0b5f207"
+
+[[files]]
+file = "config/agenta.txt"
+hash = "9b0943b1b0fdca69a9d2de96bf2e0cf9ca7a1c8330fe1995e6715e979c6691b7"
+
+[[files]]
+file = "config/allmusic.json"
+hash = "5782bd7063fbb700d94c967da3e097b96ccb808940f1649a75b7c95557543e4b"
+
+[[files]]
+file = "config/angelica-compat.cfg"
+hash = "8d2860b58a599496e12e5b6c7314420a7652da02d36d701feb0cea25bca71cb4"
+
+[[files]]
+file = "config/angelica-modules.cfg"
+hash = "08ea8b43a114db90293c34c1c4a42f7d00b1e9261533b43ff05b8d67d22753b5"
+
+[[files]]
+file = "config/backhand.cfg"
+hash = "40cf24de68192ed12849ab3c29b4c8e8e2b30561e25307ba92b6b8a2ba968038"
+
+[[files]]
+file = "config/bettersprinting.cfg"
+hash = "03e4ee06cb78a46498f6ad81d10598da784ac25d35a36c311de9ee20ca6a4a50"
+
+[[files]]
+file = "config/campfirebackport.cfg"
+hash = "823bffaae45e508874a755b275bb2b576db1f8a2d53f73168ee9526f9b6bfd03"
+
+[[files]]
+file = "config/campfirebackportmixins.cfg"
+hash = "50ef80924dd80062c0f221caf6f7459879d2a63b44ab9a282c5cad4e8e228264"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "1305e625d04e81377d8c2aa7d7144ca8acb7a195704c8f12ea148db29aef311f"
+
+[[files]]
+file = "config/etfuturum/blocksitems.cfg"
+hash = "6d1f83447b2cad680efcb1f2fb0e3f2bd57b1c21d7ef74c0742ca251adcba661"
+
+[[files]]
+file = "config/etfuturum/enchantspotions.cfg"
+hash = "291e03b3c2a13a40af98c53c19ccfa9a84b585cd853faaa99402077a0ccae066"
+
+[[files]]
+file = "config/etfuturum/entities.cfg"
+hash = "608a6f920ef4944aca8218bc819bff6fd853979ee664f2f7009a818f30141a54"
+
+[[files]]
+file = "config/etfuturum/experiments.cfg"
+hash = "dc35ab9d35af27e0974fe17c586910f7e18a9f794fcf769a89e74d845177dd75"
+
+[[files]]
+file = "config/etfuturum/functions.cfg"
+hash = "78007b0ffc8c503fbba25ec0dd38bbd7ed060df8d848aa754d0c60e3a4c6f1a6"
+
+[[files]]
+file = "config/etfuturum/mixins.cfg"
+hash = "b5aee58ca0e5e9f29a0ae467d59f4229ad8345db92766dca0c02eff210b69eac"
+
+[[files]]
+file = "config/etfuturum/modcompat.cfg"
+hash = "c5660cec066e8ddada514ebc6e39a75904557da4eebec3b9e3f7b902b635b398"
+
+[[files]]
+file = "config/etfuturum/sounds.cfg"
+hash = "442ba1a6efd64419eb42a204c5b29768b3e07a8809cb5ec4ed42c9d7edeee9eb"
+
+[[files]]
+file = "config/etfuturum/tweaks.cfg"
+hash = "a347d689e28e54892ed1aa8a91cb14c1a9fad961416c513dcb49647d73abfe33"
+
+[[files]]
+file = "config/etfuturum/world.cfg"
+hash = "fe2ada7d3dfe01f7a5997226f5ab0405bbf822877e9f1fcff4c3e37681bd06fa"
+
+[[files]]
+file = "config/falsepatternlib-early.json"
+hash = "11c067b28898b602e642cb020e432a8fd4aa78b320654aa9f981416773e67aa9"
+
+[[files]]
+file = "config/falsepatternlib.cfg"
+hash = "e029979ab0ba20280268ca8b1e1d3110310f9914a03a9998d5f93b1cbec4935f"
+
+[[files]]
+file = "config/falsetweaks.cfg"
+hash = "17b301771384e094e581f4b184161877d908de560301bda0a63e374c9d08c2cf"
+
+[[files]]
+file = "config/falsetweaks_userspecific.cfg"
+hash = "50b75817bcc524cbe4bf1bc85e2dd4559e6320457b6f93cf02fd5b1be9bebc47"
+
+[[files]]
+file = "config/forge.cfg"
+hash = "56acf28c2653e1d5d159648edbbbd9bc86832bd956a8a4e7be7adf7c558a5c7e"
+
+[[files]]
+file = "config/forgeChunkLoading.cfg"
+hash = "ef4ca42f2810a1b5fef2d14fed9d7ef0bb5e1751b71966ec5c0e08addf3479f5"
+
+[[files]]
+file = "config/gtnhlib.cfg"
+hash = "3d33cca75241966ccb763507a4f5d3a1f7498484eed0571c29253a442404a46b"
+
+[[files]]
+file = "config/lumi.cfg"
+hash = "bc2a4f333afcad46c4a4217f32ab34a083b95fe0877a20710525ffc641381e41"
+
+[[files]]
+file = "config/mcpatcherforge.cfg"
+hash = "98c031ebcfec8403b9afc145372a81fba982fd066fd93eed217b97e7f21a3db1"
+
+[[files]]
+file = "config/minecraftcapes.json"
+hash = "153b9704917ba05d042a023fbe8646d4cb35aeeba853bb0066e6541cca4d82a1"
+
+[[files]]
+file = "config/mixingasm/transformer_exclusion_list.txt"
+hash = "261c3c0fd863923371aad3676766d81c0bfc2a527b88e479166dfd59efaed3af"
+
+[[files]]
+file = "config/mixingasm/transformer_inclusion_list.txt"
+hash = "9b747b0e71125a99a70237f549d3c275e2fb3dc5c1e74b426992fd4cc5fc6b75"
+
+[[files]]
+file = "config/mixingasm/transformer_inclusion_list_default.txt"
+hash = "afab0a0de67fb02ffdaa0c7815119284a48a88bf510d1c4a1397fde36da6c28e"
+
+[[files]]
+file = "config/mycelium.properties"
+hash = "5a19837fc0c55562059522fe01441c96d7177221d260328c7026a999c6bbb235"
+
+[[files]]
+file = "config/neodymium.cfg"
+hash = "321760b9b65884c3a809107af1bdad5eaf9413de86f3de1e16c2aeedc6113a89"
+
+[[files]]
+file = "config/notfine/notfine.cfg"
+hash = "e7d32744a499aaf2ce3e476225dd38996101f593f17eadffaa52a369a2dbdf7b"
+
+[[files]]
+file = "config/opticheck.cfg"
+hash = "3c8559b953e9bfb875d960faa95f89fc61fd597caeb54f371e1251af250c5b48"
+
+[[files]]
+file = "config/redirectionor_cfg.json"
+hash = "29db31e14545f9727f8ddf589bf268e7bcf08191aaab1045884dc053ba28d351"
+
+[[files]]
+file = "config/simpleskinbackport/main.cfg"
+hash = "01bd1c596426a857bac458e8e7b84793b8ee2e348e04e37f9838331c2fbae0b2"
+
+[[files]]
+file = "config/simpleskinbackport/modcompat.cfg"
+hash = "c9535ddb7dadd6475e8e908e0da1845914f2b6f14704379e109219e4fc454bfd"
+
+[[files]]
+file = "config/splash.properties"
+hash = "68a20a722c67e7fc1eb263e2c0d1266036ee02a4caa055fc59d2cefe702aaad7"
+
+[[files]]
+file = "config/unimixins.properties"
+hash = "350884e3ccf46194eef318bec5f9b2b1e74f9b3067b3b8abafcbaeffe42029ad"
+
+[[files]]
+file = "falsepattern/it.unimi.dsi-fastutil-8.5.13.jar"
+hash = "cc0cc589df9219401f8620fc4454f8f23f1c6d66b9ec915f19b7c42042f62efd"
+
+[[files]]
+file = "falsepattern/it.unimi.dsi-fastutil-8.5.13.jar.sha1"
+hash = "bce1be2a0606579d1d6b925fccdd3b3fbc9553121bbf579239ba4490fe348d6e"
+
+[[files]]
+file = "falsepattern/it.unimi.dsi-fastutil-8.5.15.jar"
+hash = "cffeb6673bdf1e6e4377d684df2f55ac359cf5cf6df613e05e62deeea500936a"
+
+[[files]]
+file = "falsepattern/it.unimi.dsi-fastutil-8.5.15.jar.sha1"
+hash = "d550cbaf31257cfdec755c1bd05eff3658e524c16cce424a62ef5302cd95b1d8"
+
+[[files]]
+file = "falsepattern/mega-megatraceservice-1.2.0.jar"
+hash = "f3b09a7d240a56b3f62a84f5e08dead1ffa25c8a8d1dc671696afeecf036a177"
+
+[[files]]
+file = "falsepattern/mega-megatraceservice-1.2.0.jar.sha512"
+hash = "a858ff75e25ee6daa8ffdad2160c99f60e5b38a26bbac4e9b8ea3daa28feac0a"
+
+[[files]]
+file = "falsepattern/org.joml-joml-1.10.8.jar"
+hash = "bf19510145178df82cd3bd37edd514c13f411531ec5545299fd3abcbc98fe7c2"
+
+[[files]]
+file = "falsepattern/org.joml-joml-1.10.8.jar.sha512"
+hash = "9bb6269ceb95c73bc4cc9d5cb16d040afd30b69347c272e161232ec0e4606c8c"
+
+[[files]]
+file = "journeymap/colorpalette.html"
+hash = "56d3abcdad85132d569b6590b36bc5ed06d70ba221c8edcc42fe12e3bbea9601"
+
+[[files]]
+file = "journeymap/colorpalette.json"
+hash = "d0c79d3235d3cc580f860b60be828a2fb2849512ab74790005fc44dd420fb175"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.core.config"
+hash = "92a7d0ae80093b6ca8edee6fcac5082cb53d0eb44c35ec4e3994cd2e7a47943e"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.fullmap.config"
+hash = "331a4d078b108c232ccff6a7719345ac000fc0bb617f6e7f444ed03f85580bc1"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.minimap.config"
+hash = "da9c2c6bc4254e6b38d618a9602a8435ceb937677fd748824b19476009113da1"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.minimap2.config"
+hash = "70d6d90856788f7106626f137b8abc6a8967093974cb690a6e0ebfde9991122f"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.waypoint.config"
+hash = "990a639fb765bc018cfabc00e1283718fd2e0a3bd0f6c3c2384e33bc34318536"
+
+[[files]]
+file = "journeymap/config/5.2/journeymap.webmap.config"
+hash = "6a371b94311170bf1aaa9181eb3295407256a8e1f02de937a3084add048f42db"
+
+[[files]]
+file = "mods/CompatibilityLayerForCustomSkinLoader-ALPHA-11.jar"
+hash = "1269cbf2f78387c310ebd79dbd2f99f0efa9603831876b178c1802fa47b0bedf"
+
+[[files]]
+file = "mods/CustomSkinLoader_ForgeLegacy-14.17.jar"
+hash = "cfccfe41a5f015875f80a7c8c095d8c3df3bcc15ff70f0eccb92852563455b39"
+
+[[files]]
+file = "mods/PresenceFootsteps_r5c_Unofficial__1.7.10.litemod"
+hash = "5f466339983cc274d591df1b98b4be37210080be7da10f09349d9ac74bd95fd8"
+
+[[files]]
+file = "mods/agenta.pw.toml"
+hash = "44a58b6d38146a0d76f5032142215d1a0d2a522f84979eee2d7c8dd6081fd84a"
+metafile = true
+
+[[files]]
+file = "mods/applecore-unofficial.pw.toml"
+hash = "66f9eca763861eff23468c1ab7aee97faf14144e40594c1d38ec250221731093"
+metafile = true
+
+[[files]]
+file = "mods/backhand.pw.toml"
+hash = "31e9bfd867eae66d6412089acd0f54d6f8a4025690d9e2d1cb6150f44155c5ea"
+metafile = true
+
+[[files]]
+file = "mods/better-sprinting.pw.toml"
+hash = "f897731e48cb390b6026dea24eebc6b6c738ecbbac4793aaeb6693da75c2866c"
+metafile = true
+
+[[files]]
+file = "mods/campfire-backport.pw.toml"
+hash = "760f9a6172aa82dd0499342ec7954d5f4dd698ae2e0a6bf3f1f5f66c7d2315ba"
+metafile = true
+
+[[files]]
+file = "mods/carbon-config.pw.toml"
+hash = "e695863bb27a7b1771a8aaaa59698f1f85b93065df38f7fc9339b15920f7c900"
+metafile = true
+
+[[files]]
+file = "mods/chunkpregenerator.pw.toml"
+hash = "5a3a904c6591a67cfbf330ca70184f6f8dc953213cc52cdf63bdc8b994b81d39"
+metafile = true
+
+[[files]]
+file = "mods/codechickencore-unofficial.pw.toml"
+hash = "8ed4a5db83ab437c5c4fdb009ca72158308666e81973a035ee0bdda92afb30c7"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "2d8979b5daa642fbc61126aa3dd68387e6e8cbaef875a8aa9d9a470b7f8fe698"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "89869e7bd6ae48783aabf4b5e58479b3a0f7bfa978b9386c8bc46057c3db22bd"
+metafile = true
+
+[[files]]
+file = "mods/et-futurum-requiem.pw.toml"
+hash = "a8dd902a4b0939e4b2917a542a5b35ccb76f85b5d9ca8b11e5d78bcef358d789"
+metafile = true
+
+[[files]]
+file = "mods/forge-1.7.10.AllMusic_Client-3.0.7.jar"
+hash = "c04a105db8bd84712aedfca01c2d590693830c8d9c0add767d73115c4002d3b1"
+
+[[files]]
+file = "mods/fplib.pw.toml"
+hash = "ca90218d4ee3901bedd82678e81bea0f75329d7e7bcdcd8f4a01b15087ca767d"
+metafile = true
+
+[[files]]
+file = "mods/gms.pw.toml"
+hash = "12c0760557bc24ac3b966c25bc0e9648b8e0ccf795ddffc5c3765dcb0bfcb98c"
+metafile = true
+
+[[files]]
+file = "mods/gtnhlib.pw.toml"
+hash = "082b875f0f68ae6c4d7e3c70730f5c126eb2a1257d7b50d033d46948154e6952"
+metafile = true
+
+[[files]]
+file = "mods/i18nupdatemod.pw.toml"
+hash = "ed8edf94f408830bb90bab95e3dc0201a29b3e95ba69b96419793420de52466f"
+metafile = true
+
+[[files]]
+file = "mods/inputfix.pw.toml"
+hash = "1ebbbd8396a5c89e726b1450981d62b90b39d84146428c0f306efebff50f5508"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tweaks-extrafoamy.pw.toml"
+hash = "063d49925d420c05b1c9d35489e9cd09ec3cf9698d3f048a2c1fb5c7792430b3"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "c16d8a3c5057dfc31fc591ed10f49ce339cb6013461ae68254e34e325bc93d0d"
+metafile = true
+
+[[files]]
+file = "mods/liteloader-1.7.10.jar"
+hash = "a30e91e7abfcf482fd740893a207e2e00eb6a24d3909bfa2939a13b3c1703b7b"
+
+[[files]]
+file = "mods/myceliumlib.pw.toml"
+hash = "2571da525deecad90e2217c24b773302e1c8cacc00ab0f72ff02d6d448b3c3dc"
+metafile = true
+
+[[files]]
+file = "mods/notenoughitems-gtnh.pw.toml"
+hash = "55c1f7765a868be3ae70b8d9e8cd53fc605c89ecb6da9b8fc351233f7e77e799"
+metafile = true
+
+[[files]]
+file = "mods/offhandlights.pw.toml"
+hash = "0ae02a862431e5076d5a775c1e311849c2e3dc9e5bb6381aabba673a2c417980"
+metafile = true
+
+[[files]]
+file = "mods/optifine-check.pw.toml"
+hash = "f9695baa8a238b9a671fe0dd3b8122e4b7af08f9b86f105ba82cf402f4a0759e"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "515f17169bc43f36bc632ce1b1cf45e92292f91883e66c5a6a5c78afc5f579b2"
+metafile = true
+
+[[files]]
+file = "mods/presencefootsteps/userconfig.cfg"
+hash = "5b80d28901f298dd39e8959e18f4742f6f1340c251314412f4ca8d3276407a36"
+
+[[files]]
+file = "mods/quit.pw.toml"
+hash = "9294f6467b9eb948ddf3b8613880b0e8182e76bc0f490f79266399406deb3285"
+metafile = true
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "ee7d201324b9b38613bc27f7ac51627b011aef3d588bf12c71c50783eb182e50"
+metafile = true
+
+[[files]]
+file = "mods/unimixins.pw.toml"
+hash = "141c1b00de4d99451504165947652205014642e1d11a1c249706feb0f0d356a6"
+metafile = true
+
+[[files]]
+file = "mods/waila-events.pw.toml"
+hash = "082905fee3b88c47b5b18e942265d9c7f79c85a6a7203c8d1f698135ca355a39"
+metafile = true
+
+[[files]]
+file = "mods/waila.pw.toml"
+hash = "1ce389a8d9488dd7d37490c1498d10412b7430b18cc0faa28f47afc9cf896b57"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "d338bdddd60357c84a3f77c5dad23351ecdf820c0bec15c1e60caffa81bd8c32"
+
+[[files]]
+file = "optionsof.txt"
+hash = "10dbe2f7f8c58ae92fb3f6d6beeca170630bb94b9fbf04e191df4d44353c9703"
+
+[[files]]
+file = "resourcepacks/PF_Resources.zip"
+hash = "b0cc703deb404874bba585c04e51d2e5685ce479e4796fc59271a2e3c3b73803"

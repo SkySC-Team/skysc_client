@@ -1,0 +1,6877 @@
+var colorpalette={
+  "version": 3,
+  "name": "JourneyMap调色板",
+  "generated": "Generated using JourneyMap 5.2.8 Unlimited for 1.7.10 on Sat Feb 15 11:06:28 CST 2025",
+  "description": [
+    "该文件可用来在资源包发生改变时保持地图颜色的连贯性。",
+    "擅自编辑修改会有风险。你可以通过colorpalette.html文件查看它。",
+    "若想使该调色板文件只用于单独一个游戏世界，请将colorpalette.json放入：.minecraft/journeymap/data/*/worldname/",
+    "若想使该调色板文件用于所有游戏世界，对其进行编辑将\"permanent\"设置为true（\"permanent\"：true），然后将colorpalette.json放入：.minecraft/journeymap/",
+    "想要获取更多信息，请访问：http://journeymap.info/help/wiki/Color_Palette"
+  ],
+  "permanent": false,
+  "resourcePacks": "Minecraft-Mod-Language-Modpack-Converted-1.7.10.zip:zip:1739588763402, PF_Resources.zip:zip:1739464787888",
+  "modNames": "Agenta:1.8.5, AllMusic Client:3.0.0, AppleCore:3.3.4, Backhand:1.6.9, Better Sprinting:2.3.0, Campfire Backport:1.7.10-1.11.3, CodeChicken Core:1.4.1, CompatibilityLayerForCustomSkinLoader:ALPHA-11, Controlling:1.7.10-1.0.0.4, EntityCulling:@VER@, Et Futurum Requiem:2.6.2, FalsePatternLib:1.5.9, Forge Mod Loader:7.10.99.99, GTNH Lib:0.6.10, GTNHLib Core:0.6.10, GameModeSwitcher:1.7.10-2.0.2.0, InputFix:1.7.10-v6, Inventory Tweaks:1.59-SI-release-0421137-dirty, JourneyMap:5.2.8, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Mycelium:2.3, NotEnoughItems:2.7.29-GTNH, Offhand Lights:1.6, Optifine Checker:1.7.10-1.2.0, Quit:1.0.1, UniMixins: Compatibility:0.1.19, UniMixins: GTNHMixins:2.2.0, UniMixins: GasStation:0.5.1, UniMixins: Mixin (UniMix):0.1.19, UniMixins: MixinBooterLegacy:1.2.1, UniMixins: MixinExtras:0.1.19, UniMixins: Mixingasm:0.3, UniMixins: SpongeMixins:2.0.1, UniMixins:0.1.19, Waila Events:1.0.0, Waila:1.5.10, Zume:1.1.4, §3NovaCraft§5:1.3.5",
+  "basicColors": [
+    {
+      "name": "Advanced Enchantment Table",
+      "uid": "nova_craft:advanced_enchantment_table",
+      "meta": 0,
+      "color": "#7a2f62"
+    },
+    {
+      "name": "Arctic Moss Block",
+      "uid": "nova_craft:arctic_moss_block",
+      "meta": 0,
+      "color": "#2d6d63"
+    },
+    {
+      "name": "Arctic Moss Carpet",
+      "uid": "nova_craft:arctic_moss_carpet",
+      "meta": 0,
+      "color": "#2d6d63"
+    },
+    {
+      "name": "Block Of Endgus",
+      "uid": "nova_craft:ender_fungus_block",
+      "meta": 0,
+      "color": "#531e82"
+    },
+    {
+      "name": "Blooming Barb",
+      "uid": "nova_craft:blooming_barb",
+      "meta": 0,
+      "color": "#835d61"
+    },
+    {
+      "name": "Carved Vanite Brick Double Slab",
+      "uid": "nova_craft:carved_vanite_brick_double_slab",
+      "meta": 0,
+      "color": "#878295"
+    },
+    {
+      "name": "Carved Vanite Brick Slab",
+      "uid": "nova_craft:carved_vanite_brick_slab",
+      "meta": 0,
+      "color": "#878295"
+    },
+    {
+      "name": "Carved Vanite Brick Stairs",
+      "uid": "nova_craft:carved_vanite_brick_stairs",
+      "meta": 0,
+      "color": "#878295"
+    },
+    {
+      "name": "Carved Vanite Brick Wall",
+      "uid": "nova_craft:carved_vanite_brick_wall",
+      "meta": 0,
+      "color": "#878295"
+    },
+    {
+      "name": "Carved Vanite Bricks",
+      "uid": "nova_craft:carved_vanite_bricks",
+      "meta": 0,
+      "color": "#878295"
+    },
+    {
+      "name": "Chiseled Frontierslate Bricks",
+      "uid": "nova_craft:carved_frontierslate_bricks",
+      "meta": 0,
+      "color": "#3a3041"
+    },
+    {
+      "name": "Cosmos",
+      "uid": "nova_craft:cosmos",
+      "meta": 0,
+      "color": "#31b273"
+    },
+    {
+      "name": "Crystallized Sculk",
+      "uid": "nova_craft:crystallized_sculk",
+      "meta": 0,
+      "color": "#32501b",
+      "alpha": 0.4
+    },
+    {
+      "name": "Dark Lotus",
+      "uid": "nova_craft:dark_lotus",
+      "meta": 0,
+      "color": "#1e0b2a"
+    },
+    {
+      "name": "Deep Roots",
+      "uid": "nova_craft:deep_roots",
+      "meta": 0,
+      "color": "#4f4f52"
+    },
+    {
+      "name": "Deepoid Mushroom",
+      "uid": "nova_craft:deepoid_mushroom",
+      "meta": 0,
+      "color": "#705396"
+    },
+    {
+      "name": "Desert Bloom",
+      "uid": "nova_craft:desert_bloom",
+      "meta": 0,
+      "color": "#839802"
+    },
+    {
+      "name": "Destitude Bloom",
+      "uid": "nova_craft:destitude_bloom",
+      "meta": 0,
+      "color": "#402f46",
+      "alpha": 0.9137255
+    },
+    {
+      "name": "Destitute Block",
+      "uid": "nova_craft:destitude_block",
+      "meta": 0,
+      "color": "#0b0b0b",
+      "alpha": 0.99607843
+    },
+    {
+      "name": "Destitute Growth",
+      "uid": "nova_craft:destitude_growth",
+      "meta": 0,
+      "color": "#0c0b0d"
+    },
+    {
+      "name": "Destitute Vein",
+      "uid": "nova_craft:destitude_vein",
+      "meta": 0,
+      "color": "#0a0a0b"
+    },
+    {
+      "name": "Ender Brain",
+      "uid": "nova_craft:ender_brain",
+      "meta": 0,
+      "color": "#694889"
+    },
+    {
+      "name": "Ender Sprout",
+      "uid": "nova_craft:ender_sprout",
+      "meta": 0,
+      "color": "#3b1c8d"
+    },
+    {
+      "name": "Endgus",
+      "uid": "nova_craft:ender_fungus",
+      "meta": 0,
+      "color": "#722cb9"
+    },
+    {
+      "name": "Endgus Stem",
+      "uid": "nova_craft:ender_fungus_stem",
+      "meta": 0,
+      "color": "#531e82"
+    },
+    {
+      "name": "Flaming Nullwart Bricks",
+      "uid": "nova_craft:flaming_nullwart_bricks",
+      "meta": 0,
+      "color": "#700f54"
+    },
+    {
+      "name": "Glow Torch",
+      "uid": "nova_craft:glow_torch",
+      "meta": 0,
+      "color": "#515640"
+    },
+    {
+      "name": "Glowing Carved Vanite Bricks",
+      "uid": "nova_craft:glowing_carved_vanite_bricks",
+      "meta": 0,
+      "color": "#8166a3"
+    },
+    {
+      "name": "Hell Piliz",
+      "uid": "nova_craft:hell_piliz",
+      "meta": 0,
+      "color": "#991102"
+    },
+    {
+      "name": "Icicle",
+      "uid": "nova_craft:icicle",
+      "meta": 0,
+      "color": "#cad7f0",
+      "alpha": 0.4
+    },
+    {
+      "name": "Ion Mushroom",
+      "uid": "nova_craft:ion_mushroom",
+      "meta": 0,
+      "color": "#2976b7"
+    },
+    {
+      "name": "Legendary Beacon",
+      "uid": "nova_craft:legendary_beacon",
+      "meta": 0,
+      "color": "#7c007c",
+      "alpha": 0.4
+    },
+    {
+      "name": "Legendary Enchantment Table",
+      "uid": "nova_craft:legendary_enchantment_table",
+      "meta": 0,
+      "color": "#6f71a4"
+    },
+    {
+      "name": "Living Ender",
+      "uid": "nova_craft:living_ender",
+      "meta": 0,
+      "color": "#531f82"
+    },
+    {
+      "name": "Nether Crate",
+      "uid": "nova_craft:nether_chest",
+      "meta": 0,
+      "color": "#653950"
+    },
+    {
+      "name": "Nullified Vanite",
+      "uid": "nova_craft:nullified_vanite",
+      "meta": 0,
+      "color": "#6e7aae"
+    },
+    {
+      "name": "Nullwart Brick Bookshelf",
+      "uid": "nova_craft:nullwart_brick_bookshelf",
+      "meta": 0,
+      "color": "#49123c"
+    },
+    {
+      "name": "PETN",
+      "uid": "nova_craft:PETN",
+      "meta": 0,
+      "color": "#542211"
+    },
+    {
+      "name": "PETN粉",
+      "uid": "nova_craft:PETN_wire",
+      "meta": 0,
+      "color": "#e0e0e0"
+    },
+    {
+      "name": "Polished Vanite Bricks",
+      "uid": "nova_craft:polished_vanite_bricks",
+      "meta": 0,
+      "color": "#6f6971"
+    },
+    {
+      "name": "Purple Rose",
+      "uid": "nova_craft:purple_rose",
+      "meta": 0,
+      "color": "#4b4567"
+    },
+    {
+      "name": "Sculk Bloom",
+      "uid": "nova_craft:sculk_bloom",
+      "meta": 0,
+      "color": "#1d464e",
+      "alpha": 0.9882353
+    },
+    {
+      "name": "Sculk Brick Bookshelf",
+      "uid": "nova_craft:sculk_brick_bookshelf",
+      "meta": 0,
+      "color": "#0a3337"
+    },
+    {
+      "name": "Sculk Tendrils",
+      "uid": "nova_craft:sculk_tendrils",
+      "meta": 0,
+      "color": "#092b32"
+    },
+    {
+      "name": "Sculk Tulip",
+      "uid": "nova_craft:sculk_tulip",
+      "meta": 0,
+      "color": "#0c8779"
+    },
+    {
+      "name": "Sculkshaft Crate",
+      "uid": "nova_craft:mineshaft_chest",
+      "meta": 0,
+      "color": "#556616"
+    },
+    {
+      "name": "TNT",
+      "uid": "minecraft:tnt",
+      "meta": 0,
+      "color": "#82412f"
+    },
+    {
+      "name": "Vanite Brick Double Slab",
+      "uid": "nova_craft:vanite_brick_double_slab",
+      "meta": 0,
+      "color": "#756f7d"
+    },
+    {
+      "name": "Vanite Brick Slab",
+      "uid": "nova_craft:vanite_brick_slab",
+      "meta": 0,
+      "color": "#756f7d"
+    },
+    {
+      "name": "Vanite Brick Stairs",
+      "uid": "nova_craft:vanite_brick_stairs",
+      "meta": 0,
+      "color": "#756f7d"
+    },
+    {
+      "name": "Vanite Brick Wall",
+      "uid": "nova_craft:vanite_brick_wall",
+      "meta": 0,
+      "color": "#756f7d"
+    },
+    {
+      "name": "Vanite Bricks",
+      "uid": "nova_craft:vanite_bricks",
+      "meta": 0,
+      "color": "#756f7d"
+    },
+    {
+      "name": "Vanite Cluster",
+      "uid": "nova_craft:vanite_cluster",
+      "meta": 0,
+      "color": "#94cdcc"
+    },
+    {
+      "name": "Vanite Torch",
+      "uid": "nova_craft:vanite_torch",
+      "meta": 0,
+      "color": "#655a6e"
+    },
+    {
+      "name": "Violet",
+      "uid": "nova_craft:violet",
+      "meta": 0,
+      "color": "#4d3d7c"
+    },
+    {
+      "name": "cake",
+      "uid": "minecraft:cake",
+      "meta": 0,
+      "color": "#e4cdce"
+    },
+    {
+      "name": "etfuturum.frosted_ice",
+      "uid": "etfuturum:frosted_ice",
+      "meta": 0,
+      "color": "#7dadff",
+      "alpha": 0.8
+    },
+    {
+      "name": "netherStalk",
+      "uid": "minecraft:nether_wart",
+      "meta": 0,
+      "color": "#6a0e1e"
+    },
+    {
+      "name": "null",
+      "uid": "minecraft:piston_extension",
+      "meta": 0,
+      "color": "#998159"
+    },
+    {
+      "name": "null",
+      "uid": "minecraft:piston_head",
+      "meta": 0,
+      "color": "#998159"
+    },
+    {
+      "name": "pumpkinStem",
+      "uid": "minecraft:melon_stem",
+      "meta": 0,
+      "color": "#999999"
+    },
+    {
+      "name": "pumpkinStem",
+      "uid": "minecraft:pumpkin_stem",
+      "meta": 0,
+      "color": "#999999"
+    },
+    {
+      "name": "丁香",
+      "uid": "minecraft:double_plant",
+      "meta": 1,
+      "color": "#94948c"
+    },
+    {
+      "name": "下界合金块",
+      "uid": "etfuturum:netherite_block",
+      "meta": 0,
+      "color": "#423d3f"
+    },
+    {
+      "name": "下界合金碎片块",
+      "uid": "nova_craft:raw_netherite",
+      "meta": 0,
+      "color": "#3f2a24"
+    },
+    {
+      "name": "下界松石矿",
+      "uid": "nova_craft:nether_tophinite_ore",
+      "meta": 0,
+      "color": "#7b5455"
+    },
+    {
+      "name": "下界疣块",
+      "uid": "etfuturum:nether_wart",
+      "meta": 0,
+      "color": "#750607"
+    },
+    {
+      "name": "下界石英矿石",
+      "uid": "minecraft:quartz_ore",
+      "meta": 0,
+      "color": "#7d544f"
+    },
+    {
+      "name": "下界砖块",
+      "uid": "minecraft:nether_brick",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "下界砖墙",
+      "uid": "etfuturum:nether_brick_wall",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "下界金矿石",
+      "uid": "etfuturum:nether_gold_ore",
+      "meta": 0,
+      "color": "#7e4436"
+    },
+    {
+      "name": "丛林原木",
+      "uid": "minecraft:log",
+      "meta": 3,
+      "color": "#997649"
+    },
+    {
+      "name": "丛林木",
+      "uid": "etfuturum:bark",
+      "meta": 3,
+      "color": "#57431a"
+    },
+    {
+      "name": "丛林木压力板",
+      "uid": "etfuturum:pressure_plate_jungle",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木台阶",
+      "uid": "minecraft:wooden_slab",
+      "meta": 3,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木告示牌",
+      "uid": "etfuturum:sign_jungle",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木告示牌",
+      "uid": "etfuturum:wall_sign_jungle",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木按钮",
+      "uid": "etfuturum:button_jungle",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木板",
+      "uid": "minecraft:planks",
+      "meta": 3,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木栅栏",
+      "uid": "etfuturum:fence_jungle",
+      "meta": 0,
+      "color": "#9a6e4d",
+      "alpha": 0.4
+    },
+    {
+      "name": "丛林木栅栏门",
+      "uid": "etfuturum:fence_gate_jungle",
+      "meta": 0,
+      "color": "#9a6e4d",
+      "alpha": 0.4
+    },
+    {
+      "name": "丛林木楼梯",
+      "uid": "minecraft:jungle_stairs",
+      "meta": 0,
+      "color": "#9a6e4d"
+    },
+    {
+      "name": "丛林木活板门",
+      "uid": "etfuturum:trapdoor_jungle",
+      "meta": 0,
+      "color": "#986e4d"
+    },
+    {
+      "name": "丛林木门",
+      "uid": "etfuturum:door_jungle",
+      "meta": 0,
+      "color": "#966d4e"
+    },
+    {
+      "name": "丛林树叶",
+      "uid": "minecraft:leaves",
+      "meta": 3,
+      "color": "#918e86"
+    },
+    {
+      "name": "丛林树苗",
+      "uid": "minecraft:sapling",
+      "meta": 3,
+      "color": "#305612"
+    },
+    {
+      "name": "书架",
+      "uid": "minecraft:bookshelf",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "云杉原木",
+      "uid": "minecraft:log",
+      "meta": 1,
+      "color": "#685130"
+    },
+    {
+      "name": "云杉木",
+      "uid": "etfuturum:bark",
+      "meta": 1,
+      "color": "#2d1c0c"
+    },
+    {
+      "name": "云杉木压力板",
+      "uid": "etfuturum:pressure_plate_spruce",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木台阶",
+      "uid": "minecraft:wooden_slab",
+      "meta": 1,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木告示牌",
+      "uid": "etfuturum:sign_spruce",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木告示牌",
+      "uid": "etfuturum:wall_sign_spruce",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木按钮",
+      "uid": "etfuturum:button_spruce",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木板",
+      "uid": "minecraft:planks",
+      "meta": 1,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木栅栏",
+      "uid": "etfuturum:fence_spruce",
+      "meta": 0,
+      "color": "#674d2e",
+      "alpha": 0.4
+    },
+    {
+      "name": "云杉木栅栏门",
+      "uid": "etfuturum:fence_gate_spruce",
+      "meta": 0,
+      "color": "#674d2e",
+      "alpha": 0.4
+    },
+    {
+      "name": "云杉木楼梯",
+      "uid": "minecraft:spruce_stairs",
+      "meta": 0,
+      "color": "#674d2e"
+    },
+    {
+      "name": "云杉木活板门",
+      "uid": "etfuturum:trapdoor_spruce",
+      "meta": 0,
+      "color": "#634b31"
+    },
+    {
+      "name": "云杉木门",
+      "uid": "etfuturum:door_spruce",
+      "meta": 0,
+      "color": "#614b31"
+    },
+    {
+      "name": "云杉树叶",
+      "uid": "minecraft:leaves",
+      "meta": 1,
+      "color": "#747474"
+    },
+    {
+      "name": "云杉树苗",
+      "uid": "minecraft:sapling",
+      "meta": 1,
+      "color": "#333a21"
+    },
+    {
+      "name": "亮地衣",
+      "uid": "nova_craft:bright_lichen",
+      "meta": 0,
+      "color": "#4c6960"
+    },
+    {
+      "name": "仙人掌",
+      "uid": "minecraft:cactus",
+      "meta": 0,
+      "color": "#0d6618"
+    },
+    {
+      "name": "以太块",
+      "uid": "nova_craft:aether_block",
+      "meta": 0,
+      "color": "#cd50a5",
+      "alpha": 0.4
+    },
+    {
+      "name": "以太母岩",
+      "uid": "nova_craft:budding_aether_block",
+      "meta": 0,
+      "color": "#d35cb0",
+      "alpha": 0.4
+    },
+    {
+      "name": "以太簇",
+      "uid": "nova_craft:aether_cluster_2",
+      "meta": 0,
+      "color": "#d351a6",
+      "alpha": 0.4
+    },
+    {
+      "name": "以太簇",
+      "uid": "nova_craft:aether_cluster_2",
+      "meta": 6,
+      "color": "#d051a5",
+      "alpha": 0.4
+    },
+    {
+      "name": "传送门",
+      "uid": "minecraft:portal",
+      "meta": 0,
+      "color": "#560abe"
+    },
+    {
+      "name": "侦测器",
+      "uid": "etfuturum:observer",
+      "meta": 0,
+      "color": "#444242"
+    },
+    {
+      "name": "侧耳",
+      "uid": "nova_craft:pleurotus_mushroom",
+      "meta": 0,
+      "color": "#724443"
+    },
+    {
+      "name": "信标",
+      "uid": "etfuturum:beacon",
+      "meta": 0,
+      "color": "#74ddd7",
+      "alpha": 0.4
+    },
+    {
+      "name": "信标",
+      "uid": "minecraft:beacon",
+      "meta": 0,
+      "color": "#74ddd7",
+      "alpha": 0.4
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 0,
+      "color": "#889185"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 1,
+      "color": "#a58262"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 2,
+      "color": "#b18f66"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 3,
+      "color": "#b89563"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 4,
+      "color": "#be9e69"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 5,
+      "color": "#b9a377"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 6,
+      "color": "#bca679"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 7,
+      "color": "#c39f6c"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 8,
+      "color": "#c9a36c"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 9,
+      "color": "#cda974"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 10,
+      "color": "#c9a56d"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 11,
+      "color": "#d0af73"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 12,
+      "color": "#d0b171"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 13,
+      "color": "#d5ba77"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 14,
+      "color": "#d5c28c"
+    },
+    {
+      "name": "光",
+      "uid": "etfuturum:light",
+      "meta": 15,
+      "color": "#e3d5b0"
+    },
+    {
+      "name": "光影蓓蕾",
+      "uid": "nova_craft:shadow_bloom",
+      "meta": 0,
+      "color": "#565645"
+    },
+    {
+      "name": "光露普原木",
+      "uid": "nova_craft:luminant_log",
+      "meta": 0,
+      "color": "#3e3c06"
+    },
+    {
+      "name": "光露普叶",
+      "uid": "nova_craft:luminant_leaves",
+      "meta": 0,
+      "color": "#2c7b37"
+    },
+    {
+      "name": "光露普木板",
+      "uid": "nova_craft:luminant_planks",
+      "meta": 0,
+      "color": "#47450c"
+    },
+    {
+      "name": "光露普木板台阶",
+      "uid": "nova_craft:luminant_slab",
+      "meta": 0,
+      "color": "#47450c"
+    },
+    {
+      "name": "光露普木板楼梯",
+      "uid": "nova_craft:luminant_stairs",
+      "meta": 0,
+      "color": "#47450c"
+    },
+    {
+      "name": "光露普树苗",
+      "uid": "nova_craft:luminant_sapling",
+      "meta": 0,
+      "color": "#428929"
+    },
+    {
+      "name": "克兰特块",
+      "uid": "nova_craft:block_of_klangite",
+      "meta": 0,
+      "color": "#472177"
+    },
+    {
+      "name": "克兰特矿",
+      "uid": "nova_craft:klangite_ore",
+      "meta": 0,
+      "color": "#312640"
+    },
+    {
+      "name": "克兰特粗矿块",
+      "uid": "nova_craft:block_of_raw_klangite",
+      "meta": 0,
+      "color": "#3b1d71"
+    },
+    {
+      "name": "兰花",
+      "uid": "minecraft:red_flower",
+      "meta": 1,
+      "color": "#1e7eb6"
+    },
+    {
+      "name": "冰",
+      "uid": "minecraft:ice",
+      "meta": 0,
+      "color": "#7dadff",
+      "alpha": 0.8
+    },
+    {
+      "name": "凋零玫瑰",
+      "uid": "etfuturum:wither_rose",
+      "meta": 0,
+      "color": "#292c17"
+    },
+    {
+      "name": "凝灰岩",
+      "uid": "etfuturum:tuff",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "凝灰岩台阶",
+      "uid": "etfuturum:tuff_slab",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "凝灰岩墙",
+      "uid": "etfuturum:tuff_wall",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "凝灰岩楼梯",
+      "uid": "etfuturum:tuff_stairs",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "凝灰岩石瓦",
+      "uid": "nova_craft:tuff_tiles",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "凝灰岩石砖",
+      "uid": "nova_craft:tuff_bricks",
+      "meta": 0,
+      "color": "#777872"
+    },
+    {
+      "name": "凝灰岩石砖台阶",
+      "uid": "nova_craft:tuff_brick_slab",
+      "meta": 0,
+      "color": "#777872"
+    },
+    {
+      "name": "凝灰岩石砖墙",
+      "uid": "nova_craft:tuff_brick_wall",
+      "meta": 0,
+      "color": "#777872"
+    },
+    {
+      "name": "凝灰岩石砖楼梯",
+      "uid": "nova_craft:tuff_brick_stairs",
+      "meta": 0,
+      "color": "#777872"
+    },
+    {
+      "name": "凝灰岩砖",
+      "uid": "etfuturum:tuff",
+      "meta": 2,
+      "color": "#62665f"
+    },
+    {
+      "name": "凝灰岩砖台阶",
+      "uid": "etfuturum:tuff_slab",
+      "meta": 2,
+      "color": "#62665f"
+    },
+    {
+      "name": "凝灰岩砖墙",
+      "uid": "etfuturum:tuff_wall",
+      "meta": 2,
+      "color": "#62665f"
+    },
+    {
+      "name": "凝灰岩砖楼梯",
+      "uid": "etfuturum:tuff_brick_stairs",
+      "meta": 0,
+      "color": "#62665f"
+    },
+    {
+      "name": "切制砂岩",
+      "uid": "minecraft:sandstone",
+      "meta": 2,
+      "color": "#dad29e"
+    },
+    {
+      "name": "切制砂岩台阶",
+      "uid": "etfuturum:stone_slab",
+      "meta": 3,
+      "color": "#dad29e"
+    },
+    {
+      "name": "切制红砂岩台阶",
+      "uid": "etfuturum:red_sandstone_slab",
+      "meta": 1,
+      "color": "#a6551d"
+    },
+    {
+      "name": "切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 0,
+      "color": "#bf6a50"
+    },
+    {
+      "name": "切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 4,
+      "color": "#bf6a50"
+    },
+    {
+      "name": "切制铜楼梯",
+      "uid": "etfuturum:cut_copper_stairs",
+      "meta": 0,
+      "color": "#bf6a50"
+    },
+    {
+      "name": "切石机",
+      "uid": "etfuturum:stonecutter",
+      "meta": 0,
+      "color": "#7b766f"
+    },
+    {
+      "name": "制图台",
+      "uid": "etfuturum:cartography_table",
+      "meta": 0,
+      "color": "#685743"
+    },
+    {
+      "name": "制箭台",
+      "uid": "etfuturum:fletching_table",
+      "meta": 0,
+      "color": "#c5b485"
+    },
+    {
+      "name": "刷怪笼",
+      "uid": "minecraft:mob_spawner",
+      "meta": 0,
+      "color": "#1a2731"
+    },
+    {
+      "name": "动力铁轨",
+      "uid": "minecraft:golden_rail",
+      "meta": 0,
+      "color": "#846c48"
+    },
+    {
+      "name": "南瓜",
+      "uid": "minecraft:pumpkin",
+      "meta": 0,
+      "color": "#c07615"
+    },
+    {
+      "name": "南瓜灯",
+      "uid": "minecraft:lit_pumpkin",
+      "meta": 0,
+      "color": "#c07615"
+    },
+    {
+      "name": "压力板",
+      "uid": "minecraft:stone_pressure_plate",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "去皮丛林原木",
+      "uid": "etfuturum:log_stripped",
+      "meta": 3,
+      "color": "#aa8554"
+    },
+    {
+      "name": "去皮丛林木",
+      "uid": "etfuturum:wood_stripped",
+      "meta": 3,
+      "color": "#a98453"
+    },
+    {
+      "name": "去皮云杉原木",
+      "uid": "etfuturum:log_stripped",
+      "meta": 1,
+      "color": "#715934"
+    },
+    {
+      "name": "去皮云杉木",
+      "uid": "etfuturum:wood_stripped",
+      "meta": 1,
+      "color": "#735934"
+    },
+    {
+      "name": "去皮樱花原木",
+      "uid": "etfuturum:cherry_log",
+      "meta": 2,
+      "color": "#dda49d"
+    },
+    {
+      "name": "去皮樱花木",
+      "uid": "etfuturum:cherry_log",
+      "meta": 3,
+      "color": "#d79194"
+    },
+    {
+      "name": "去皮橡木",
+      "uid": "etfuturum:wood_stripped",
+      "meta": 0,
+      "color": "#b19056"
+    },
+    {
+      "name": "去皮橡木原木",
+      "uid": "etfuturum:log_stripped",
+      "meta": 0,
+      "color": "#a48551"
+    },
+    {
+      "name": "去皮深色橡木",
+      "uid": "etfuturum:wood2_stripped",
+      "meta": 1,
+      "color": "#483824"
+    },
+    {
+      "name": "去皮深色橡木原木",
+      "uid": "etfuturum:log2_stripped",
+      "meta": 1,
+      "color": "#412c16"
+    },
+    {
+      "name": "去皮白桦原木",
+      "uid": "etfuturum:log_stripped",
+      "meta": 2,
+      "color": "#b9a168"
+    },
+    {
+      "name": "去皮白桦木",
+      "uid": "etfuturum:wood_stripped",
+      "meta": 2,
+      "color": "#c4b076"
+    },
+    {
+      "name": "去皮竹块",
+      "uid": "etfuturum:bamboo_block",
+      "meta": 1,
+      "color": "#b29e48"
+    },
+    {
+      "name": "去皮金合欢原木",
+      "uid": "etfuturum:log2_stripped",
+      "meta": 0,
+      "color": "#a65b3a"
+    },
+    {
+      "name": "去皮金合欢木",
+      "uid": "etfuturum:wood2_stripped",
+      "meta": 0,
+      "color": "#ae5c3b"
+    },
+    {
+      "name": "双光露普木板台阶",
+      "uid": "nova_craft:luminant_double_slab",
+      "meta": 0,
+      "color": "#47450c"
+    },
+    {
+      "name": "双凝灰岩石砖台阶",
+      "uid": "nova_craft:tuff_brick_double_slab",
+      "meta": 0,
+      "color": "#777872"
+    },
+    {
+      "name": "双小块凝灰岩石砖台阶",
+      "uid": "nova_craft:tuff_tiled_double_slab",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "双小块幽匿砖台阶",
+      "uid": "nova_craft:sculk_tiled_double_slab",
+      "meta": 0,
+      "color": "#0a3337"
+    },
+    {
+      "name": "双小块拟太石砖台阶",
+      "uid": "nova_craft:etherstone_tiled_double_slab",
+      "meta": 0,
+      "color": "#c0becc"
+    },
+    {
+      "name": "双小块方解石砖台阶",
+      "uid": "nova_craft:calcite_tiled_double_slab",
+      "meta": 0,
+      "color": "#d7d7d3"
+    },
+    {
+      "name": "双小块虚无石砖台阶",
+      "uid": "nova_craft:nullstone_tiled_double_slab",
+      "meta": 0,
+      "color": "#322b3b"
+    },
+    {
+      "name": "双小块阴沉石砖台阶",
+      "uid": "nova_craft:grimstone_tiled_double_slab",
+      "meta": 0,
+      "color": "#5a5b79"
+    },
+    {
+      "name": "双幽匿砖台阶",
+      "uid": "nova_craft:sculk_brick_double_slab",
+      "meta": 0,
+      "color": "#0b3a3c"
+    },
+    {
+      "name": "双拟太圆石台阶",
+      "uid": "nova_craft:cobbled_etherstone_double_slab",
+      "meta": 0,
+      "color": "#cccad5"
+    },
+    {
+      "name": "双拟太石台阶",
+      "uid": "nova_craft:etherstone_double_slab",
+      "meta": 0,
+      "color": "#d3d0da"
+    },
+    {
+      "name": "双拟太石砖台阶",
+      "uid": "nova_craft:etherstone_brick_double_slab",
+      "meta": 0,
+      "color": "#d1ced8"
+    },
+    {
+      "name": "双方解石砖台阶",
+      "uid": "nova_craft:calcite_brick_double_slab",
+      "meta": 0,
+      "color": "#dededa"
+    },
+    {
+      "name": "双月幽影木板台阶",
+      "uid": "nova_craft:lacuna_double_slab",
+      "meta": 0,
+      "color": "#4e3968"
+    },
+    {
+      "name": "双紫色下界砖块台阶",
+      "uid": "nova_craft:nullwart_brick_double_slab",
+      "meta": 0,
+      "color": "#49123c"
+    },
+    {
+      "name": "双虚无圆石台阶",
+      "uid": "nova_craft:cobbled_nullstone_double_slab",
+      "meta": 0,
+      "color": "#342e3b"
+    },
+    {
+      "name": "双虚无石台阶",
+      "uid": "nova_craft:nullstone_double_slab",
+      "meta": 0,
+      "color": "#302a37"
+    },
+    {
+      "name": "双虚无石砖台阶",
+      "uid": "nova_craft:nullstone_brick_double_slab",
+      "meta": 0,
+      "color": "#383240"
+    },
+    {
+      "name": "双边际岩石台阶",
+      "uid": "nova_craft:frontierslate_double_slab",
+      "meta": 0,
+      "color": "#352b42"
+    },
+    {
+      "name": "双边际岩石砖台阶",
+      "uid": "nova_craft:frontierslate_brick_double_slab",
+      "meta": 0,
+      "color": "#43394c"
+    },
+    {
+      "name": "双阴沉圆石台阶",
+      "uid": "nova_craft:cobbled_grimstone_double_slab",
+      "meta": 0,
+      "color": "#696986"
+    },
+    {
+      "name": "双阴沉石台阶",
+      "uid": "nova_craft:grimstone_double_slab",
+      "meta": 0,
+      "color": "#73728d"
+    },
+    {
+      "name": "双阴沉石砖台阶",
+      "uid": "nova_craft:grimstone_brick_double_slab",
+      "meta": 0,
+      "color": "#70708a"
+    },
+    {
+      "name": "发光地衣",
+      "uid": "nova_craft:glow_lichen",
+      "meta": 0,
+      "color": "#6c7f78"
+    },
+    {
+      "name": "发射器",
+      "uid": "minecraft:dispenser",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "可可果",
+      "uid": "minecraft:cocoa",
+      "meta": 0,
+      "color": "#91501e"
+    },
+    {
+      "name": "史上最炫楼梯",
+      "uid": "etfuturum:netherite_stairs",
+      "meta": 0,
+      "color": "#423d3f"
+    },
+    {
+      "name": "向日葵",
+      "uid": "minecraft:double_plant",
+      "meta": 0,
+      "color": "#436f2d"
+    },
+    {
+      "name": "命令方块",
+      "uid": "minecraft:command_block",
+      "meta": 0,
+      "color": "#b2896f"
+    },
+    {
+      "name": "和草",
+      "uid": "nova_craft:chorus_grass",
+      "meta": 0,
+      "color": "#6f4b6f"
+    },
+    {
+      "name": "品红色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 2,
+      "color": "#b350bc"
+    },
+    {
+      "name": "品红色带釉陶瓦",
+      "uid": "etfuturum:magenta_glazed_terracotta",
+      "meta": 0,
+      "color": "#d064bf"
+    },
+    {
+      "name": "品红色床",
+      "uid": "etfuturum:magenta_bed",
+      "meta": 0,
+      "color": "#ae42ba"
+    },
+    {
+      "name": "品红色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 2,
+      "color": "#b24cd8",
+      "alpha": 0.4
+    },
+    {
+      "name": "品红色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 2,
+      "color": "#b24cd8",
+      "alpha": 0.4
+    },
+    {
+      "name": "品红色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 2,
+      "color": "#ab3dad"
+    },
+    {
+      "name": "品红色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 2,
+      "color": "#b956bc"
+    },
+    {
+      "name": "品红色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 2,
+      "color": "#b350bc"
+    },
+    {
+      "name": "品红色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 2,
+      "color": "#95586c"
+    },
+    {
+      "name": "哭泣的黑曜石",
+      "uid": "etfuturum:crying_obsidian",
+      "meta": 0,
+      "color": "#191d47"
+    },
+    {
+      "name": "唱片机",
+      "uid": "minecraft:jukebox",
+      "meta": 0,
+      "color": "#6b4937"
+    },
+    {
+      "name": "回响块",
+      "uid": "nova_craft:echo_block",
+      "meta": 0,
+      "color": "#1b4750",
+      "alpha": 0.4
+    },
+    {
+      "name": "回响母岩",
+      "uid": "nova_craft:budding_echo_block",
+      "meta": 0,
+      "color": "#19414a",
+      "alpha": 0.4
+    },
+    {
+      "name": "回响簇",
+      "uid": "nova_craft:echo_cluster_2",
+      "meta": 0,
+      "color": "#0f6372",
+      "alpha": 0.4
+    },
+    {
+      "name": "回响簇",
+      "uid": "nova_craft:echo_cluster_2",
+      "meta": 6,
+      "color": "#156b7c",
+      "alpha": 0.4
+    },
+    {
+      "name": "圆石",
+      "uid": "minecraft:cobblestone",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "圆石台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 3,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "圆石墙",
+      "uid": "minecraft:cobblestone_wall",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "地毯",
+      "uid": "minecraft:carpet",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "地狱岩",
+      "uid": "minecraft:netherrack",
+      "meta": 0,
+      "color": "#6f3634"
+    },
+    {
+      "name": "地狱砖台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 6,
+      "color": "#2c161a"
+    },
+    {
+      "name": "地狱砖栅栏",
+      "uid": "minecraft:nether_brick_fence",
+      "meta": 0,
+      "color": "#2c161a",
+      "alpha": 0.4
+    },
+    {
+      "name": "地狱砖楼梯",
+      "uid": "minecraft:nether_brick_stairs",
+      "meta": 0,
+      "color": "#2c161a"
+    },
+    {
+      "name": "基岩",
+      "uid": "minecraft:bedrock",
+      "meta": 0,
+      "color": "#535353"
+    },
+    {
+      "name": "堆肥桶",
+      "uid": "etfuturum:composter",
+      "meta": 0,
+      "color": "#986233"
+    },
+    {
+      "name": "堕欲魔龙蛋",
+      "uid": "nova_craft:deep_one_egg",
+      "meta": 0,
+      "color": "#3c2e3b"
+    },
+    {
+      "name": "多色碎片块",
+      "uid": "nova_craft:variegated_block",
+      "meta": 0,
+      "color": "#b05c66",
+      "alpha": 0.4
+    },
+    {
+      "name": "大型富勒席斯芽",
+      "uid": "nova_craft:large_pherithium_stalagmite",
+      "meta": 0,
+      "color": "#616c5d",
+      "alpha": 0.9764706
+    },
+    {
+      "name": "大型石笋",
+      "uid": "nova_craft:large_stone_stalagmite",
+      "meta": 0,
+      "color": "#6e6e6f",
+      "alpha": 0.99607843
+    },
+    {
+      "name": "大型紫晶芽",
+      "uid": "etfuturum:amethyst_cluster_2",
+      "meta": 0,
+      "color": "#a17eca",
+      "alpha": 0.4
+    },
+    {
+      "name": "大型紫晶芽",
+      "uid": "etfuturum:amethyst_cluster_2",
+      "meta": 6,
+      "color": "#a37ecf",
+      "alpha": 0.4
+    },
+    {
+      "name": "大型蕨",
+      "uid": "minecraft:double_plant",
+      "meta": 3,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "大型虚无石笋",
+      "uid": "nova_craft:large_nullstone_stalagmite",
+      "meta": 0,
+      "color": "#2a252f"
+    },
+    {
+      "name": "大型钟乳石",
+      "uid": "nova_craft:large_stone_stalactite",
+      "meta": 0,
+      "color": "#6e6e6f",
+      "alpha": 0.99607843
+    },
+    {
+      "name": "大型钟乳虚无石",
+      "uid": "nova_craft:large_nullstone_stalactite",
+      "meta": 0,
+      "color": "#2a252f"
+    },
+    {
+      "name": "安山岩",
+      "uid": "etfuturum:stone",
+      "meta": 5,
+      "color": "#828383"
+    },
+    {
+      "name": "安山岩台阶",
+      "uid": "etfuturum:stone_slab_2",
+      "meta": 4,
+      "color": "#828383"
+    },
+    {
+      "name": "安山岩墙",
+      "uid": "etfuturum:stone_wall_2",
+      "meta": 2,
+      "color": "#828383"
+    },
+    {
+      "name": "安山岩楼梯",
+      "uid": "etfuturum:andesite_stairs",
+      "meta": 0,
+      "color": "#828383"
+    },
+    {
+      "name": "宝藏板条箱",
+      "uid": "nova_craft:treasure_chest",
+      "meta": 0,
+      "color": "#665416"
+    },
+    {
+      "name": "富勒席斯块",
+      "uid": "nova_craft:block_of_pherithium",
+      "meta": 0,
+      "color": "#bef0ac"
+    },
+    {
+      "name": "富勒席斯玻璃",
+      "uid": "nova_craft:pherithium_glass",
+      "meta": 0,
+      "color": "#42543a",
+      "alpha": 0.4
+    },
+    {
+      "name": "富勒席斯矿",
+      "uid": "nova_craft:pherithium_ore",
+      "meta": 0,
+      "color": "#75866f"
+    },
+    {
+      "name": "小块凝灰岩石砖台阶",
+      "uid": "nova_craft:tuff_tiled_slab",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "小块凝灰岩石砖墙",
+      "uid": "nova_craft:tuff_tiled_wall",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "小块凝灰岩石砖楼梯",
+      "uid": "nova_craft:tuff_tiled_stairs",
+      "meta": 0,
+      "color": "#6c6d66"
+    },
+    {
+      "name": "小块幽匿砖台阶",
+      "uid": "nova_craft:sculk_tiled_slab",
+      "meta": 0,
+      "color": "#0a3337"
+    },
+    {
+      "name": "小块幽匿砖墙",
+      "uid": "nova_craft:sculk_tiled_wall",
+      "meta": 0,
+      "color": "#0a3337"
+    },
+    {
+      "name": "小块幽匿砖楼梯",
+      "uid": "nova_craft:sculk_tiled_stairs",
+      "meta": 0,
+      "color": "#0a3337"
+    },
+    {
+      "name": "小块拟太石砖台阶",
+      "uid": "nova_craft:etherstone_tiled_slab",
+      "meta": 0,
+      "color": "#c0becc"
+    },
+    {
+      "name": "小块拟太石砖墙",
+      "uid": "nova_craft:etherstone_tiled_wall",
+      "meta": 0,
+      "color": "#c0becc"
+    },
+    {
+      "name": "小块拟太石砖楼梯",
+      "uid": "nova_craft:etherstone_tiled_stairs",
+      "meta": 0,
+      "color": "#c0becc"
+    },
+    {
+      "name": "小块方解石砖台阶",
+      "uid": "nova_craft:calcite_tiled_slab",
+      "meta": 0,
+      "color": "#d7d7d3"
+    },
+    {
+      "name": "小块方解石砖墙",
+      "uid": "nova_craft:calcite_tiled_wall",
+      "meta": 0,
+      "color": "#d7d7d3"
+    },
+    {
+      "name": "小块方解石砖楼梯",
+      "uid": "nova_craft:calcite_tiled_stairs",
+      "meta": 0,
+      "color": "#d7d7d3"
+    },
+    {
+      "name": "小块虚无石砖台阶",
+      "uid": "nova_craft:nullstone_tiled_slab",
+      "meta": 0,
+      "color": "#322b3b"
+    },
+    {
+      "name": "小块虚无石砖墙",
+      "uid": "nova_craft:nullstone_tiled_wall",
+      "meta": 0,
+      "color": "#322b3b"
+    },
+    {
+      "name": "小块虚无石砖楼梯",
+      "uid": "nova_craft:nullstone_tiled_stairs",
+      "meta": 0,
+      "color": "#322b3b"
+    },
+    {
+      "name": "小块阴沉石砖台阶",
+      "uid": "nova_craft:grimstone_tiled_slab",
+      "meta": 0,
+      "color": "#5a5b79"
+    },
+    {
+      "name": "小块阴沉石砖墙",
+      "uid": "nova_craft:grimstone_tiled_wall",
+      "meta": 0,
+      "color": "#5a5b79"
+    },
+    {
+      "name": "小块阴沉石砖楼梯",
+      "uid": "nova_craft:grimstone_tiled_stairs",
+      "meta": 0,
+      "color": "#5a5b79"
+    },
+    {
+      "name": "小型以太芽",
+      "uid": "nova_craft:aether_cluster_1",
+      "meta": 0,
+      "color": "#99378d",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型以太芽",
+      "uid": "nova_craft:aether_cluster_1",
+      "meta": 6,
+      "color": "#c94299",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型回响芽",
+      "uid": "nova_craft:echo_cluster_1",
+      "meta": 0,
+      "color": "#3d2a5d",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型回响芽",
+      "uid": "nova_craft:echo_cluster_1",
+      "meta": 6,
+      "color": "#164254",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型富勒席斯芽",
+      "uid": "nova_craft:small_pherithium_stalagmite",
+      "meta": 0,
+      "color": "#657461",
+      "alpha": 0.91764706
+    },
+    {
+      "name": "小型幽匿芽",
+      "uid": "nova_craft:sculk_tentacle_1",
+      "meta": 0,
+      "color": "#076a6d"
+    },
+    {
+      "name": "小型幽匿芽",
+      "uid": "nova_craft:sculk_tentacle_1",
+      "meta": 6,
+      "color": "#076a6d"
+    },
+    {
+      "name": "小型拉里玛芽",
+      "uid": "nova_craft:larimar_cluster_1",
+      "meta": 0,
+      "color": "#6ab3df",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型拉里玛芽",
+      "uid": "nova_craft:larimar_cluster_1",
+      "meta": 6,
+      "color": "#81b9e0",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型沙沃罗基特芽",
+      "uid": "nova_craft:tsavorokite_cluster_1",
+      "meta": 0,
+      "color": "#28673c",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型沙沃罗基特芽",
+      "uid": "nova_craft:tsavorokite_cluster_1",
+      "meta": 6,
+      "color": "#297642",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型科帕茨芽",
+      "uid": "nova_craft:copartz_cluster_1",
+      "meta": 0,
+      "color": "#b0274e",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型科帕茨芽",
+      "uid": "nova_craft:copartz_cluster_1",
+      "meta": 6,
+      "color": "#bd3b61",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型紫晶芽",
+      "uid": "etfuturum:amethyst_cluster_1",
+      "meta": 0,
+      "color": "#8363c0",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型紫晶芽",
+      "uid": "etfuturum:amethyst_cluster_1",
+      "meta": 6,
+      "color": "#9e78c9",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型虚无芽",
+      "uid": "nova_craft:null_cluster_1",
+      "meta": 0,
+      "color": "#4f2779",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型虚无芽",
+      "uid": "nova_craft:null_cluster_1",
+      "meta": 6,
+      "color": "#62348e",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型钇石芽",
+      "uid": "nova_craft:yttrlinsite_cluster_1",
+      "meta": 0,
+      "color": "#ef9439",
+      "alpha": 0.4
+    },
+    {
+      "name": "小型钇石芽",
+      "uid": "nova_craft:yttrlinsite_cluster_1",
+      "meta": 6,
+      "color": "#e28958",
+      "alpha": 0.4
+    },
+    {
+      "name": "小麦种子",
+      "uid": "minecraft:wheat",
+      "meta": 0,
+      "color": "#00b312"
+    },
+    {
+      "name": "屏障",
+      "uid": "etfuturum:barrier",
+      "meta": 0,
+      "color": "#d21919"
+    },
+    {
+      "name": "岩浆",
+      "uid": "minecraft:flowing_lava",
+      "meta": 0,
+      "color": "#d1530f"
+    },
+    {
+      "name": "岩浆",
+      "uid": "minecraft:lava",
+      "meta": 0,
+      "color": "#d1530f"
+    },
+    {
+      "name": "岩浆块",
+      "uid": "etfuturum:magma",
+      "meta": 0,
+      "color": "#87421a"
+    },
+    {
+      "name": "工作台",
+      "uid": "minecraft:crafting_table",
+      "meta": 0,
+      "color": "#6b472a"
+    },
+    {
+      "name": "布里姆块",
+      "uid": "nova_craft:block_of_brimstone",
+      "meta": 0,
+      "color": "#d54f1a"
+    },
+    {
+      "name": "布里姆矿",
+      "uid": "nova_craft:brimstone_ore",
+      "meta": 0,
+      "color": "#a17760"
+    },
+    {
+      "name": "布里姆粉",
+      "uid": "nova_craft:brimstone_wire",
+      "meta": 0,
+      "color": "#e64101"
+    },
+    {
+      "name": "干草块",
+      "uid": "minecraft:hay_block",
+      "meta": 0,
+      "color": "#a88b10"
+    },
+    {
+      "name": "平滑玄武岩",
+      "uid": "etfuturum:smooth_basalt",
+      "meta": 0,
+      "color": "#48484e"
+    },
+    {
+      "name": "平滑石台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "平滑石头",
+      "uid": "etfuturum:smooth_stone",
+      "meta": 0,
+      "color": "#9f9f9f"
+    },
+    {
+      "name": "平滑石英台阶",
+      "uid": "etfuturum:smooth_quartz_slab",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "平滑石英块",
+      "uid": "etfuturum:smooth_quartz",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "平滑石英楼梯",
+      "uid": "etfuturum:smooth_quartz_stairs",
+      "meta": 0,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "平滑砂岩",
+      "uid": "etfuturum:smooth_sandstone",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "平滑砂岩台阶",
+      "uid": "etfuturum:smooth_sandstone_slab",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "平滑砂岩楼梯",
+      "uid": "etfuturum:smooth_sandstone_stairs",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "平滑红砂岩",
+      "uid": "etfuturum:red_sandstone",
+      "meta": 2,
+      "color": "#a6551d"
+    },
+    {
+      "name": "平滑红砂岩",
+      "uid": "etfuturum:smooth_red_sandstone",
+      "meta": 0,
+      "color": "#a6551d"
+    },
+    {
+      "name": "平滑红砂岩台阶",
+      "uid": "etfuturum:smooth_red_sandstone_slab",
+      "meta": 0,
+      "color": "#a6551d"
+    },
+    {
+      "name": "平滑红砂岩楼梯",
+      "uid": "etfuturum:smooth_red_sandstone_stairs",
+      "meta": 0,
+      "color": "#a6551d"
+    },
+    {
+      "name": "幽匿块",
+      "uid": "nova_craft:sculk_block",
+      "meta": 0,
+      "color": "#0c1e24"
+    },
+    {
+      "name": "幽匿尖刺",
+      "uid": "nova_craft:sculk_spike",
+      "meta": 0,
+      "color": "#0c2026"
+    },
+    {
+      "name": "幽匿斑块",
+      "uid": "nova_craft:sculk_growth",
+      "meta": 0,
+      "color": "#0c1e24"
+    },
+    {
+      "name": "幽匿末地石",
+      "uid": "nova_craft:sculk_endstone",
+      "meta": 0,
+      "color": "#0a333d"
+    },
+    {
+      "name": "幽匿板条箱",
+      "uid": "nova_craft:sculk_chest",
+      "meta": 0,
+      "color": "#1e3933"
+    },
+    {
+      "name": "幽匿深板岩",
+      "uid": "nova_craft:sculk_deepslate",
+      "meta": 0,
+      "color": "#0a333d"
+    },
+    {
+      "name": "幽匿瓦",
+      "uid": "nova_craft:sculk_tiles",
+      "meta": 0,
+      "color": "#0a3337"
+    },
+    {
+      "name": "幽匿石头",
+      "uid": "nova_craft:sculk_stone",
+      "meta": 0,
+      "color": "#0a333d"
+    },
+    {
+      "name": "幽匿砖",
+      "uid": "nova_craft:sculk_bricks",
+      "meta": 0,
+      "color": "#0b3a3c"
+    },
+    {
+      "name": "幽匿砖台阶",
+      "uid": "nova_craft:sculk_brick_slab",
+      "meta": 0,
+      "color": "#0b3a3c"
+    },
+    {
+      "name": "幽匿砖墙",
+      "uid": "nova_craft:sculk_brick_wall",
+      "meta": 0,
+      "color": "#0b3a3c"
+    },
+    {
+      "name": "幽匿砖楼梯",
+      "uid": "nova_craft:sculk_brick_stairs",
+      "meta": 0,
+      "color": "#0b3a3c"
+    },
+    {
+      "name": "幽匿簇",
+      "uid": "nova_craft:sculk_bush",
+      "meta": 0,
+      "color": "#068889",
+      "alpha": 0.9529412
+    },
+    {
+      "name": "幽匿簇",
+      "uid": "nova_craft:sculk_tentacle_2",
+      "meta": 0,
+      "color": "#087579"
+    },
+    {
+      "name": "幽匿簇",
+      "uid": "nova_craft:sculk_tentacle_2",
+      "meta": 6,
+      "color": "#087579"
+    },
+    {
+      "name": "幽匿脉络",
+      "uid": "nova_craft:sculk_vein",
+      "meta": 0,
+      "color": "#08313b"
+    },
+    {
+      "name": "幽匿草",
+      "uid": "nova_craft:sculk_sensor",
+      "meta": 0,
+      "color": "#093a45"
+    },
+    {
+      "name": "幽匿虚无石",
+      "uid": "nova_craft:sculk_nullstone",
+      "meta": 0,
+      "color": "#0a333d"
+    },
+    {
+      "name": "幽匿阴沉石",
+      "uid": "nova_craft:sculk_grimstone",
+      "meta": 0,
+      "color": "#0a333d"
+    },
+    {
+      "name": "幽沙玻璃",
+      "uid": "nova_craft:vacuum_glass",
+      "meta": 0,
+      "color": "#d5e9e9",
+      "alpha": 0.4
+    },
+    {
+      "name": "幽焰钇阙混合物",
+      "uid": "nova_craft:blazlinite_blend",
+      "meta": 0,
+      "color": "#ca7167"
+    },
+    {
+      "name": "强化瓦内特块",
+      "uid": "nova_craft:block_of_reinforced_vanite",
+      "meta": 0,
+      "color": "#63666b"
+    },
+    {
+      "name": "投掷器",
+      "uid": "minecraft:dropper",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "拉杆",
+      "uid": "minecraft:lever",
+      "meta": 0,
+      "color": "#6a5940"
+    },
+    {
+      "name": "拉里玛块",
+      "uid": "nova_craft:larimar_block",
+      "meta": 0,
+      "color": "#90cff0",
+      "alpha": 0.4
+    },
+    {
+      "name": "拉里玛母岩",
+      "uid": "nova_craft:budding_larimar_block",
+      "meta": 0,
+      "color": "#83c5e7",
+      "alpha": 0.4
+    },
+    {
+      "name": "拉里玛簇",
+      "uid": "nova_craft:larimar_cluster_2",
+      "meta": 0,
+      "color": "#8cc0e5",
+      "alpha": 0.4
+    },
+    {
+      "name": "拉里玛簇",
+      "uid": "nova_craft:larimar_cluster_2",
+      "meta": 6,
+      "color": "#81c4e9",
+      "alpha": 0.4
+    },
+    {
+      "name": "拟太圆石",
+      "uid": "nova_craft:cobbled_etherstone",
+      "meta": 0,
+      "color": "#cccad5"
+    },
+    {
+      "name": "拟太圆石台阶",
+      "uid": "nova_craft:cobbled_etherstone_slab",
+      "meta": 0,
+      "color": "#cccad5"
+    },
+    {
+      "name": "拟太圆石墙",
+      "uid": "nova_craft:cobbled_etherstone_wall",
+      "meta": 0,
+      "color": "#cccad5"
+    },
+    {
+      "name": "拟太圆石楼梯",
+      "uid": "nova_craft:cobbled_etherstone_stairs",
+      "meta": 0,
+      "color": "#cccad5"
+    },
+    {
+      "name": "拟太布里姆矿",
+      "uid": "nova_craft:etherstone_brimstone",
+      "meta": 0,
+      "color": "#debaae"
+    },
+    {
+      "name": "拟太煤矿",
+      "uid": "nova_craft:etherstone_coal",
+      "meta": 0,
+      "color": "#b6b4bc"
+    },
+    {
+      "name": "拟太石",
+      "uid": "nova_craft:etherstone",
+      "meta": 0,
+      "color": "#d3d0da"
+    },
+    {
+      "name": "拟太石台阶",
+      "uid": "nova_craft:etherstone_slab",
+      "meta": 0,
+      "color": "#d3d0da"
+    },
+    {
+      "name": "拟太石墙",
+      "uid": "nova_craft:etherstone_wall",
+      "meta": 0,
+      "color": "#d3d0da"
+    },
+    {
+      "name": "拟太石楼梯",
+      "uid": "nova_craft:etherstone_stairs",
+      "meta": 0,
+      "color": "#d3d0da"
+    },
+    {
+      "name": "拟太石瓦",
+      "uid": "nova_craft:etherstone_tiles",
+      "meta": 0,
+      "color": "#c0becc"
+    },
+    {
+      "name": "拟太石砖",
+      "uid": "nova_craft:etherstone_bricks",
+      "meta": 0,
+      "color": "#d1ced8"
+    },
+    {
+      "name": "拟太石砖台阶",
+      "uid": "nova_craft:etherstone_brick_slab",
+      "meta": 0,
+      "color": "#d1ced8"
+    },
+    {
+      "name": "拟太石砖墙",
+      "uid": "nova_craft:etherstone_brick_wall",
+      "meta": 0,
+      "color": "#d1ced8"
+    },
+    {
+      "name": "拟太石砖楼梯",
+      "uid": "nova_craft:etherstone_brick_stairs",
+      "meta": 0,
+      "color": "#d1ced8"
+    },
+    {
+      "name": "拟太绿宝石矿",
+      "uid": "nova_craft:etherstone_emerald",
+      "meta": 0,
+      "color": "#a1cbb5"
+    },
+    {
+      "name": "拟太金矿",
+      "uid": "nova_craft:etherstone_gold",
+      "meta": 0,
+      "color": "#d2c6b5"
+    },
+    {
+      "name": "拟太铁矿",
+      "uid": "nova_craft:etherstone_iron",
+      "meta": 0,
+      "color": "#c3b8b6"
+    },
+    {
+      "name": "按钮",
+      "uid": "minecraft:stone_button",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "探测铁轨",
+      "uid": "minecraft:detector_rail",
+      "meta": 0,
+      "color": "#786559"
+    },
+    {
+      "name": "斑驳的切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 1,
+      "color": "#9a7965"
+    },
+    {
+      "name": "斑驳的切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 5,
+      "color": "#9a7965"
+    },
+    {
+      "name": "斑驳的切制铜楼梯",
+      "uid": "etfuturum:exposed_cut_copper_stairs",
+      "meta": 0,
+      "color": "#9a7965"
+    },
+    {
+      "name": "斑驳的铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 1,
+      "color": "#a17d67"
+    },
+    {
+      "name": "斑驳的铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 1,
+      "color": "#a17d68"
+    },
+    {
+      "name": "斑驳的铜活板门",
+      "uid": "etfuturum:exposed_copper_trapdoor",
+      "meta": 0,
+      "color": "#a17d68"
+    },
+    {
+      "name": "斑驳的铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 1,
+      "color": "#876b59"
+    },
+    {
+      "name": "斑驳的铜门",
+      "uid": "etfuturum:exposed_copper_door",
+      "meta": 0,
+      "color": "#987664"
+    },
+    {
+      "name": "斑驳的雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 1,
+      "color": "#9a7764"
+    },
+    {
+      "name": "方解石",
+      "uid": "etfuturum:calcite",
+      "meta": 0,
+      "color": "#dfe0dc"
+    },
+    {
+      "name": "方解石瓦",
+      "uid": "nova_craft:calcite_tiles",
+      "meta": 0,
+      "color": "#d7d7d3"
+    },
+    {
+      "name": "方解石砖",
+      "uid": "nova_craft:calcite_bricks",
+      "meta": 0,
+      "color": "#dededa"
+    },
+    {
+      "name": "方解石砖台阶",
+      "uid": "nova_craft:calcite_brick_slab",
+      "meta": 0,
+      "color": "#dededa"
+    },
+    {
+      "name": "方解石砖墙",
+      "uid": "nova_craft:calcite_brick_wall",
+      "meta": 0,
+      "color": "#dededa"
+    },
+    {
+      "name": "方解石砖楼梯",
+      "uid": "nova_craft:calcite_brick_stairs",
+      "meta": 0,
+      "color": "#dededa"
+    },
+    {
+      "name": "旧版沙砾",
+      "uid": "etfuturum:old_gravel",
+      "meta": 0,
+      "color": "#887e7d"
+    },
+    {
+      "name": "晶化末地天空",
+      "uid": "nova_craft:crystallized_end",
+      "meta": 0,
+      "color": "#332645",
+      "alpha": 0.4
+    },
+    {
+      "name": "晶化瓦内特块",
+      "uid": "nova_craft:crystallized_vanite",
+      "meta": 0,
+      "color": "#8adbd0"
+    },
+    {
+      "name": "暗海晶石",
+      "uid": "etfuturum:prismarine_block",
+      "meta": 2,
+      "color": "#3b574b"
+    },
+    {
+      "name": "暗海晶石台阶",
+      "uid": "etfuturum:prismarine_slab",
+      "meta": 2,
+      "color": "#3b574b"
+    },
+    {
+      "name": "暗海晶石楼梯",
+      "uid": "etfuturum:prismarine_stairs_dark",
+      "meta": 0,
+      "color": "#3b574b"
+    },
+    {
+      "name": "月幽影木板",
+      "uid": "nova_craft:lacuna_planks",
+      "meta": 0,
+      "color": "#4e3968"
+    },
+    {
+      "name": "月幽影木板台阶",
+      "uid": "nova_craft:lacuna_slab",
+      "meta": 0,
+      "color": "#4e3968"
+    },
+    {
+      "name": "月幽影木板楼梯",
+      "uid": "nova_craft:lacuna_stairs",
+      "meta": 0,
+      "color": "#4e3968"
+    },
+    {
+      "name": "月幽影植株",
+      "uid": "nova_craft:lacuna_log",
+      "meta": 0,
+      "color": "#191026"
+    },
+    {
+      "name": "月幽影花",
+      "uid": "nova_craft:lacuna_fruit",
+      "meta": 0,
+      "color": "#170f20"
+    },
+    {
+      "name": "木桶",
+      "uid": "etfuturum:barrel",
+      "meta": 0,
+      "color": "#795933"
+    },
+    {
+      "name": "未点燃的灵魂营火",
+      "uid": "campfirebackport:soul_campfire_base",
+      "meta": 0,
+      "color": "#4f4a43"
+    },
+    {
+      "name": "未点燃的营火",
+      "uid": "campfirebackport:campfire_base",
+      "meta": 0,
+      "color": "#4f4a43"
+    },
+    {
+      "name": "末地传送门",
+      "uid": "minecraft:end_portal",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "末地传送门",
+      "uid": "minecraft:end_portal_frame",
+      "meta": 0,
+      "color": "#597560"
+    },
+    {
+      "name": "末地克兰特矿",
+      "uid": "nova_craft:end_klangite_ore",
+      "meta": 0,
+      "color": "#b5ad99"
+    },
+    {
+      "name": "末地烛",
+      "uid": "etfuturum:end_rod",
+      "meta": 0,
+      "color": "#dcc5cd"
+    },
+    {
+      "name": "末地石",
+      "uid": "minecraft:end_stone",
+      "meta": 0,
+      "color": "#dddfa5"
+    },
+    {
+      "name": "末地石砖",
+      "uid": "etfuturum:end_bricks",
+      "meta": 0,
+      "color": "#e1e6aa"
+    },
+    {
+      "name": "末地石砖台阶",
+      "uid": "etfuturum:end_brick_slab",
+      "meta": 0,
+      "color": "#e1e6aa"
+    },
+    {
+      "name": "末地石砖墙",
+      "uid": "etfuturum:end_brick_wall",
+      "meta": 0,
+      "color": "#e1e6aa"
+    },
+    {
+      "name": "末地石砖楼梯",
+      "uid": "etfuturum:end_brick_stairs",
+      "meta": 0,
+      "color": "#e1e6aa"
+    },
+    {
+      "name": "末影幽沙",
+      "uid": "nova_craft:vacuum_sand",
+      "meta": 0,
+      "color": "#0debf0"
+    },
+    {
+      "name": "末影箱",
+      "uid": "minecraft:ender_chest",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "松石块",
+      "uid": "nova_craft:block_of_tophinite",
+      "meta": 0,
+      "color": "#8795a0"
+    },
+    {
+      "name": "枯死的灌木",
+      "uid": "minecraft:deadbush",
+      "meta": 0,
+      "color": "#7b4f19"
+    },
+    {
+      "name": "标靶",
+      "uid": "etfuturum:target",
+      "meta": 0,
+      "color": "#e2aa9d"
+    },
+    {
+      "name": "梯子",
+      "uid": "minecraft:ladder",
+      "meta": 0,
+      "color": "#795f34"
+    },
+    {
+      "name": "棕色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 12,
+      "color": "#4f321f"
+    },
+    {
+      "name": "棕色带釉陶瓦",
+      "uid": "etfuturum:brown_glazed_terracotta",
+      "meta": 0,
+      "color": "#776a55"
+    },
+    {
+      "name": "棕色床",
+      "uid": "etfuturum:brown_bed",
+      "meta": 0,
+      "color": "#5e3119"
+    },
+    {
+      "name": "棕色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 12,
+      "color": "#664c33",
+      "alpha": 0.4
+    },
+    {
+      "name": "棕色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 12,
+      "color": "#664c33",
+      "alpha": 0.4
+    },
+    {
+      "name": "棕色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 12,
+      "color": "#523321"
+    },
+    {
+      "name": "棕色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 12,
+      "color": "#5a3926"
+    },
+    {
+      "name": "棕色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 12,
+      "color": "#4f321f"
+    },
+    {
+      "name": "棕色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 12,
+      "color": "#4d3323"
+    },
+    {
+      "name": "樱花原木",
+      "uid": "etfuturum:cherry_log",
+      "meta": 0,
+      "color": "#b98d89"
+    },
+    {
+      "name": "樱花木",
+      "uid": "etfuturum:cherry_log",
+      "meta": 1,
+      "color": "#36212c"
+    },
+    {
+      "name": "樱花木压力板",
+      "uid": "etfuturum:cherry_pressure_plate",
+      "meta": 0,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木台阶",
+      "uid": "etfuturum:double_wood_slab",
+      "meta": 3,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木台阶",
+      "uid": "etfuturum:wood_slab",
+      "meta": 3,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木告示牌",
+      "uid": "etfuturum:cherry_sign",
+      "meta": 0,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木告示牌",
+      "uid": "etfuturum:cherry_wall_sign",
+      "meta": 0,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木按钮",
+      "uid": "etfuturum:cherry_button",
+      "meta": 0,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木板",
+      "uid": "etfuturum:wood_planks",
+      "meta": 3,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木栅栏",
+      "uid": "etfuturum:wood_fence",
+      "meta": 3,
+      "color": "#e4b9b3",
+      "alpha": 0.4
+    },
+    {
+      "name": "樱花木栅栏门",
+      "uid": "etfuturum:cherry_fence_gate",
+      "meta": 0,
+      "color": "#e4b9b3",
+      "alpha": 0.4
+    },
+    {
+      "name": "樱花木楼梯",
+      "uid": "etfuturum:cherry_stairs",
+      "meta": 0,
+      "color": "#e4b9b3"
+    },
+    {
+      "name": "樱花木活板门",
+      "uid": "etfuturum:cherry_trapdoor",
+      "meta": 0,
+      "color": "#e2b2ac"
+    },
+    {
+      "name": "樱花木门",
+      "uid": "etfuturum:cherry_door",
+      "meta": 0,
+      "color": "#e1b0a9"
+    },
+    {
+      "name": "樱花树叶",
+      "uid": "etfuturum:leaves",
+      "meta": 1,
+      "color": "#e2a2bc"
+    },
+    {
+      "name": "樱花树苗",
+      "uid": "etfuturum:sapling",
+      "meta": 1,
+      "color": "#a4758f"
+    },
+    {
+      "name": "橙色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 1,
+      "color": "#db7d3e"
+    },
+    {
+      "name": "橙色带釉陶瓦",
+      "uid": "etfuturum:orange_glazed_terracotta",
+      "meta": 0,
+      "color": "#9a935b"
+    },
+    {
+      "name": "橙色床",
+      "uid": "etfuturum:orange_bed",
+      "meta": 0,
+      "color": "#cd6e2a"
+    },
+    {
+      "name": "橙色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 1,
+      "color": "#d87f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "橙色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 1,
+      "color": "#d87f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "橙色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 1,
+      "color": "#db792e"
+    },
+    {
+      "name": "橙色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 1,
+      "color": "#dc8438"
+    },
+    {
+      "name": "橙色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 1,
+      "color": "#db7d3e"
+    },
+    {
+      "name": "橙色郁金香",
+      "uid": "minecraft:red_flower",
+      "meta": 5,
+      "color": "#a3581a"
+    },
+    {
+      "name": "橙色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 1,
+      "color": "#a15325"
+    },
+    {
+      "name": "橡木",
+      "uid": "etfuturum:bark",
+      "meta": 0,
+      "color": "#665131"
+    },
+    {
+      "name": "橡木压力板",
+      "uid": "minecraft:wooden_pressure_plate",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木原木",
+      "uid": "minecraft:log",
+      "meta": 0,
+      "color": "#9a7d4d"
+    },
+    {
+      "name": "橡木台阶",
+      "uid": "minecraft:wooden_slab",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木告示牌",
+      "uid": "minecraft:standing_sign",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木告示牌",
+      "uid": "minecraft:wall_sign",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木按钮",
+      "uid": "minecraft:wooden_button",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木木板",
+      "uid": "minecraft:planks",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木栅栏",
+      "uid": "minecraft:fence",
+      "meta": 0,
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "橡木栅栏门",
+      "uid": "minecraft:fence_gate",
+      "meta": 0,
+      "color": "#9c7f4e",
+      "alpha": 0.4
+    },
+    {
+      "name": "橡木楼梯",
+      "uid": "minecraft:oak_stairs",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "橡木活板门",
+      "uid": "minecraft:trapdoor",
+      "meta": 0,
+      "color": "#7e5d2d"
+    },
+    {
+      "name": "橡木门",
+      "uid": "minecraft:wooden_door",
+      "meta": 0,
+      "color": "#866532"
+    },
+    {
+      "name": "橡树树叶",
+      "uid": "minecraft:leaves",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "橡树树苗",
+      "uid": "minecraft:sapling",
+      "meta": 0,
+      "color": "#476625"
+    },
+    {
+      "name": "毒蕈",
+      "uid": "nova_craft:rozite_mushroom",
+      "meta": 0,
+      "color": "#4da7a5",
+      "alpha": 0.81960785
+    },
+    {
+      "name": "氧化的切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 3,
+      "color": "#4f997e"
+    },
+    {
+      "name": "氧化的切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 7,
+      "color": "#4f997e"
+    },
+    {
+      "name": "氧化的切制铜楼梯",
+      "uid": "etfuturum:oxidized_cut_copper_stairs",
+      "meta": 0,
+      "color": "#4f997e"
+    },
+    {
+      "name": "氧化的铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 3,
+      "color": "#52a284"
+    },
+    {
+      "name": "氧化的铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 3,
+      "color": "#52a183"
+    },
+    {
+      "name": "氧化的铜活板门",
+      "uid": "etfuturum:oxidized_copper_trapdoor",
+      "meta": 0,
+      "color": "#53a184"
+    },
+    {
+      "name": "氧化的铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 3,
+      "color": "#46846d"
+    },
+    {
+      "name": "氧化的铜门",
+      "uid": "etfuturum:oxidized_copper_door",
+      "meta": 0,
+      "color": "#4f997f"
+    },
+    {
+      "name": "氧化的雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 3,
+      "color": "#53a184"
+    },
+    {
+      "name": "水",
+      "uid": "minecraft:flowing_water",
+      "meta": 0,
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "name": "水",
+      "uid": "minecraft:water",
+      "meta": 0,
+      "color": "#2e43f4",
+      "alpha": 0.3
+    },
+    {
+      "name": "沙子",
+      "uid": "minecraft:sand",
+      "meta": 0,
+      "color": "#dbd3a0"
+    },
+    {
+      "name": "沙沃罗基特块",
+      "uid": "nova_craft:tsavorokite_block",
+      "meta": 0,
+      "color": "#25743f",
+      "alpha": 0.4
+    },
+    {
+      "name": "沙沃罗基特母岩",
+      "uid": "nova_craft:budding_tsavorokite_block",
+      "meta": 0,
+      "color": "#1e6635",
+      "alpha": 0.4
+    },
+    {
+      "name": "沙沃罗基特簇",
+      "uid": "nova_craft:tsavorokite_cluster_2",
+      "meta": 0,
+      "color": "#348350",
+      "alpha": 0.4
+    },
+    {
+      "name": "沙沃罗基特簇",
+      "uid": "nova_craft:tsavorokite_cluster_2",
+      "meta": 6,
+      "color": "#389459",
+      "alpha": 0.4
+    },
+    {
+      "name": "沙石",
+      "uid": "minecraft:sandstone",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "沙石台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 1,
+      "color": "#dad29e"
+    },
+    {
+      "name": "沙石楼梯",
+      "uid": "minecraft:sandstone_stairs",
+      "meta": 0,
+      "color": "#dad29e"
+    },
+    {
+      "name": "沙砾",
+      "uid": "minecraft:gravel",
+      "meta": 0,
+      "color": "#837b7b"
+    },
+    {
+      "name": "泥土",
+      "uid": "minecraft:dirt",
+      "meta": 0,
+      "color": "#866043"
+    },
+    {
+      "name": "泥土",
+      "uid": "minecraft:dirt",
+      "meta": 2,
+      "color": "#5a3f1c"
+    },
+    {
+      "name": "泥坯",
+      "uid": "etfuturum:packed_mud",
+      "meta": 0,
+      "color": "#8e6a4f"
+    },
+    {
+      "name": "泥巴",
+      "uid": "etfuturum:mud",
+      "meta": 0,
+      "color": "#3c393c"
+    },
+    {
+      "name": "泥砖",
+      "uid": "etfuturum:packed_mud",
+      "meta": 1,
+      "color": "#89674f"
+    },
+    {
+      "name": "泥砖台阶",
+      "uid": "etfuturum:mud_brick_slab",
+      "meta": 0,
+      "color": "#89674f"
+    },
+    {
+      "name": "泥砖墙",
+      "uid": "etfuturum:mud_brick_wall",
+      "meta": 0,
+      "color": "#89674f"
+    },
+    {
+      "name": "泥砖楼梯",
+      "uid": "etfuturum:mud_brick_stairs",
+      "meta": 0,
+      "color": "#89674f"
+    },
+    {
+      "name": "活塞",
+      "uid": "minecraft:piston",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "测重压力板 (轻质)",
+      "uid": "minecraft:light_weighted_pressure_plate",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "测重压力板 (重质)",
+      "uid": "minecraft:heavy_weighted_pressure_plate",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "浮冰",
+      "uid": "minecraft:packed_ice",
+      "meta": 0,
+      "color": "#a5c2f5",
+      "alpha": 0.8
+    },
+    {
+      "name": "海晶灯",
+      "uid": "etfuturum:sea_lantern",
+      "meta": 0,
+      "color": "#abc7bd",
+      "alpha": 0.4
+    },
+    {
+      "name": "海晶石",
+      "uid": "etfuturum:prismarine_block",
+      "meta": 0,
+      "color": "#6aaa96"
+    },
+    {
+      "name": "海晶石台阶",
+      "uid": "etfuturum:prismarine_slab",
+      "meta": 0,
+      "color": "#6aaa96"
+    },
+    {
+      "name": "海晶石墙",
+      "uid": "etfuturum:prismarine_wall",
+      "meta": 0,
+      "color": "#6aaa96"
+    },
+    {
+      "name": "海晶石楼梯",
+      "uid": "etfuturum:prismarine_stairs",
+      "meta": 0,
+      "color": "#6aaa96"
+    },
+    {
+      "name": "海晶石砖",
+      "uid": "etfuturum:prismarine_block",
+      "meta": 1,
+      "color": "#63a08f"
+    },
+    {
+      "name": "海晶石砖台阶",
+      "uid": "etfuturum:prismarine_slab",
+      "meta": 1,
+      "color": "#63a08f"
+    },
+    {
+      "name": "海晶石砖楼梯",
+      "uid": "etfuturum:prismarine_stairs_brick",
+      "meta": 0,
+      "color": "#63a08f"
+    },
+    {
+      "name": "海绵",
+      "uid": "minecraft:sponge",
+      "meta": 0,
+      "color": "#c2c354"
+    },
+    {
+      "name": "涂蜡的切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 4,
+      "color": "#bf6a50"
+    },
+    {
+      "name": "涂蜡的切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 12,
+      "color": "#bf6a50"
+    },
+    {
+      "name": "涂蜡的切制铜楼梯",
+      "uid": "etfuturum:waxed_cut_copper_stairs",
+      "meta": 0,
+      "color": "#bf6a50"
+    },
+    {
+      "name": "涂蜡的斑驳切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 5,
+      "color": "#9a7965"
+    },
+    {
+      "name": "涂蜡的斑驳切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 13,
+      "color": "#9a7965"
+    },
+    {
+      "name": "涂蜡的斑驳切制铜楼梯",
+      "uid": "etfuturum:waxed_exposed_cut_copper_stairs",
+      "meta": 0,
+      "color": "#9a7965"
+    },
+    {
+      "name": "涂蜡的斑驳铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 9,
+      "color": "#a17d67"
+    },
+    {
+      "name": "涂蜡的斑驳铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 5,
+      "color": "#a17d68"
+    },
+    {
+      "name": "涂蜡的斑驳铜活板门",
+      "uid": "etfuturum:waxed_exposed_copper_trapdoor",
+      "meta": 0,
+      "color": "#a17d68"
+    },
+    {
+      "name": "涂蜡的斑驳铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 9,
+      "color": "#876b59"
+    },
+    {
+      "name": "涂蜡的斑驳铜门",
+      "uid": "etfuturum:waxed_exposed_copper_door",
+      "meta": 0,
+      "color": "#987664"
+    },
+    {
+      "name": "涂蜡的斑驳雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 5,
+      "color": "#9a7764"
+    },
+    {
+      "name": "涂蜡的氧化切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 7,
+      "color": "#4f997e"
+    },
+    {
+      "name": "涂蜡的氧化切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 15,
+      "color": "#4f997e"
+    },
+    {
+      "name": "涂蜡的氧化切制铜楼梯",
+      "uid": "etfuturum:waxed_oxidized_cut_copper_stairs",
+      "meta": 0,
+      "color": "#4f997e"
+    },
+    {
+      "name": "涂蜡的氧化铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 11,
+      "color": "#52a284"
+    },
+    {
+      "name": "涂蜡的氧化铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 7,
+      "color": "#52a183"
+    },
+    {
+      "name": "涂蜡的氧化铜活板门",
+      "uid": "etfuturum:waxed_oxidized_copper_trapdoor",
+      "meta": 0,
+      "color": "#53a184"
+    },
+    {
+      "name": "涂蜡的氧化铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 11,
+      "color": "#46846d"
+    },
+    {
+      "name": "涂蜡的氧化铜门",
+      "uid": "etfuturum:waxed_oxidized_copper_door",
+      "meta": 0,
+      "color": "#4f997f"
+    },
+    {
+      "name": "涂蜡的氧化雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 7,
+      "color": "#53a184"
+    },
+    {
+      "name": "涂蜡的铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 8,
+      "color": "#c06b4f"
+    },
+    {
+      "name": "涂蜡的铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 4,
+      "color": "#bf6b4f"
+    },
+    {
+      "name": "涂蜡的铜活板门",
+      "uid": "etfuturum:waxed_copper_trapdoor",
+      "meta": 0,
+      "color": "#be6a4f"
+    },
+    {
+      "name": "涂蜡的铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 8,
+      "color": "#9c5639"
+    },
+    {
+      "name": "涂蜡的铜门",
+      "uid": "etfuturum:waxed_copper_door",
+      "meta": 0,
+      "color": "#b4674d"
+    },
+    {
+      "name": "涂蜡的锈蚀切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 6,
+      "color": "#6d916b"
+    },
+    {
+      "name": "涂蜡的锈蚀切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 14,
+      "color": "#6d916b"
+    },
+    {
+      "name": "涂蜡的锈蚀切制铜楼梯",
+      "uid": "etfuturum:waxed_weathered_cut_copper_stairs",
+      "meta": 0,
+      "color": "#6d916b"
+    },
+    {
+      "name": "涂蜡的锈蚀铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 10,
+      "color": "#6c996e"
+    },
+    {
+      "name": "涂蜡的锈蚀铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 6,
+      "color": "#6a986e"
+    },
+    {
+      "name": "涂蜡的锈蚀铜活板门",
+      "uid": "etfuturum:waxed_weathered_copper_trapdoor",
+      "meta": 0,
+      "color": "#6c996e"
+    },
+    {
+      "name": "涂蜡的锈蚀铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 10,
+      "color": "#5c7e63"
+    },
+    {
+      "name": "涂蜡的锈蚀铜门",
+      "uid": "etfuturum:waxed_weathered_copper_door",
+      "meta": 0,
+      "color": "#6b8f65"
+    },
+    {
+      "name": "涂蜡的锈蚀雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 6,
+      "color": "#68966f"
+    },
+    {
+      "name": "涂蜡的雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 4,
+      "color": "#b86449"
+    },
+    {
+      "name": "淡灰色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 8,
+      "color": "#9aa1a1"
+    },
+    {
+      "name": "淡灰色带釉陶瓦",
+      "uid": "etfuturum:gray_glazed_terracotta",
+      "meta": 0,
+      "color": "#535a5d"
+    },
+    {
+      "name": "淡灰色带釉陶瓦",
+      "uid": "etfuturum:light_gray_glazed_terracotta",
+      "meta": 0,
+      "color": "#90a6a7"
+    },
+    {
+      "name": "淡灰色床",
+      "uid": "etfuturum:light_gray_bed",
+      "meta": 0,
+      "color": "#8e9898"
+    },
+    {
+      "name": "淡灰色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 8,
+      "color": "#999999",
+      "alpha": 0.4
+    },
+    {
+      "name": "淡灰色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 8,
+      "color": "#999999",
+      "alpha": 0.4
+    },
+    {
+      "name": "淡灰色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 8,
+      "color": "#939799"
+    },
+    {
+      "name": "淡灰色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 8,
+      "color": "#989c9d"
+    },
+    {
+      "name": "淡灰色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 8,
+      "color": "#9aa1a1"
+    },
+    {
+      "name": "淡灰色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 8,
+      "color": "#876a61"
+    },
+    {
+      "name": "淡蓝色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 3,
+      "color": "#6a8ac9"
+    },
+    {
+      "name": "淡蓝色带釉陶瓦",
+      "uid": "etfuturum:light_blue_glazed_terracotta",
+      "meta": 0,
+      "color": "#5ea4d0"
+    },
+    {
+      "name": "淡蓝色床",
+      "uid": "etfuturum:light_blue_bed",
+      "meta": 0,
+      "color": "#627fb2"
+    },
+    {
+      "name": "淡蓝色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 3,
+      "color": "#6699d8",
+      "alpha": 0.4
+    },
+    {
+      "name": "淡蓝色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 3,
+      "color": "#6699d8",
+      "alpha": 0.4
+    },
+    {
+      "name": "淡蓝色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 3,
+      "color": "#5c77c5"
+    },
+    {
+      "name": "淡蓝色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 3,
+      "color": "#6284cb"
+    },
+    {
+      "name": "淡蓝色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 3,
+      "color": "#6a8ac9"
+    },
+    {
+      "name": "淡蓝色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 3,
+      "color": "#716c89"
+    },
+    {
+      "name": "深层煤矿石",
+      "uid": "etfuturum:deepslate_coal_ore",
+      "meta": 0,
+      "color": "#4f4f50"
+    },
+    {
+      "name": "深层红石矿石",
+      "uid": "etfuturum:deepslate_redstone_ore",
+      "meta": 0,
+      "color": "#684648"
+    },
+    {
+      "name": "深层绿宝石矿石",
+      "uid": "etfuturum:deepslate_emerald_ore",
+      "meta": 0,
+      "color": "#506359"
+    },
+    {
+      "name": "深层金矿石",
+      "uid": "etfuturum:deepslate_gold_ore",
+      "meta": 0,
+      "color": "#6e6b5e"
+    },
+    {
+      "name": "深层钻石矿石",
+      "uid": "etfuturum:deepslate_diamond_ore",
+      "meta": 0,
+      "color": "#5e6e72"
+    },
+    {
+      "name": "深层铁矿石",
+      "uid": "etfuturum:deepslate_iron_ore",
+      "meta": 0,
+      "color": "#67615f"
+    },
+    {
+      "name": "深层铜矿石",
+      "uid": "etfuturum:deepslate_copper_ore",
+      "meta": 0,
+      "color": "#5c5d59"
+    },
+    {
+      "name": "深层青金石矿石",
+      "uid": "etfuturum:deepslate_lapis_ore",
+      "meta": 0,
+      "color": "#4c566e"
+    },
+    {
+      "name": "深暗地衣",
+      "uid": "nova_craft:dark_lichen",
+      "meta": 0,
+      "color": "#242126"
+    },
+    {
+      "name": "深板岩",
+      "uid": "etfuturum:deepslate",
+      "meta": 0,
+      "color": "#575759"
+    },
+    {
+      "name": "深板岩圆石",
+      "uid": "etfuturum:cobbled_deepslate",
+      "meta": 0,
+      "color": "#4d4d50"
+    },
+    {
+      "name": "深板岩圆石台阶",
+      "uid": "etfuturum:deepslate_slab",
+      "meta": 0,
+      "color": "#4d4d50"
+    },
+    {
+      "name": "深板岩圆石墙",
+      "uid": "etfuturum:deepslate_wall",
+      "meta": 0,
+      "color": "#4d4d50"
+    },
+    {
+      "name": "深板岩圆石楼梯",
+      "uid": "etfuturum:cobbled_deepslate_stairs",
+      "meta": 0,
+      "color": "#4d4d50"
+    },
+    {
+      "name": "深板岩瓦",
+      "uid": "etfuturum:deepslate_bricks",
+      "meta": 2,
+      "color": "#363637"
+    },
+    {
+      "name": "深板岩瓦台阶",
+      "uid": "etfuturum:deepslate_brick_slab",
+      "meta": 1,
+      "color": "#363637"
+    },
+    {
+      "name": "深板岩瓦墙",
+      "uid": "etfuturum:deepslate_brick_wall",
+      "meta": 1,
+      "color": "#363637"
+    },
+    {
+      "name": "深板岩瓦楼梯",
+      "uid": "etfuturum:deepslate_tile_stairs",
+      "meta": 0,
+      "color": "#363637"
+    },
+    {
+      "name": "深板岩砖",
+      "uid": "etfuturum:deepslate_bricks",
+      "meta": 0,
+      "color": "#464647"
+    },
+    {
+      "name": "深板岩砖台阶",
+      "uid": "etfuturum:deepslate_brick_slab",
+      "meta": 0,
+      "color": "#464647"
+    },
+    {
+      "name": "深板岩砖墙",
+      "uid": "etfuturum:deepslate_brick_wall",
+      "meta": 0,
+      "color": "#464647"
+    },
+    {
+      "name": "深板岩砖楼梯",
+      "uid": "etfuturum:deepslate_brick_stairs",
+      "meta": 0,
+      "color": "#464647"
+    },
+    {
+      "name": "深火",
+      "uid": "nova_craft:deepfire",
+      "meta": 0,
+      "color": "#ab5bf8"
+    },
+    {
+      "name": "深色橡木",
+      "uid": "etfuturum:bark2",
+      "meta": 1,
+      "color": "#342817"
+    },
+    {
+      "name": "深色橡木压力板",
+      "uid": "etfuturum:pressure_plate_dark_oak",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木原木",
+      "uid": "minecraft:log2",
+      "meta": 1,
+      "color": "#3f2a15"
+    },
+    {
+      "name": "深色橡木台阶",
+      "uid": "minecraft:wooden_slab",
+      "meta": 5,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木告示牌",
+      "uid": "etfuturum:sign_dark_oak",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木告示牌",
+      "uid": "etfuturum:wall_sign_dark_oak",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木按钮",
+      "uid": "etfuturum:button_dark_oak",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木木板",
+      "uid": "minecraft:planks",
+      "meta": 5,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木栅栏",
+      "uid": "etfuturum:fence_dark_oak",
+      "meta": 0,
+      "color": "#3d2712",
+      "alpha": 0.4
+    },
+    {
+      "name": "深色橡木栅栏门",
+      "uid": "etfuturum:fence_gate_dark_oak",
+      "meta": 0,
+      "color": "#3d2712",
+      "alpha": 0.4
+    },
+    {
+      "name": "深色橡木楼梯",
+      "uid": "minecraft:dark_oak_stairs",
+      "meta": 0,
+      "color": "#3d2712"
+    },
+    {
+      "name": "深色橡木活板门",
+      "uid": "etfuturum:trapdoor_dark_oak",
+      "meta": 0,
+      "color": "#4b3117"
+    },
+    {
+      "name": "深色橡木门",
+      "uid": "etfuturum:door_dark_oak",
+      "meta": 0,
+      "color": "#412c17"
+    },
+    {
+      "name": "深色橡树树苗",
+      "uid": "minecraft:sapling",
+      "meta": 5,
+      "color": "#38561c"
+    },
+    {
+      "name": "湿海绵",
+      "uid": "etfuturum:sponge",
+      "meta": 1,
+      "color": "#a09e3f"
+    },
+    {
+      "name": "滨菊",
+      "uid": "minecraft:red_flower",
+      "meta": 8,
+      "color": "#b3b3b3"
+    },
+    {
+      "name": "漏斗",
+      "uid": "minecraft:hopper",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "激活的堕欲魔龙蛋",
+      "uid": "nova_craft:deep_one_egg_activated",
+      "meta": 0,
+      "color": "#594558"
+    },
+    {
+      "name": "激活的监守者召唤祭坛",
+      "uid": "nova_craft:activated_grimstone_shrieker",
+      "meta": 0,
+      "color": "#50646c"
+    },
+    {
+      "name": "激活的虚无红石矿",
+      "uid": "nova_craft:lit_grimstone_redstone",
+      "meta": 0,
+      "color": "#87677b"
+    },
+    {
+      "name": "激活的虚无红石矿",
+      "uid": "nova_craft:lit_nullstone_redstone",
+      "meta": 0,
+      "color": "#4a2732"
+    },
+    {
+      "name": "激活铁轨",
+      "uid": "minecraft:activator_rail",
+      "meta": 0,
+      "color": "#685347"
+    },
+    {
+      "name": "灌木",
+      "uid": "minecraft:tallgrass",
+      "meta": 1,
+      "color": "#878787"
+    },
+    {
+      "name": "灌木",
+      "uid": "minecraft:tallgrass",
+      "meta": 2,
+      "color": "#787878"
+    },
+    {
+      "name": "灌注瓦内特块",
+      "uid": "nova_craft:infused_vanite_block",
+      "meta": 0,
+      "color": "#38333b"
+    },
+    {
+      "name": "火",
+      "uid": "minecraft:fire",
+      "meta": 0,
+      "color": "#d18629"
+    },
+    {
+      "name": "火把",
+      "uid": "minecraft:torch",
+      "meta": 0,
+      "color": "#826a3a"
+    },
+    {
+      "name": "火把花",
+      "uid": "nova_craft:torchflower",
+      "meta": 0,
+      "color": "#64654d"
+    },
+    {
+      "name": "火焰瓶子草",
+      "uid": "nova_craft:flaming_pitcher_bottom",
+      "meta": 0,
+      "color": "#c65624"
+    },
+    {
+      "name": "火焰瓶子草",
+      "uid": "nova_craft:flaming_pitcher_top",
+      "meta": 0,
+      "color": "#7bb6e3",
+      "alpha": 0.9529412
+    },
+    {
+      "name": "灯笼",
+      "uid": "etfuturum:lantern",
+      "meta": 0,
+      "color": "#695a53"
+    },
+    {
+      "name": "灰色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 7,
+      "color": "#404040"
+    },
+    {
+      "name": "灰色床",
+      "uid": "etfuturum:gray_bed",
+      "meta": 0,
+      "color": "#525252"
+    },
+    {
+      "name": "灰色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 7,
+      "color": "#4c4c4c",
+      "alpha": 0.4
+    },
+    {
+      "name": "灰色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 7,
+      "color": "#4c4c4c",
+      "alpha": 0.4
+    },
+    {
+      "name": "灰色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 7,
+      "color": "#3d3d3d"
+    },
+    {
+      "name": "灰色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 7,
+      "color": "#454545"
+    },
+    {
+      "name": "灰色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 7,
+      "color": "#404040"
+    },
+    {
+      "name": "灰色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 7,
+      "color": "#392a23"
+    },
+    {
+      "name": "灵魂土",
+      "uid": "etfuturum:soul_soil",
+      "meta": 0,
+      "color": "#4b392e"
+    },
+    {
+      "name": "灵魂沙",
+      "uid": "minecraft:soul_sand",
+      "meta": 0,
+      "color": "#544033"
+    },
+    {
+      "name": "灵魂火把",
+      "uid": "etfuturum:soul_torch",
+      "meta": 0,
+      "color": "#6d7359"
+    },
+    {
+      "name": "灵魂灯笼",
+      "uid": "etfuturum:soul_lantern",
+      "meta": 0,
+      "color": "#486372"
+    },
+    {
+      "name": "灵魂营火",
+      "uid": "campfirebackport:soul_campfire",
+      "meta": 0,
+      "color": "#4f4a43"
+    },
+    {
+      "name": "炼药锅",
+      "uid": "etfuturum:lava_cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "炼药锅",
+      "uid": "etfuturum:potion_cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "炼药锅",
+      "uid": "minecraft:cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "烟熏炉",
+      "uid": "etfuturum:lit_smoker",
+      "meta": 0,
+      "color": "#545250"
+    },
+    {
+      "name": "烟熏炉",
+      "uid": "etfuturum:smoker",
+      "meta": 0,
+      "color": "#545250"
+    },
+    {
+      "name": "煤炭块",
+      "uid": "minecraft:coal_block",
+      "meta": 0,
+      "color": "#121212"
+    },
+    {
+      "name": "煤矿石",
+      "uid": "minecraft:coal_ore",
+      "meta": 0,
+      "color": "#6c6d6c"
+    },
+    {
+      "name": "熔炉",
+      "uid": "minecraft:furnace",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "熔炉",
+      "uid": "minecraft:lit_furnace",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "熔融幽焰钇阙",
+      "uid": "nova_craft:blazlinite",
+      "meta": 0,
+      "color": "#7aabae",
+      "alpha": 0.3
+    },
+    {
+      "name": "熔融晶化瓦内特炼药锅",
+      "uid": "nova_craft:molten_vanite_crystal_cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "熔融瓦内特",
+      "uid": "nova_craft:molten_vanite",
+      "meta": 0,
+      "color": "#815fd2",
+      "alpha": 0.3
+    },
+    {
+      "name": "熔融瓦内特炼药锅",
+      "uid": "nova_craft:molten_vanite_cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "牡丹",
+      "uid": "minecraft:double_plant",
+      "meta": 5,
+      "color": "#85868e",
+      "alpha": 0.9882353
+    },
+    {
+      "name": "玄武岩",
+      "uid": "etfuturum:basalt",
+      "meta": 0,
+      "color": "#505156"
+    },
+    {
+      "name": "玫瑰",
+      "uid": "etfuturum:rose",
+      "meta": 0,
+      "color": "#8a2b0d"
+    },
+    {
+      "name": "玫瑰丛",
+      "uid": "minecraft:double_plant",
+      "meta": 4,
+      "color": "#733d07"
+    },
+    {
+      "name": "玻璃",
+      "uid": "minecraft:glass",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "玻璃板",
+      "uid": "minecraft:glass_pane",
+      "meta": 0,
+      "color": "#daf0f4",
+      "alpha": 0.4
+    },
+    {
+      "name": "瓦内特块",
+      "uid": "nova_craft:block_of_vanite",
+      "meta": 0,
+      "color": "#48424d"
+    },
+    {
+      "name": "瓦内特炼药锅",
+      "uid": "nova_craft:vanite_cauldron",
+      "meta": 0,
+      "color": "#454545"
+    },
+    {
+      "name": "瓦内特玻璃",
+      "uid": "nova_craft:vanite_glass",
+      "meta": 0,
+      "color": "#5a5261",
+      "alpha": 0.4
+    },
+    {
+      "name": "甘蔗",
+      "uid": "minecraft:reeds",
+      "meta": 0,
+      "color": "#94c065"
+    },
+    {
+      "name": "甜浆果",
+      "uid": "etfuturum:sweet_berry_bush",
+      "meta": 0,
+      "color": "#2a5938"
+    },
+    {
+      "name": "甜菜种子",
+      "uid": "etfuturum:beetroots",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "白桦原木",
+      "uid": "minecraft:log",
+      "meta": 2,
+      "color": "#b8a679"
+    },
+    {
+      "name": "白桦木",
+      "uid": "etfuturum:bark",
+      "meta": 2,
+      "color": "#cecec9"
+    },
+    {
+      "name": "白桦木压力板",
+      "uid": "etfuturum:pressure_plate_birch",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木台阶",
+      "uid": "minecraft:wooden_slab",
+      "meta": 2,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木告示牌",
+      "uid": "etfuturum:sign_birch",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木告示牌",
+      "uid": "etfuturum:wall_sign_birch",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木按钮",
+      "uid": "etfuturum:button_birch",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木板",
+      "uid": "minecraft:planks",
+      "meta": 2,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木栅栏",
+      "uid": "etfuturum:fence_birch",
+      "meta": 0,
+      "color": "#c3b37b",
+      "alpha": 0.4
+    },
+    {
+      "name": "白桦木栅栏门",
+      "uid": "etfuturum:fence_gate_birch",
+      "meta": 0,
+      "color": "#c3b37b",
+      "alpha": 0.4
+    },
+    {
+      "name": "白桦木楼梯",
+      "uid": "minecraft:birch_stairs",
+      "meta": 0,
+      "color": "#c3b37b"
+    },
+    {
+      "name": "白桦木活板门",
+      "uid": "etfuturum:trapdoor_birch",
+      "meta": 0,
+      "color": "#cfc29d"
+    },
+    {
+      "name": "白桦木门",
+      "uid": "etfuturum:door_birch",
+      "meta": 0,
+      "color": "#ccc28e"
+    },
+    {
+      "name": "白桦树叶",
+      "uid": "minecraft:leaves",
+      "meta": 2,
+      "color": "#878787"
+    },
+    {
+      "name": "白桦树苗",
+      "uid": "minecraft:sapling",
+      "meta": 2,
+      "color": "#769654"
+    },
+    {
+      "name": "白色带釉陶瓦",
+      "uid": "etfuturum:white_glazed_terracotta",
+      "meta": 0,
+      "color": "#bcd4ca"
+    },
+    {
+      "name": "白色床",
+      "uid": "etfuturum:white_bed",
+      "meta": 0,
+      "color": "#dfdfdf"
+    },
+    {
+      "name": "白色旗帜",
+      "uid": "etfuturum:banner",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "白色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "白色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
+      "name": "白色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 0,
+      "color": "#e4eaeb"
+    },
+    {
+      "name": "白色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 0,
+      "color": "#dddedf"
+    },
+    {
+      "name": "白色郁金香",
+      "uid": "minecraft:red_flower",
+      "meta": 6,
+      "color": "#b0b0b0"
+    },
+    {
+      "name": "白色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 0,
+      "color": "#d1b2a1"
+    },
+    {
+      "name": "监守者召唤祭坛",
+      "uid": "nova_craft:grimstone_shrieker",
+      "meta": 0,
+      "color": "#50646c"
+    },
+    {
+      "name": "睡莲",
+      "uid": "minecraft:waterlily",
+      "meta": 0,
+      "color": "#767676"
+    },
+    {
+      "name": "矢车菊",
+      "uid": "etfuturum:cornflower",
+      "meta": 0,
+      "color": "#4f7992"
+    },
+    {
+      "name": "石台阶",
+      "uid": "etfuturum:stone_slab",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "石头",
+      "uid": "minecraft:stone",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "石楼梯",
+      "uid": "etfuturum:stone_stairs",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "石楼梯",
+      "uid": "minecraft:stone_stairs",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "石砖",
+      "uid": "minecraft:stonebrick",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "石砖台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 5,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "石砖墙",
+      "uid": "etfuturum:stone_wall",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "石砖楼梯",
+      "uid": "minecraft:stone_brick_stairs",
+      "meta": 0,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "石笋",
+      "uid": "nova_craft:stone_stalagmite",
+      "meta": 0,
+      "color": "#707071"
+    },
+    {
+      "name": "石英台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 7,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "石英块",
+      "uid": "minecraft:quartz_block",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "石英柱",
+      "uid": "minecraft:quartz_block",
+      "meta": 2,
+      "color": "#e8e5dd"
+    },
+    {
+      "name": "石英楼梯",
+      "uid": "minecraft:quartz_stairs",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "石英砖",
+      "uid": "etfuturum:quartz_bricks",
+      "meta": 0,
+      "color": "#ebe8e1"
+    },
+    {
+      "name": "砂土",
+      "uid": "etfuturum:coarse_dirt",
+      "meta": 0,
+      "color": "#77553b"
+    },
+    {
+      "name": "砂岩墙",
+      "uid": "etfuturum:stone_wall",
+      "meta": 2,
+      "color": "#dad29e"
+    },
+    {
+      "name": "砖台阶",
+      "uid": "minecraft:stone_slab",
+      "meta": 4,
+      "color": "#926356"
+    },
+    {
+      "name": "砖块",
+      "uid": "minecraft:brick_block",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "砖块墙",
+      "uid": "etfuturum:stone_wall",
+      "meta": 3,
+      "color": "#926356"
+    },
+    {
+      "name": "砖楼梯",
+      "uid": "minecraft:brick_stairs",
+      "meta": 0,
+      "color": "#926356"
+    },
+    {
+      "name": "碎裂瓦内特坩埚",
+      "uid": "nova_craft:cracked_vanite_crystal_cauldron",
+      "meta": 0,
+      "color": "#718080"
+    },
+    {
+      "name": "磨制凝灰岩",
+      "uid": "etfuturum:tuff",
+      "meta": 1,
+      "color": "#616863"
+    },
+    {
+      "name": "磨制凝灰岩台阶",
+      "uid": "etfuturum:tuff_slab",
+      "meta": 1,
+      "color": "#616863"
+    },
+    {
+      "name": "磨制凝灰岩墙",
+      "uid": "etfuturum:tuff_wall",
+      "meta": 1,
+      "color": "#616863"
+    },
+    {
+      "name": "磨制凝灰岩楼梯",
+      "uid": "etfuturum:polished_tuff_stairs",
+      "meta": 0,
+      "color": "#616863"
+    },
+    {
+      "name": "磨制安山岩",
+      "uid": "etfuturum:stone",
+      "meta": 6,
+      "color": "#858586"
+    },
+    {
+      "name": "磨制安山岩台阶",
+      "uid": "etfuturum:stone_slab_2",
+      "meta": 5,
+      "color": "#858586"
+    },
+    {
+      "name": "磨制安山岩楼梯",
+      "uid": "etfuturum:polished_andesite_stairs",
+      "meta": 0,
+      "color": "#858586"
+    },
+    {
+      "name": "磨制深板岩",
+      "uid": "etfuturum:polished_deepslate",
+      "meta": 0,
+      "color": "#484849"
+    },
+    {
+      "name": "磨制深板岩台阶",
+      "uid": "etfuturum:deepslate_slab",
+      "meta": 1,
+      "color": "#484849"
+    },
+    {
+      "name": "磨制深板岩墙",
+      "uid": "etfuturum:deepslate_wall",
+      "meta": 1,
+      "color": "#484849"
+    },
+    {
+      "name": "磨制深板岩楼梯",
+      "uid": "etfuturum:polished_deepslate_stairs",
+      "meta": 0,
+      "color": "#484849"
+    },
+    {
+      "name": "磨制玄武岩",
+      "uid": "etfuturum:basalt",
+      "meta": 1,
+      "color": "#636264"
+    },
+    {
+      "name": "磨制花岗岩",
+      "uid": "etfuturum:stone",
+      "meta": 2,
+      "color": "#9f7262"
+    },
+    {
+      "name": "磨制花岗岩台阶",
+      "uid": "etfuturum:stone_slab_2",
+      "meta": 1,
+      "color": "#9f7262"
+    },
+    {
+      "name": "磨制花岗岩楼梯",
+      "uid": "etfuturum:polished_granite_stairs",
+      "meta": 0,
+      "color": "#9f7262"
+    },
+    {
+      "name": "磨制闪长岩",
+      "uid": "etfuturum:stone",
+      "meta": 4,
+      "color": "#b7b7b9"
+    },
+    {
+      "name": "磨制闪长岩台阶",
+      "uid": "etfuturum:stone_slab_2",
+      "meta": 3,
+      "color": "#b7b7b9"
+    },
+    {
+      "name": "磨制闪长岩楼梯",
+      "uid": "etfuturum:polished_diorite_stairs",
+      "meta": 0,
+      "color": "#b7b7b9"
+    },
+    {
+      "name": "磨制黑石",
+      "uid": "etfuturum:blackstone",
+      "meta": 1,
+      "color": "#353038"
+    },
+    {
+      "name": "磨制黑石压力板",
+      "uid": "etfuturum:polished_blackstone_pressure_plate",
+      "meta": 0,
+      "color": "#353038"
+    },
+    {
+      "name": "磨制黑石台阶",
+      "uid": "etfuturum:blackstone_slab",
+      "meta": 1,
+      "color": "#353038"
+    },
+    {
+      "name": "磨制黑石墙",
+      "uid": "etfuturum:blackstone_wall",
+      "meta": 1,
+      "color": "#353038"
+    },
+    {
+      "name": "磨制黑石按钮",
+      "uid": "etfuturum:polished_blackstone_button",
+      "meta": 0,
+      "color": "#353038"
+    },
+    {
+      "name": "磨制黑石楼梯",
+      "uid": "etfuturum:polished_blackstone_stairs",
+      "meta": 0,
+      "color": "#353038"
+    },
+    {
+      "name": "磨制黑石砖",
+      "uid": "etfuturum:blackstone",
+      "meta": 2,
+      "color": "#302a31"
+    },
+    {
+      "name": "磨制黑石砖台阶",
+      "uid": "etfuturum:blackstone_slab",
+      "meta": 2,
+      "color": "#302a31"
+    },
+    {
+      "name": "磨制黑石砖墙",
+      "uid": "etfuturum:blackstone_wall",
+      "meta": 2,
+      "color": "#302a31"
+    },
+    {
+      "name": "磨制黑石砖楼梯",
+      "uid": "etfuturum:polished_blackstone_brick_stairs",
+      "meta": 0,
+      "color": "#302a31"
+    },
+    {
+      "name": "神秘史莱姆快",
+      "uid": "nova_craft:nullcube_slime_block",
+      "meta": 0,
+      "color": "#6b478d",
+      "alpha": 0.7058824
+    },
+    {
+      "name": "科帕茨块",
+      "uid": "nova_craft:copartz_block",
+      "meta": 0,
+      "color": "#be2c51",
+      "alpha": 0.4
+    },
+    {
+      "name": "科帕茨母岩",
+      "uid": "nova_craft:budding_copartz_block",
+      "meta": 0,
+      "color": "#b52a4d",
+      "alpha": 0.4
+    },
+    {
+      "name": "科帕茨簇",
+      "uid": "nova_craft:copartz_cluster_2",
+      "meta": 0,
+      "color": "#ce4e75",
+      "alpha": 0.4
+    },
+    {
+      "name": "科帕茨簇",
+      "uid": "nova_craft:copartz_cluster_2",
+      "meta": 6,
+      "color": "#bb2c53",
+      "alpha": 0.4
+    },
+    {
+      "name": "竹压力板",
+      "uid": "etfuturum:bamboo_pressure_plate",
+      "meta": 0,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹台阶",
+      "uid": "etfuturum:double_wood_slab",
+      "meta": 4,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹台阶",
+      "uid": "etfuturum:wood_slab",
+      "meta": 4,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹告示牌",
+      "uid": "etfuturum:bamboo_sign",
+      "meta": 0,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹告示牌",
+      "uid": "etfuturum:bamboo_wall_sign",
+      "meta": 0,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹块",
+      "uid": "etfuturum:bamboo_block",
+      "meta": 0,
+      "color": "#8b8d3e"
+    },
+    {
+      "name": "竹子",
+      "uid": "etfuturum:bamboo",
+      "meta": 0,
+      "color": "#5d9013"
+    },
+    {
+      "name": "竹子",
+      "uid": "etfuturum:bamboo_sapling",
+      "meta": 0,
+      "color": "#5c5923"
+    },
+    {
+      "name": "竹按钮",
+      "uid": "etfuturum:bamboo_button",
+      "meta": 0,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹板",
+      "uid": "etfuturum:wood_planks",
+      "meta": 4,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹栅栏",
+      "uid": "etfuturum:wood_fence",
+      "meta": 4,
+      "color": "#c1ad50",
+      "alpha": 0.4
+    },
+    {
+      "name": "竹栅栏门",
+      "uid": "etfuturum:bamboo_fence_gate",
+      "meta": 0,
+      "color": "#c1ad50",
+      "alpha": 0.4
+    },
+    {
+      "name": "竹楼梯",
+      "uid": "etfuturum:bamboo_stairs",
+      "meta": 0,
+      "color": "#c1ad50"
+    },
+    {
+      "name": "竹活板门",
+      "uid": "etfuturum:bamboo_trapdoor",
+      "meta": 0,
+      "color": "#c6b355"
+    },
+    {
+      "name": "竹门",
+      "uid": "etfuturum:bamboo_door",
+      "meta": 0,
+      "color": "#c7b254"
+    },
+    {
+      "name": "竹马赛克",
+      "uid": "etfuturum:bamboo_mosaic",
+      "meta": 0,
+      "color": "#beaa4e"
+    },
+    {
+      "name": "竹马赛克台阶",
+      "uid": "etfuturum:bamboo_mosaic_slab",
+      "meta": 0,
+      "color": "#beaa4e"
+    },
+    {
+      "name": "竹马赛克楼梯",
+      "uid": "etfuturum:bamboo_mosaic_stairs",
+      "meta": 0,
+      "color": "#beaa4e"
+    },
+    {
+      "name": "箱子",
+      "uid": "minecraft:chest",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "簪西姆TNT",
+      "uid": "nova_craft:xancium_TNT",
+      "meta": 0,
+      "color": "#923192"
+    },
+    {
+      "name": "簪西姆块",
+      "uid": "nova_craft:block_of_xancium",
+      "meta": 0,
+      "color": "#dd14dd"
+    },
+    {
+      "name": "簪西姆矿",
+      "uid": "nova_craft:xancium_ore",
+      "meta": 0,
+      "color": "#e0d1a9"
+    },
+    {
+      "name": "簪西姆粉",
+      "uid": "nova_craft:xancium_wire",
+      "meta": 0,
+      "color": "#d95dd9"
+    },
+    {
+      "name": "粉红色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 6,
+      "color": "#d08499"
+    },
+    {
+      "name": "粉红色带釉陶瓦",
+      "uid": "etfuturum:pink_glazed_terracotta",
+      "meta": 0,
+      "color": "#eb9ab5"
+    },
+    {
+      "name": "粉红色床",
+      "uid": "etfuturum:pink_bed",
+      "meta": 0,
+      "color": "#cc85a0"
+    },
+    {
+      "name": "粉红色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 6,
+      "color": "#f27fa5",
+      "alpha": 0.4
+    },
+    {
+      "name": "粉红色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 6,
+      "color": "#f27fa5",
+      "alpha": 0.4
+    },
+    {
+      "name": "粉红色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 6,
+      "color": "#cf6f9b"
+    },
+    {
+      "name": "粉红色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 6,
+      "color": "#d988a0"
+    },
+    {
+      "name": "粉红色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 6,
+      "color": "#d08499"
+    },
+    {
+      "name": "粉红色花簇",
+      "uid": "etfuturum:pink_petals",
+      "meta": 0,
+      "color": "#cf5b13"
+    },
+    {
+      "name": "粉红色郁金香",
+      "uid": "minecraft:red_flower",
+      "meta": 7,
+      "color": "#b09ab0"
+    },
+    {
+      "name": "粉红色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 6,
+      "color": "#a14e4e"
+    },
+    {
+      "name": "粗金块",
+      "uid": "etfuturum:raw_ore_block",
+      "meta": 2,
+      "color": "#dda92e"
+    },
+    {
+      "name": "粗铁块",
+      "uid": "etfuturum:raw_ore_block",
+      "meta": 1,
+      "color": "#a6876b"
+    },
+    {
+      "name": "粗铜块",
+      "uid": "etfuturum:raw_ore_block",
+      "meta": 0,
+      "color": "#9a694f"
+    },
+    {
+      "name": "粘土块",
+      "uid": "minecraft:clay",
+      "meta": 0,
+      "color": "#9ea4b0"
+    },
+    {
+      "name": "粘性活塞",
+      "uid": "minecraft:sticky_piston",
+      "meta": 0,
+      "color": "#606060"
+    },
+    {
+      "name": "紫水晶块",
+      "uid": "etfuturum:amethyst_block",
+      "meta": 0,
+      "color": "#8561bf"
+    },
+    {
+      "name": "紫水晶母岩",
+      "uid": "etfuturum:budding_amethyst",
+      "meta": 0,
+      "color": "#8460ba"
+    },
+    {
+      "name": "紫珀台阶",
+      "uid": "etfuturum:purpur_slab",
+      "meta": 0,
+      "color": "#a679a6"
+    },
+    {
+      "name": "紫珀块",
+      "uid": "etfuturum:purpur_block",
+      "meta": 0,
+      "color": "#a679a6"
+    },
+    {
+      "name": "紫珀柱",
+      "uid": "etfuturum:purpur_pillar",
+      "meta": 0,
+      "color": "#aa80aa"
+    },
+    {
+      "name": "紫珀楼梯",
+      "uid": "etfuturum:purpur_stairs",
+      "meta": 0,
+      "color": "#a679a6"
+    },
+    {
+      "name": "紫色下界砖块",
+      "uid": "nova_craft:nullwart_bricks",
+      "meta": 0,
+      "color": "#49123c"
+    },
+    {
+      "name": "紫色下界砖块台阶",
+      "uid": "nova_craft:nullwart_brick_slab",
+      "meta": 0,
+      "color": "#49123c"
+    },
+    {
+      "name": "紫色下界砖块墙",
+      "uid": "nova_craft:nullwart_brick_wall",
+      "meta": 0,
+      "color": "#49123c"
+    },
+    {
+      "name": "紫色下界砖块楼梯",
+      "uid": "nova_craft:nullwart_brick_stairs",
+      "meta": 0,
+      "color": "#49123c"
+    },
+    {
+      "name": "紫色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 10,
+      "color": "#7e3db5"
+    },
+    {
+      "name": "紫色带釉陶瓦",
+      "uid": "etfuturum:purple_glazed_terracotta",
+      "meta": 0,
+      "color": "#6d3098"
+    },
+    {
+      "name": "紫色床",
+      "uid": "etfuturum:purple_bed",
+      "meta": 0,
+      "color": "#69379c"
+    },
+    {
+      "name": "紫色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 10,
+      "color": "#7f3fb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "紫色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 10,
+      "color": "#7f3fb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "紫色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 10,
+      "color": "#7548aa"
+    },
+    {
+      "name": "紫色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 10,
+      "color": "#8246b6"
+    },
+    {
+      "name": "紫色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 10,
+      "color": "#7e3db5"
+    },
+    {
+      "name": "紫色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 10,
+      "color": "#764656"
+    },
+    {
+      "name": "紫颂植物",
+      "uid": "etfuturum:chorus_plant",
+      "meta": 0,
+      "color": "#603b60"
+    },
+    {
+      "name": "紫颂花",
+      "uid": "etfuturum:chorus_flower",
+      "meta": 0,
+      "color": "#856785"
+    },
+    {
+      "name": "红沙",
+      "uid": "minecraft:sand",
+      "meta": 1,
+      "color": "#a95821"
+    },
+    {
+      "name": "红石中继器",
+      "uid": "minecraft:powered_repeater",
+      "meta": 0,
+      "color": "#a09393"
+    },
+    {
+      "name": "红石中继器",
+      "uid": "minecraft:unpowered_repeater",
+      "meta": 0,
+      "color": "#979393"
+    },
+    {
+      "name": "红石块",
+      "uid": "minecraft:redstone_block",
+      "meta": 0,
+      "color": "#ab1b09"
+    },
+    {
+      "name": "红石比较器",
+      "uid": "minecraft:powered_comparator",
+      "meta": 0,
+      "color": "#a59594"
+    },
+    {
+      "name": "红石比较器",
+      "uid": "minecraft:unpowered_comparator",
+      "meta": 0,
+      "color": "#9c9695"
+    },
+    {
+      "name": "红石火把",
+      "uid": "minecraft:redstone_torch",
+      "meta": 0,
+      "color": "#a74b29"
+    },
+    {
+      "name": "红石火把",
+      "uid": "minecraft:unlit_redstone_torch",
+      "meta": 0,
+      "color": "#5d3e26"
+    },
+    {
+      "name": "红石灯",
+      "uid": "minecraft:lit_redstone_lamp",
+      "meta": 0,
+      "color": "#775937"
+    },
+    {
+      "name": "红石灯",
+      "uid": "minecraft:redstone_lamp",
+      "meta": 0,
+      "color": "#462b1a"
+    },
+    {
+      "name": "红石矿石",
+      "uid": "minecraft:redstone_ore",
+      "meta": 0,
+      "color": "#8c6d6d"
+    },
+    {
+      "name": "红石粉",
+      "uid": "etfuturum:deepslate_lit_redstone_ore",
+      "meta": 0,
+      "color": "#684648"
+    },
+    {
+      "name": "红石粉",
+      "uid": "minecraft:lit_redstone_ore",
+      "meta": 0,
+      "color": "#8c6d6d"
+    },
+    {
+      "name": "红石粉",
+      "uid": "minecraft:redstone_wire",
+      "meta": 0,
+      "color": "#efefef"
+    },
+    {
+      "name": "红砂岩",
+      "uid": "etfuturum:red_sandstone",
+      "meta": 0,
+      "color": "#a6551d"
+    },
+    {
+      "name": "红砂岩台阶",
+      "uid": "etfuturum:red_sandstone_slab",
+      "meta": 0,
+      "color": "#a6551d"
+    },
+    {
+      "name": "红砂岩墙",
+      "uid": "etfuturum:red_sandstone_wall",
+      "meta": 0,
+      "color": "#a5541d"
+    },
+    {
+      "name": "红砂岩楼梯",
+      "uid": "etfuturum:red_sandstone_stairs",
+      "meta": 0,
+      "color": "#a6551d"
+    },
+    {
+      "name": "红色下界砖台阶",
+      "uid": "etfuturum:red_netherbrick_slab",
+      "meta": 0,
+      "color": "#440406"
+    },
+    {
+      "name": "红色下界砖块",
+      "uid": "etfuturum:red_netherbrick",
+      "meta": 0,
+      "color": "#440406"
+    },
+    {
+      "name": "红色下界砖墙",
+      "uid": "etfuturum:red_nether_brick_wall",
+      "meta": 0,
+      "color": "#440406"
+    },
+    {
+      "name": "红色下界砖楼梯",
+      "uid": "etfuturum:red_netherbrick_stairs",
+      "meta": 0,
+      "color": "#440406"
+    },
+    {
+      "name": "红色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 14,
+      "color": "#963430"
+    },
+    {
+      "name": "红色带釉陶瓦",
+      "uid": "etfuturum:red_glazed_terracotta",
+      "meta": 0,
+      "color": "#b53b35"
+    },
+    {
+      "name": "红色床",
+      "uid": "minecraft:bed",
+      "meta": 0,
+      "color": "#8e1616"
+    },
+    {
+      "name": "红色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 14,
+      "color": "#993333",
+      "alpha": 0.4
+    },
+    {
+      "name": "红色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 14,
+      "color": "#993333",
+      "alpha": 0.4
+    },
+    {
+      "name": "红色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 14,
+      "color": "#932828"
+    },
+    {
+      "name": "红色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 14,
+      "color": "#93312e"
+    },
+    {
+      "name": "红色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 14,
+      "color": "#963430"
+    },
+    {
+      "name": "红色郁金香",
+      "uid": "minecraft:red_flower",
+      "meta": 4,
+      "color": "#980406"
+    },
+    {
+      "name": "红色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 14,
+      "color": "#8f3d2e"
+    },
+    {
+      "name": "线",
+      "uid": "minecraft:tripwire",
+      "meta": 0,
+      "color": "#818181",
+      "alpha": 0.41960785
+    },
+    {
+      "name": "织布机",
+      "uid": "etfuturum:loom",
+      "meta": 0,
+      "color": "#8e775b"
+    },
+    {
+      "name": "绊线钩",
+      "uid": "minecraft:tripwire_hook",
+      "meta": 0,
+      "color": "#8a8171"
+    },
+    {
+      "name": "绒球葱",
+      "uid": "minecraft:red_flower",
+      "meta": 2,
+      "color": "#8549b6"
+    },
+    {
+      "name": "绿宝石块",
+      "uid": "minecraft:emerald_block",
+      "meta": 0,
+      "color": "#51d975"
+    },
+    {
+      "name": "绿宝石矿石",
+      "uid": "minecraft:emerald_ore",
+      "meta": 0,
+      "color": "#6c8873"
+    },
+    {
+      "name": "绿色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 13,
+      "color": "#35461b"
+    },
+    {
+      "name": "绿色带釉陶瓦",
+      "uid": "etfuturum:green_glazed_terracotta",
+      "meta": 0,
+      "color": "#758e43"
+    },
+    {
+      "name": "绿色床",
+      "uid": "etfuturum:green_bed",
+      "meta": 0,
+      "color": "#446313"
+    },
+    {
+      "name": "绿色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 13,
+      "color": "#667f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "绿色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 13,
+      "color": "#667f33",
+      "alpha": 0.4
+    },
+    {
+      "name": "绿色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 13,
+      "color": "#33441e"
+    },
+    {
+      "name": "绿色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 13,
+      "color": "#394d1e"
+    },
+    {
+      "name": "绿色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 13,
+      "color": "#35461b"
+    },
+    {
+      "name": "绿色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 13,
+      "color": "#4c532a"
+    },
+    {
+      "name": "罂粟",
+      "uid": "minecraft:red_flower",
+      "meta": 0,
+      "color": "#980406"
+    },
+    {
+      "name": "羊毛",
+      "uid": "minecraft:wool",
+      "meta": 0,
+      "color": "#dddddd"
+    },
+    {
+      "name": "耕地",
+      "uid": "minecraft:farmland",
+      "meta": 0,
+      "color": "#734b2d"
+    },
+    {
+      "name": "胡萝卜",
+      "uid": "minecraft:carrots",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "花岗岩",
+      "uid": "etfuturum:stone",
+      "meta": 1,
+      "color": "#997162"
+    },
+    {
+      "name": "花岗岩台阶",
+      "uid": "etfuturum:stone_slab_2",
+      "meta": 0,
+      "color": "#997162"
+    },
+    {
+      "name": "花岗岩墙",
+      "uid": "etfuturum:stone_wall_2",
+      "meta": 0,
+      "color": "#997162"
+    },
+    {
+      "name": "花岗岩楼梯",
+      "uid": "etfuturum:granite_stairs",
+      "meta": 0,
+      "color": "#997162"
+    },
+    {
+      "name": "花盆",
+      "uid": "minecraft:flower_pot",
+      "meta": 0,
+      "color": "#764133"
+    },
+    {
+      "name": "苔石",
+      "uid": "minecraft:mossy_cobblestone",
+      "meta": 0,
+      "color": "#677967"
+    },
+    {
+      "name": "苔石台阶",
+      "uid": "etfuturum:stone_slab",
+      "meta": 1,
+      "color": "#677967"
+    },
+    {
+      "name": "苔石墙",
+      "uid": "minecraft:cobblestone_wall",
+      "meta": 1,
+      "color": "#677967"
+    },
+    {
+      "name": "苔石楼梯",
+      "uid": "etfuturum:mossy_cobblestone_stairs",
+      "meta": 0,
+      "color": "#677967"
+    },
+    {
+      "name": "苔石砖",
+      "uid": "minecraft:stonebrick",
+      "meta": 1,
+      "color": "#72776a"
+    },
+    {
+      "name": "苔石砖台阶",
+      "uid": "etfuturum:stone_slab",
+      "meta": 2,
+      "color": "#72776a"
+    },
+    {
+      "name": "苔石砖墙",
+      "uid": "etfuturum:stone_wall",
+      "meta": 1,
+      "color": "#72776a"
+    },
+    {
+      "name": "苔石砖楼梯",
+      "uid": "etfuturum:mossy_stone_brick_stairs",
+      "meta": 0,
+      "color": "#72776a"
+    },
+    {
+      "name": "苔藓块",
+      "uid": "nova_craft:moss_block",
+      "meta": 0,
+      "color": "#2d6d44"
+    },
+    {
+      "name": "茜草花",
+      "uid": "minecraft:red_flower",
+      "meta": 3,
+      "color": "#9da1a7"
+    },
+    {
+      "name": "草径",
+      "uid": "etfuturum:grass_path",
+      "meta": 0,
+      "color": "#957c47"
+    },
+    {
+      "name": "草方块",
+      "uid": "minecraft:grass",
+      "meta": 0,
+      "color": "#939393"
+    },
+    {
+      "name": "荧光幽匿块",
+      "uid": "nova_craft:inked_sculk_block",
+      "meta": 0,
+      "color": "#0c1e24"
+    },
+    {
+      "name": "荧光幽沙玻璃",
+      "uid": "nova_craft:inked_vacuum_glass",
+      "meta": 0,
+      "color": "#d5e9e9",
+      "alpha": 0.4
+    },
+    {
+      "name": "荧光末影幽沙",
+      "uid": "nova_craft:inked_vacuum_sand",
+      "meta": 0,
+      "color": "#0debf0"
+    },
+    {
+      "name": "菌丝",
+      "uid": "minecraft:mycelium",
+      "meta": 0,
+      "color": "#6f6369"
+    },
+    {
+      "name": "萤石",
+      "uid": "minecraft:glowstone",
+      "meta": 0,
+      "color": "#8f7645",
+      "alpha": 0.4
+    },
+    {
+      "name": "营火",
+      "uid": "campfirebackport:campfire",
+      "meta": 0,
+      "color": "#4f4a43"
+    },
+    {
+      "name": "蒲公英",
+      "uid": "minecraft:yellow_flower",
+      "meta": 0,
+      "color": "#afb401"
+    },
+    {
+      "name": "蓝冰",
+      "uid": "etfuturum:blue_ice",
+      "meta": 0,
+      "color": "#74a7fd",
+      "alpha": 0.8
+    },
+    {
+      "name": "蓝色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 11,
+      "color": "#2e388d"
+    },
+    {
+      "name": "蓝色带釉陶瓦",
+      "uid": "etfuturum:blue_glazed_terracotta",
+      "meta": 0,
+      "color": "#2f408b"
+    },
+    {
+      "name": "蓝色床",
+      "uid": "etfuturum:blue_bed",
+      "meta": 0,
+      "color": "#142688"
+    },
+    {
+      "name": "蓝色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 11,
+      "color": "#334cb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "蓝色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 11,
+      "color": "#334cb2",
+      "alpha": 0.4
+    },
+    {
+      "name": "蓝色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 11,
+      "color": "#2c2e8f"
+    },
+    {
+      "name": "蓝色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 11,
+      "color": "#2c3e96"
+    },
+    {
+      "name": "蓝色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 11,
+      "color": "#2e388d"
+    },
+    {
+      "name": "蓝色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 11,
+      "color": "#4a3b5b"
+    },
+    {
+      "name": "藤蔓",
+      "uid": "minecraft:vine",
+      "meta": 0,
+      "color": "#6f6f6f",
+      "alpha": 0.2
+    },
+    {
+      "name": "蘑菇",
+      "uid": "etfuturum:brown_mushroom",
+      "meta": 0,
+      "color": "#8d6a53"
+    },
+    {
+      "name": "蘑菇",
+      "uid": "etfuturum:red_mushroom",
+      "meta": 0,
+      "color": "#b62524"
+    },
+    {
+      "name": "蘑菇",
+      "uid": "minecraft:brown_mushroom",
+      "meta": 0,
+      "color": "#8a6953"
+    },
+    {
+      "name": "蘑菇",
+      "uid": "minecraft:brown_mushroom_block",
+      "meta": 0,
+      "color": "#8d6a53"
+    },
+    {
+      "name": "蘑菇",
+      "uid": "minecraft:red_mushroom",
+      "meta": 0,
+      "color": "#c33538"
+    },
+    {
+      "name": "蘑菇",
+      "uid": "minecraft:red_mushroom_block",
+      "meta": 0,
+      "color": "#b62524"
+    },
+    {
+      "name": "虚无圆石",
+      "uid": "nova_craft:cobbled_nullstone",
+      "meta": 0,
+      "color": "#342e3b"
+    },
+    {
+      "name": "虚无圆石台阶",
+      "uid": "nova_craft:cobbled_nullstone_slab",
+      "meta": 0,
+      "color": "#342e3b"
+    },
+    {
+      "name": "虚无圆石墙",
+      "uid": "nova_craft:cobbled_nullstone_wall",
+      "meta": 0,
+      "color": "#342e3b"
+    },
+    {
+      "name": "虚无圆石楼梯",
+      "uid": "nova_craft:cobbled_nullstone_stairs",
+      "meta": 0,
+      "color": "#342e3b"
+    },
+    {
+      "name": "虚无块",
+      "uid": "nova_craft:null_block",
+      "meta": 0,
+      "color": "#8148b3",
+      "alpha": 0.4
+    },
+    {
+      "name": "虚无松石矿",
+      "uid": "nova_craft:nullstone_tophinite_ore",
+      "meta": 0,
+      "color": "#464854"
+    },
+    {
+      "name": "虚无母岩",
+      "uid": "nova_craft:budding_null_block",
+      "meta": 0,
+      "color": "#894fbb",
+      "alpha": 0.4
+    },
+    {
+      "name": "虚无瓦内特矿",
+      "uid": "nova_craft:nullstone_vanite_ore",
+      "meta": 0,
+      "color": "#3b3441"
+    },
+    {
+      "name": "虚无疣蒂",
+      "uid": "nova_craft:null_wart",
+      "meta": 0,
+      "color": "#440f82"
+    },
+    {
+      "name": "虚无石",
+      "uid": "nova_craft:nullstone",
+      "meta": 0,
+      "color": "#302a37"
+    },
+    {
+      "name": "虚无石台阶",
+      "uid": "nova_craft:nullstone_slab",
+      "meta": 0,
+      "color": "#302a37"
+    },
+    {
+      "name": "虚无石墙",
+      "uid": "nova_craft:nullstone_wall",
+      "meta": 0,
+      "color": "#302a37"
+    },
+    {
+      "name": "虚无石楼梯",
+      "uid": "nova_craft:nullstone_stairs",
+      "meta": 0,
+      "color": "#302a37"
+    },
+    {
+      "name": "虚无石瓦",
+      "uid": "nova_craft:nullstone_tiles",
+      "meta": 0,
+      "color": "#322b3b"
+    },
+    {
+      "name": "虚无石砖",
+      "uid": "nova_craft:nullstone_bricks",
+      "meta": 0,
+      "color": "#383240"
+    },
+    {
+      "name": "虚无石砖台阶",
+      "uid": "nova_craft:nullstone_brick_slab",
+      "meta": 0,
+      "color": "#383240"
+    },
+    {
+      "name": "虚无石砖墙",
+      "uid": "nova_craft:nullstone_brick_wall",
+      "meta": 0,
+      "color": "#383240"
+    },
+    {
+      "name": "虚无石砖楼梯",
+      "uid": "nova_craft:nullstone_brick_stairs",
+      "meta": 0,
+      "color": "#383240"
+    },
+    {
+      "name": "虚无石笋",
+      "uid": "nova_craft:nullstone_stalagmite",
+      "meta": 0,
+      "color": "#36313c",
+      "alpha": 0.96862745
+    },
+    {
+      "name": "虚无簇",
+      "uid": "nova_craft:null_cluster_2",
+      "meta": 0,
+      "color": "#7445a0",
+      "alpha": 0.4
+    },
+    {
+      "name": "虚无簇",
+      "uid": "nova_craft:null_cluster_2",
+      "meta": 6,
+      "color": "#7645a3",
+      "alpha": 0.4
+    },
+    {
+      "name": "虚无红石矿",
+      "uid": "nova_craft:nullstone_redstone",
+      "meta": 0,
+      "color": "#4a2732"
+    },
+    {
+      "name": "虚无绿宝石矿",
+      "uid": "nova_craft:nullstone_emerald",
+      "meta": 0,
+      "color": "#30473d"
+    },
+    {
+      "name": "虚无苗",
+      "uid": "nova_craft:void_sprout",
+      "meta": 0,
+      "color": "#2b2634"
+    },
+    {
+      "name": "虚无金矿",
+      "uid": "nova_craft:nullstone_gold",
+      "meta": 0,
+      "color": "#594a39"
+    },
+    {
+      "name": "虚无钻石矿",
+      "uid": "nova_craft:nullstone_diamond",
+      "meta": 0,
+      "color": "#34434d"
+    },
+    {
+      "name": "虚无铁矿",
+      "uid": "nova_craft:nullstone_iron",
+      "meta": 0,
+      "color": "#4e4344"
+    },
+    {
+      "name": "虚无青金石矿",
+      "uid": "nova_craft:nullstone_lapis",
+      "meta": 0,
+      "color": "#2d365a"
+    },
+    {
+      "name": "蜂巢",
+      "uid": "etfuturum:bee_nest",
+      "meta": 0,
+      "color": "#caa04a"
+    },
+    {
+      "name": "蜂箱",
+      "uid": "etfuturum:beehive",
+      "meta": 0,
+      "color": "#b4925a"
+    },
+    {
+      "name": "蜂蜜块",
+      "uid": "etfuturum:honey_block",
+      "meta": 0,
+      "color": "#fbb934",
+      "alpha": 0.7490196
+    },
+    {
+      "name": "蜘蛛网",
+      "uid": "minecraft:web",
+      "meta": 0,
+      "color": "#dcdcdc"
+    },
+    {
+      "name": "蜜脾块",
+      "uid": "etfuturum:honeycomb_block",
+      "meta": 0,
+      "color": "#e5941d"
+    },
+    {
+      "name": "被虫蚀的石头",
+      "uid": "minecraft:monster_egg",
+      "meta": 0,
+      "color": "#7d7d7d"
+    },
+    {
+      "name": "被虫蚀的石头",
+      "uid": "minecraft:monster_egg",
+      "meta": 1,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "被虫蚀的石头",
+      "uid": "minecraft:monster_egg",
+      "meta": 2,
+      "color": "#7a7a7a"
+    },
+    {
+      "name": "被虫蚀的石头",
+      "uid": "minecraft:monster_egg",
+      "meta": 3,
+      "color": "#72776a"
+    },
+    {
+      "name": "被虫蚀的石头",
+      "uid": "minecraft:monster_egg",
+      "meta": 4,
+      "color": "#767676"
+    },
+    {
+      "name": "被虫蚀的石头",
+      "uid": "minecraft:monster_egg",
+      "meta": 5,
+      "color": "#767676"
+    },
+    {
+      "name": "裂石砖",
+      "uid": "minecraft:stonebrick",
+      "meta": 2,
+      "color": "#767676"
+    },
+    {
+      "name": "裂纹下界砖块",
+      "uid": "etfuturum:red_netherbrick",
+      "meta": 1,
+      "color": "#281417"
+    },
+    {
+      "name": "裂纹以太",
+      "uid": "nova_craft:cracked_aether_block",
+      "meta": 0,
+      "color": "#d460ae",
+      "alpha": 0.4
+    },
+    {
+      "name": "裂纹凝灰岩石瓦",
+      "uid": "nova_craft:cracked_tuff_tiles",
+      "meta": 0,
+      "color": "#6b6c66"
+    },
+    {
+      "name": "裂纹凝灰岩石砖",
+      "uid": "nova_craft:cracked_tuff_bricks",
+      "meta": 0,
+      "color": "#73746f"
+    },
+    {
+      "name": "裂纹幽匿瓦",
+      "uid": "nova_craft:cracked_sculk_tiles",
+      "meta": 0,
+      "color": "#0b3134"
+    },
+    {
+      "name": "裂纹幽匿砖",
+      "uid": "nova_craft:cracked_sculk_bricks",
+      "meta": 0,
+      "color": "#0c3638"
+    },
+    {
+      "name": "裂纹拉里玛块",
+      "uid": "nova_craft:cracked_larimar_block",
+      "meta": 0,
+      "color": "#97d3f2",
+      "alpha": 0.4
+    },
+    {
+      "name": "裂纹拟太石瓦",
+      "uid": "nova_craft:cracked_etherstone_tiles",
+      "meta": 0,
+      "color": "#bebcca"
+    },
+    {
+      "name": "裂纹拟太石砖",
+      "uid": "nova_craft:cracked_etherstone_bricks",
+      "meta": 0,
+      "color": "#cbc8d3"
+    },
+    {
+      "name": "裂纹方解石瓦",
+      "uid": "nova_craft:cracked_calcite_tiles",
+      "meta": 0,
+      "color": "#d5d5d1"
+    },
+    {
+      "name": "裂纹方解石砖",
+      "uid": "nova_craft:cracked_calcite_bricks",
+      "meta": 0,
+      "color": "#d9d9d5"
+    },
+    {
+      "name": "裂纹沙沃罗基特块",
+      "uid": "nova_craft:cracked_tsavorokite_block",
+      "meta": 0,
+      "color": "#2c8147",
+      "alpha": 0.4
+    },
+    {
+      "name": "裂纹深板岩瓦",
+      "uid": "etfuturum:deepslate_bricks",
+      "meta": 3,
+      "color": "#343434"
+    },
+    {
+      "name": "裂纹深板岩砖",
+      "uid": "etfuturum:deepslate_bricks",
+      "meta": 1,
+      "color": "#404041"
+    },
+    {
+      "name": "裂纹磨制黑石砖",
+      "uid": "etfuturum:blackstone",
+      "meta": 3,
+      "color": "#2c252b"
+    },
+    {
+      "name": "裂纹科帕茨块",
+      "uid": "nova_craft:cracked_copartz_block",
+      "meta": 0,
+      "color": "#c64367",
+      "alpha": 0.4
+    },
+    {
+      "name": "裂纹虚无石瓦",
+      "uid": "nova_craft:cracked_nullstone_tiles",
+      "meta": 0,
+      "color": "#302938"
+    },
+    {
+      "name": "裂纹虚无石砖",
+      "uid": "nova_craft:cracked_nullstone_bricks",
+      "meta": 0,
+      "color": "#352f3d"
+    },
+    {
+      "name": "裂纹钇石块",
+      "uid": "nova_craft:cracked_yttrlinsite_block",
+      "meta": 0,
+      "color": "#e76722",
+      "alpha": 0.4
+    },
+    {
+      "name": "裂纹阴沉石瓦",
+      "uid": "nova_craft:cracked_grimstone_tiles",
+      "meta": 0,
+      "color": "#575876"
+    },
+    {
+      "name": "裂纹阴沉石砖",
+      "uid": "nova_craft:cracked_grimstone_bricks",
+      "meta": 0,
+      "color": "#686884"
+    },
+    {
+      "name": "西瓜",
+      "uid": "minecraft:melon_block",
+      "meta": 0,
+      "color": "#979924"
+    },
+    {
+      "name": "覆地苔藓",
+      "uid": "nova_craft:moss_carpet",
+      "meta": 0,
+      "color": "#2d6d44"
+    },
+    {
+      "name": "边际克兰特矿",
+      "uid": "nova_craft:frontierslate_klangite_ore",
+      "meta": 0,
+      "color": "#36274a"
+    },
+    {
+      "name": "边际岩",
+      "uid": "nova_craft:frontierslate",
+      "meta": 0,
+      "color": "#352b42"
+    },
+    {
+      "name": "边际岩墙",
+      "uid": "nova_craft:frontierslate_wall",
+      "meta": 0,
+      "color": "#352b42"
+    },
+    {
+      "name": "边际岩楼梯",
+      "uid": "nova_craft:frontierslate_stairs",
+      "meta": 0,
+      "color": "#352b42"
+    },
+    {
+      "name": "边际岩石台阶",
+      "uid": "nova_craft:frontierslate_slab",
+      "meta": 0,
+      "color": "#352b42"
+    },
+    {
+      "name": "边际岩石砖",
+      "uid": "nova_craft:frontierslate_bricks",
+      "meta": 0,
+      "color": "#43394c"
+    },
+    {
+      "name": "边际岩石砖台阶",
+      "uid": "nova_craft:frontierslate_brick_slab",
+      "meta": 0,
+      "color": "#43394c"
+    },
+    {
+      "name": "边际岩石砖墙",
+      "uid": "nova_craft:frontierslate_brick_wall",
+      "meta": 0,
+      "color": "#43394c"
+    },
+    {
+      "name": "边际岩石砖楼梯",
+      "uid": "nova_craft:frontierslate_brick_stairs",
+      "meta": 0,
+      "color": "#43394c"
+    },
+    {
+      "name": "进阶锻造台",
+      "uid": "nova_craft:advanced_smithing_table",
+      "meta": 0,
+      "color": "#57b438"
+    },
+    {
+      "name": "远古残骸",
+      "uid": "etfuturum:ancient_debris",
+      "meta": 0,
+      "color": "#5e423a"
+    },
+    {
+      "name": "遮光玻璃",
+      "uid": "etfuturum:tinted_glass",
+      "meta": 0,
+      "color": "#2b262d",
+      "alpha": 0.4
+    },
+    {
+      "name": "酿造台",
+      "uid": "etfuturum:brewing_stand",
+      "meta": 0,
+      "color": "#7c6751"
+    },
+    {
+      "name": "酿造台",
+      "uid": "minecraft:brewing_stand",
+      "meta": 0,
+      "color": "#7c6751"
+    },
+    {
+      "name": "金合欢原木",
+      "uid": "minecraft:log2",
+      "meta": 0,
+      "color": "#9a5b40"
+    },
+    {
+      "name": "金合欢木",
+      "uid": "etfuturum:bark2",
+      "meta": 0,
+      "color": "#696359"
+    },
+    {
+      "name": "金合欢木压力板",
+      "uid": "etfuturum:pressure_plate_acacia",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木台阶",
+      "uid": "minecraft:wooden_slab",
+      "meta": 4,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木告示牌",
+      "uid": "etfuturum:sign_acacia",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木告示牌",
+      "uid": "etfuturum:wall_sign_acacia",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木按钮",
+      "uid": "etfuturum:button_acacia",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木板",
+      "uid": "minecraft:planks",
+      "meta": 4,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木栅栏门",
+      "uid": "etfuturum:fence_gate_acacia",
+      "meta": 0,
+      "color": "#a95b33",
+      "alpha": 0.4
+    },
+    {
+      "name": "金合欢木楼梯",
+      "uid": "minecraft:acacia_stairs",
+      "meta": 0,
+      "color": "#a95b33"
+    },
+    {
+      "name": "金合欢木活板门",
+      "uid": "etfuturum:trapdoor_acacia",
+      "meta": 0,
+      "color": "#9c5733"
+    },
+    {
+      "name": "金合欢木门",
+      "uid": "etfuturum:door_acacia",
+      "meta": 0,
+      "color": "#9b5836"
+    },
+    {
+      "name": "金合欢栅栏",
+      "uid": "etfuturum:fence_acacia",
+      "meta": 0,
+      "color": "#a95b33",
+      "alpha": 0.4
+    },
+    {
+      "name": "金合欢树叶",
+      "uid": "minecraft:leaves2",
+      "meta": 0,
+      "color": "#878787"
+    },
+    {
+      "name": "金合欢树叶",
+      "uid": "minecraft:leaves2",
+      "meta": 1,
+      "color": "#878787"
+    },
+    {
+      "name": "金合欢树苗",
+      "uid": "minecraft:sapling",
+      "meta": 4,
+      "color": "#727314"
+    },
+    {
+      "name": "金块",
+      "uid": "minecraft:gold_block",
+      "meta": 0,
+      "color": "#f9ec4e"
+    },
+    {
+      "name": "金矿石",
+      "uid": "minecraft:gold_ore",
+      "meta": 0,
+      "color": "#91866b"
+    },
+    {
+      "name": "錾制下界砖块",
+      "uid": "etfuturum:red_netherbrick",
+      "meta": 2,
+      "color": "#2f171c"
+    },
+    {
+      "name": "錾制凝灰岩",
+      "uid": "etfuturum:tuff",
+      "meta": 3,
+      "color": "#5d625b"
+    },
+    {
+      "name": "錾制凝灰岩砖",
+      "uid": "etfuturum:tuff",
+      "meta": 4,
+      "color": "#6e716a"
+    },
+    {
+      "name": "錾制沙石",
+      "uid": "minecraft:sandstone",
+      "meta": 1,
+      "color": "#dad29e"
+    },
+    {
+      "name": "錾制深板岩",
+      "uid": "etfuturum:deepslate_bricks",
+      "meta": 4,
+      "color": "#363636"
+    },
+    {
+      "name": "錾制石砖",
+      "uid": "minecraft:stonebrick",
+      "meta": 3,
+      "color": "#767676"
+    },
+    {
+      "name": "錾制石英块",
+      "uid": "minecraft:quartz_block",
+      "meta": 1,
+      "color": "#e7e4db"
+    },
+    {
+      "name": "錾制磨制黑石",
+      "uid": "etfuturum:blackstone",
+      "meta": 4,
+      "color": "#353038"
+    },
+    {
+      "name": "錾制红砂岩",
+      "uid": "etfuturum:red_sandstone",
+      "meta": 1,
+      "color": "#a6551d"
+    },
+    {
+      "name": "钇石块",
+      "uid": "nova_craft:yttrlinsite_block",
+      "meta": 0,
+      "color": "#e5641b",
+      "alpha": 0.4
+    },
+    {
+      "name": "钇石母岩",
+      "uid": "nova_craft:budding_yttrlinsite_block",
+      "meta": 0,
+      "color": "#e87a24",
+      "alpha": 0.4
+    },
+    {
+      "name": "钇石簇",
+      "uid": "nova_craft:yttrlinsite_cluster_2",
+      "meta": 0,
+      "color": "#e58c57",
+      "alpha": 0.4
+    },
+    {
+      "name": "钇石簇",
+      "uid": "nova_craft:yttrlinsite_cluster_2",
+      "meta": 6,
+      "color": "#ed8d52",
+      "alpha": 0.4
+    },
+    {
+      "name": "钟乳石",
+      "uid": "nova_craft:stone_stalactite",
+      "meta": 0,
+      "color": "#707071"
+    },
+    {
+      "name": "钟乳虚无石",
+      "uid": "nova_craft:nullstone_stalactite",
+      "meta": 0,
+      "color": "#36313c",
+      "alpha": 0.96862745
+    },
+    {
+      "name": "钻石块",
+      "uid": "minecraft:diamond_block",
+      "meta": 0,
+      "color": "#61dbd5"
+    },
+    {
+      "name": "钻石矿石",
+      "uid": "minecraft:diamond_ore",
+      "meta": 0,
+      "color": "#809190"
+    },
+    {
+      "name": "铁块",
+      "uid": "minecraft:iron_block",
+      "meta": 0,
+      "color": "#dbdbdb"
+    },
+    {
+      "name": "铁栏杆",
+      "uid": "minecraft:iron_bars",
+      "meta": 0,
+      "color": "#6d6c6a",
+      "alpha": 0.4
+    },
+    {
+      "name": "铁活板门",
+      "uid": "etfuturum:iron_trapdoor",
+      "meta": 0,
+      "color": "#c7c7c7"
+    },
+    {
+      "name": "铁矿石",
+      "uid": "minecraft:iron_ore",
+      "meta": 0,
+      "color": "#88817a"
+    },
+    {
+      "name": "铁砧",
+      "uid": "etfuturum:anvil",
+      "meta": 0,
+      "color": "#404040"
+    },
+    {
+      "name": "铁砧",
+      "uid": "etfuturum:anvil",
+      "meta": 1,
+      "color": "#404040"
+    },
+    {
+      "name": "铁砧",
+      "uid": "etfuturum:anvil",
+      "meta": 2,
+      "color": "#404040"
+    },
+    {
+      "name": "铁砧",
+      "uid": "minecraft:anvil",
+      "meta": 0,
+      "color": "#404040"
+    },
+    {
+      "name": "铁砧",
+      "uid": "minecraft:anvil",
+      "meta": 1,
+      "color": "#404040"
+    },
+    {
+      "name": "铁砧",
+      "uid": "minecraft:anvil",
+      "meta": 2,
+      "color": "#404040"
+    },
+    {
+      "name": "铁轨",
+      "uid": "minecraft:rail",
+      "meta": 0,
+      "color": "#796c58"
+    },
+    {
+      "name": "铁门",
+      "uid": "minecraft:iron_door",
+      "meta": 0,
+      "color": "#a3a3a3"
+    },
+    {
+      "name": "铃兰",
+      "uid": "etfuturum:lily_of_the_valley",
+      "meta": 0,
+      "color": "#7bae5f"
+    },
+    {
+      "name": "铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 0,
+      "color": "#c06b4f"
+    },
+    {
+      "name": "铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 0,
+      "color": "#bf6b4f"
+    },
+    {
+      "name": "铜活板门",
+      "uid": "etfuturum:copper_trapdoor",
+      "meta": 0,
+      "color": "#be6a4f"
+    },
+    {
+      "name": "铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 0,
+      "color": "#9c5639"
+    },
+    {
+      "name": "铜灯",
+      "uid": "etfuturum:powered_copper_bulb",
+      "meta": 0,
+      "color": "#9c5639"
+    },
+    {
+      "name": "铜矿石",
+      "uid": "etfuturum:copper_ore",
+      "meta": 0,
+      "color": "#7c7d77"
+    },
+    {
+      "name": "铜门",
+      "uid": "etfuturum:copper_door",
+      "meta": 0,
+      "color": "#b4674d"
+    },
+    {
+      "name": "锁链",
+      "uid": "etfuturum:chain",
+      "meta": 0,
+      "color": "#33394a"
+    },
+    {
+      "name": "锈蚀的切制铜台阶",
+      "uid": "etfuturum:cut_copper_slab",
+      "meta": 2,
+      "color": "#6d916b"
+    },
+    {
+      "name": "锈蚀的切制铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 6,
+      "color": "#6d916b"
+    },
+    {
+      "name": "锈蚀的切制铜楼梯",
+      "uid": "etfuturum:weathered_cut_copper_stairs",
+      "meta": 0,
+      "color": "#6d916b"
+    },
+    {
+      "name": "锈蚀的铜块",
+      "uid": "etfuturum:copper_block",
+      "meta": 2,
+      "color": "#6c996e"
+    },
+    {
+      "name": "锈蚀的铜格栅",
+      "uid": "etfuturum:copper_grate",
+      "meta": 2,
+      "color": "#6a986e"
+    },
+    {
+      "name": "锈蚀的铜活板门",
+      "uid": "etfuturum:weathered_copper_trapdoor",
+      "meta": 0,
+      "color": "#6c996e"
+    },
+    {
+      "name": "锈蚀的铜灯",
+      "uid": "etfuturum:copper_bulb",
+      "meta": 2,
+      "color": "#5c7e63"
+    },
+    {
+      "name": "锈蚀的铜门",
+      "uid": "etfuturum:weathered_copper_door",
+      "meta": 0,
+      "color": "#6b8f65"
+    },
+    {
+      "name": "锈蚀的雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 2,
+      "color": "#68966f"
+    },
+    {
+      "name": "锻造台",
+      "uid": "etfuturum:smithing_table",
+      "meta": 0,
+      "color": "#393a46"
+    },
+    {
+      "name": "镶金黑石",
+      "uid": "etfuturum:gilded_blackstone",
+      "meta": 0,
+      "color": "#372a26"
+    },
+    {
+      "name": "闪长岩",
+      "uid": "etfuturum:stone",
+      "meta": 3,
+      "color": "#b3b3b6"
+    },
+    {
+      "name": "闪长岩台阶",
+      "uid": "etfuturum:stone_slab_2",
+      "meta": 2,
+      "color": "#b3b3b6"
+    },
+    {
+      "name": "闪长岩墙",
+      "uid": "etfuturum:stone_wall_2",
+      "meta": 1,
+      "color": "#b3b3b6"
+    },
+    {
+      "name": "闪长岩楼梯",
+      "uid": "etfuturum:diorite_stairs",
+      "meta": 0,
+      "color": "#b3b3b6"
+    },
+    {
+      "name": "阳光探测器",
+      "uid": "etfuturum:daylight_detector_inverted",
+      "meta": 0,
+      "color": "#6a6d70"
+    },
+    {
+      "name": "阳光探测器",
+      "uid": "minecraft:daylight_detector",
+      "meta": 0,
+      "color": "#82745e"
+    },
+    {
+      "name": "阴沉圆石",
+      "uid": "nova_craft:cobbled_grimstone",
+      "meta": 0,
+      "color": "#696986"
+    },
+    {
+      "name": "阴沉圆石台阶",
+      "uid": "nova_craft:cobbled_grimstone_slab",
+      "meta": 0,
+      "color": "#696986"
+    },
+    {
+      "name": "阴沉圆石墙",
+      "uid": "nova_craft:cobbled_grimstone_wall",
+      "meta": 0,
+      "color": "#696986"
+    },
+    {
+      "name": "阴沉圆石楼梯",
+      "uid": "nova_craft:cobbled_grimstone_stairs",
+      "meta": 0,
+      "color": "#696986"
+    },
+    {
+      "name": "阴沉地衣",
+      "uid": "nova_craft:grim_lichen",
+      "meta": 0,
+      "color": "#6b6979"
+    },
+    {
+      "name": "阴沉瓦内特矿",
+      "uid": "nova_craft:grimstone_vanite_ore",
+      "meta": 0,
+      "color": "#6d6982"
+    },
+    {
+      "name": "阴沉石",
+      "uid": "nova_craft:grimstone",
+      "meta": 0,
+      "color": "#73728d"
+    },
+    {
+      "name": "阴沉石台阶",
+      "uid": "nova_craft:grimstone_slab",
+      "meta": 0,
+      "color": "#73728d"
+    },
+    {
+      "name": "阴沉石墙",
+      "uid": "nova_craft:grimstone_wall",
+      "meta": 0,
+      "color": "#73728d"
+    },
+    {
+      "name": "阴沉石楼梯",
+      "uid": "nova_craft:grimstone_stairs",
+      "meta": 0,
+      "color": "#73728d"
+    },
+    {
+      "name": "阴沉石瓦",
+      "uid": "nova_craft:grimstone_tiles",
+      "meta": 0,
+      "color": "#5a5b79"
+    },
+    {
+      "name": "阴沉石砖",
+      "uid": "nova_craft:grimstone_bricks",
+      "meta": 0,
+      "color": "#70708a"
+    },
+    {
+      "name": "阴沉石砖台阶",
+      "uid": "nova_craft:grimstone_brick_slab",
+      "meta": 0,
+      "color": "#70708a"
+    },
+    {
+      "name": "阴沉石砖墙",
+      "uid": "nova_craft:grimstone_brick_wall",
+      "meta": 0,
+      "color": "#70708a"
+    },
+    {
+      "name": "阴沉石砖楼梯",
+      "uid": "nova_craft:grimstone_brick_stairs",
+      "meta": 0,
+      "color": "#70708a"
+    },
+    {
+      "name": "阴沉红石矿",
+      "uid": "nova_craft:grimstone_redstone",
+      "meta": 0,
+      "color": "#87677b"
+    },
+    {
+      "name": "阴沉绿宝石矿",
+      "uid": "nova_craft:grimstone_emerald",
+      "meta": 0,
+      "color": "#6e8789"
+    },
+    {
+      "name": "阴沉金矿",
+      "uid": "nova_craft:grimstone_gold",
+      "meta": 0,
+      "color": "#91847d"
+    },
+    {
+      "name": "阴沉钻石矿",
+      "uid": "nova_craft:grimstone_diamond",
+      "meta": 0,
+      "color": "#6c8599"
+    },
+    {
+      "name": "阴沉铁矿",
+      "uid": "nova_craft:grimstone_iron",
+      "meta": 0,
+      "color": "#88808d"
+    },
+    {
+      "name": "阴沉青金石矿",
+      "uid": "nova_craft:grimstone_lapis",
+      "meta": 0,
+      "color": "#6f78a2"
+    },
+    {
+      "name": "附魔台",
+      "uid": "etfuturum:enchantment_table",
+      "meta": 0,
+      "color": "#67403b"
+    },
+    {
+      "name": "附魔台",
+      "uid": "minecraft:enchanting_table",
+      "meta": 0,
+      "color": "#67403b"
+    },
+    {
+      "name": "陶瓦",
+      "uid": "minecraft:hardened_clay",
+      "meta": 0,
+      "color": "#965c42"
+    },
+    {
+      "name": "陷阱箱",
+      "uid": "minecraft:trapped_chest",
+      "meta": 0,
+      "color": "#9c7f4e"
+    },
+    {
+      "name": "雕纹幽匿砖",
+      "uid": "nova_craft:chiseled_sculk",
+      "meta": 0,
+      "color": "#104648"
+    },
+    {
+      "name": "雕纹拟太石砖",
+      "uid": "nova_craft:chiseled_etherstone",
+      "meta": 0,
+      "color": "#c4c4c3"
+    },
+    {
+      "name": "雕纹虚无砖",
+      "uid": "nova_craft:chiseled_nullstone",
+      "meta": 0,
+      "color": "#27212f"
+    },
+    {
+      "name": "雕纹铜块",
+      "uid": "etfuturum:chiseled_copper",
+      "meta": 0,
+      "color": "#b86449"
+    },
+    {
+      "name": "雕纹阴沉石砖",
+      "uid": "nova_craft:chiseled_grimstone",
+      "meta": 0,
+      "color": "#6f6e8b"
+    },
+    {
+      "name": "雪",
+      "uid": "minecraft:snow",
+      "meta": 0,
+      "color": "#effbfb"
+    },
+    {
+      "name": "雪",
+      "uid": "minecraft:snow_layer",
+      "meta": 0,
+      "color": "#effbfb"
+    },
+    {
+      "name": "青色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 9,
+      "color": "#2e6e89"
+    },
+    {
+      "name": "青色带釉陶瓦",
+      "uid": "etfuturum:cyan_glazed_terracotta",
+      "meta": 0,
+      "color": "#34767d"
+    },
+    {
+      "name": "青色床",
+      "uid": "etfuturum:cyan_bed",
+      "meta": 0,
+      "color": "#146681"
+    },
+    {
+      "name": "青色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 9,
+      "color": "#4c7f99",
+      "alpha": 0.4
+    },
+    {
+      "name": "青色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 9,
+      "color": "#4c7f99",
+      "alpha": 0.4
+    },
+    {
+      "name": "青色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 9,
+      "color": "#1b6c8e"
+    },
+    {
+      "name": "青色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 9,
+      "color": "#317591"
+    },
+    {
+      "name": "青色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 9,
+      "color": "#2e6e89"
+    },
+    {
+      "name": "青色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 9,
+      "color": "#565b5b"
+    },
+    {
+      "name": "青金石块",
+      "uid": "minecraft:lapis_block",
+      "meta": 0,
+      "color": "#264389"
+    },
+    {
+      "name": "青金石矿石",
+      "uid": "minecraft:lapis_ore",
+      "meta": 0,
+      "color": "#6a758d"
+    },
+    {
+      "name": "靛色玫瑰",
+      "uid": "nova_craft:cyan_rose",
+      "meta": 0,
+      "color": "#34887e"
+    },
+    {
+      "name": "音符盒",
+      "uid": "minecraft:noteblock",
+      "meta": 0,
+      "color": "#644332"
+    },
+    {
+      "name": "香菇",
+      "uid": "nova_craft:lentius_mushroom",
+      "meta": 0,
+      "color": "#6b4241",
+      "alpha": 0.9137255
+    },
+    {
+      "name": "马勃菌",
+      "uid": "nova_craft:calvatia_mushroom",
+      "meta": 0,
+      "color": "#923190",
+      "alpha": 0.8235294
+    },
+    {
+      "name": "马铃薯",
+      "uid": "minecraft:potatoes",
+      "meta": 0,
+      "color": "#01ab10"
+    },
+    {
+      "name": "骨块",
+      "uid": "etfuturum:bone",
+      "meta": 0,
+      "color": "#cdc9b1"
+    },
+    {
+      "name": "骷髅头颅",
+      "uid": "minecraft:skull",
+      "meta": 0,
+      "color": "#544033"
+    },
+    {
+      "name": "高炉",
+      "uid": "etfuturum:blast_furnace",
+      "meta": 0,
+      "color": "#505051"
+    },
+    {
+      "name": "高炉",
+      "uid": "etfuturum:lit_blast_furnace",
+      "meta": 0,
+      "color": "#505051"
+    },
+    {
+      "name": "高草丛",
+      "uid": "minecraft:double_plant",
+      "meta": 2,
+      "color": "#929292"
+    },
+    {
+      "name": "黄绿色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 5,
+      "color": "#41ae38"
+    },
+    {
+      "name": "黄绿色带釉陶瓦",
+      "uid": "etfuturum:lime_glazed_terracotta",
+      "meta": 0,
+      "color": "#a2c537"
+    },
+    {
+      "name": "黄绿色床",
+      "uid": "etfuturum:lime_bed",
+      "meta": 0,
+      "color": "#43aa35"
+    },
+    {
+      "name": "黄绿色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 5,
+      "color": "#7fcc19",
+      "alpha": 0.4
+    },
+    {
+      "name": "黄绿色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 5,
+      "color": "#7fcc19",
+      "alpha": 0.4
+    },
+    {
+      "name": "黄绿色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 5,
+      "color": "#45ae3d"
+    },
+    {
+      "name": "黄绿色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 5,
+      "color": "#45af39"
+    },
+    {
+      "name": "黄绿色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 5,
+      "color": "#41ae38"
+    },
+    {
+      "name": "黄绿色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 5,
+      "color": "#677534"
+    },
+    {
+      "name": "黄色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 4,
+      "color": "#b1a627"
+    },
+    {
+      "name": "黄色带釉陶瓦",
+      "uid": "etfuturum:yellow_glazed_terracotta",
+      "meta": 0,
+      "color": "#eac058"
+    },
+    {
+      "name": "黄色床",
+      "uid": "etfuturum:yellow_bed",
+      "meta": 0,
+      "color": "#b29e0d"
+    },
+    {
+      "name": "黄色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 4,
+      "color": "#e5e533",
+      "alpha": 0.4
+    },
+    {
+      "name": "黄色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 4,
+      "color": "#e5e533",
+      "alpha": 0.4
+    },
+    {
+      "name": "黄色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 4,
+      "color": "#b6a322"
+    },
+    {
+      "name": "黄色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 4,
+      "color": "#b4b133"
+    },
+    {
+      "name": "黄色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 4,
+      "color": "#b1a627"
+    },
+    {
+      "name": "黄色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 4,
+      "color": "#ba8523"
+    },
+    {
+      "name": "黏液块",
+      "uid": "etfuturum:slime",
+      "meta": 0,
+      "color": "#78c865",
+      "alpha": 0.7372549
+    },
+    {
+      "name": "黑曜石",
+      "uid": "minecraft:obsidian",
+      "meta": 0,
+      "color": "#14121d"
+    },
+    {
+      "name": "黑石",
+      "uid": "etfuturum:blackstone",
+      "meta": 0,
+      "color": "#2a2429"
+    },
+    {
+      "name": "黑石台阶",
+      "uid": "etfuturum:blackstone_slab",
+      "meta": 0,
+      "color": "#2a2429"
+    },
+    {
+      "name": "黑石墙",
+      "uid": "etfuturum:blackstone_wall",
+      "meta": 0,
+      "color": "#2a2328"
+    },
+    {
+      "name": "黑石楼梯",
+      "uid": "etfuturum:blackstone_stairs",
+      "meta": 0,
+      "color": "#2a2429"
+    },
+    {
+      "name": "黑色地毯",
+      "uid": "minecraft:carpet",
+      "meta": 15,
+      "color": "#191616"
+    },
+    {
+      "name": "黑色带釉陶瓦",
+      "uid": "etfuturum:black_glazed_terracotta",
+      "meta": 0,
+      "color": "#431e20"
+    },
+    {
+      "name": "黑色床",
+      "uid": "etfuturum:black_bed",
+      "meta": 0,
+      "color": "#1b1616"
+    },
+    {
+      "name": "黑色染色玻璃",
+      "uid": "minecraft:stained_glass",
+      "meta": 15,
+      "color": "#191919",
+      "alpha": 0.4
+    },
+    {
+      "name": "黑色染色玻璃板",
+      "uid": "minecraft:stained_glass_pane",
+      "meta": 15,
+      "color": "#191919",
+      "alpha": 0.4
+    },
+    {
+      "name": "黑色混凝土",
+      "uid": "etfuturum:concrete",
+      "meta": 15,
+      "color": "#181717"
+    },
+    {
+      "name": "黑色混凝土粉末",
+      "uid": "etfuturum:concrete_powder",
+      "meta": 15,
+      "color": "#1b1919"
+    },
+    {
+      "name": "黑色羊毛",
+      "uid": "minecraft:wool",
+      "meta": 15,
+      "color": "#191616"
+    },
+    {
+      "name": "黑色陶瓦",
+      "uid": "minecraft:stained_hardened_clay",
+      "meta": 15,
+      "color": "#251610"
+    },
+    {
+      "name": "齿菇",
+      "uid": "nova_craft:hydnum_mushroom",
+      "meta": 0,
+      "color": "#5d2d97",
+      "alpha": 0.92941177
+    },
+    {
+      "name": "龙蛋",
+      "uid": "minecraft:dragon_egg",
+      "meta": 0,
+      "color": "#0c090f"
+    }
+  ]
+}

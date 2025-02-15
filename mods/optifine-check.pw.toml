@@ -1,0 +1,13 @@
+name = "Optifine Check"
+filename = "opticheck-1.7.10-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1fb3d3da5a458521979190e65e16db0257c1641e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4368899
+project-id = 626981

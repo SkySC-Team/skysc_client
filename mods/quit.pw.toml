@@ -1,0 +1,13 @@
+name = "Quit"
+filename = "Quit-Forge-1.7.10-1.0.1-mixinless.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e87016256bb5d1f265f54f08a002a222059fae14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4017621
+project-id = 684750

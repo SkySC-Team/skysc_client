@@ -1,0 +1,13 @@
+name = "Modern Game Mode Switcher"
+filename = "gms-1.7.10-2.0.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/syFHcccl/versions/Mtagx034/gms-1.7.10-2.0.2.0.jar"
+hash-format = "sha512"
+hash = "82d2c6a6dfe4251e58de0a2e733b9107809cac57abb39cb8ba2db52f9a332db0111d4f5316d05541a7f38b08129284af5677ed3a06be67e5e3862b3677d0cffa"
+
+[update]
+[update.modrinth]
+mod-id = "syFHcccl"
+version = "Mtagx034"

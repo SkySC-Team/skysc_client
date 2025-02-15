@@ -1,0 +1,13 @@
+name = "Offhand Lights"
+filename = "OffhandLights-1.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IhkjyNrP/versions/WQos2Suo/OffhandLights-1.6.jar"
+hash-format = "sha512"
+hash = "ecfc3c3f1ac28d9fe8322e6a2413b6564f0d15d95e0610db14d54a10e493bf5bc225ef75a5e143665c7bf404030c79bbfc41520bf3f39f045c9f9bf342713918"
+
+[update]
+[update.modrinth]
+mod-id = "IhkjyNrP"
+version = "WQos2Suo"

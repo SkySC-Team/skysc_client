@@ -1,0 +1,13 @@
+name = "Sky SC Client 1.7.10"
+author = "Small__Mushroom"
+version = "1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a0201e2e4ff4f80f446567ac4d4af81200687222c170638bb00017a2b893a203"
+
+[versions]
+forge = "10.13.4.1614"
+minecraft = "1.7.10"

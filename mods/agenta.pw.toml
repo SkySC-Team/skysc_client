@@ -1,0 +1,13 @@
+name = "Agenta"
+filename = "agenta-1.8.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14863e8b2f5637b781e441fdddd336f003d8d568"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5548608
+project-id = 834284
