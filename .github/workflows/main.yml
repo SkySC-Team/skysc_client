@@ -22,7 +22,6 @@ jobs:
       
       - name: Export CF Pack
         run: |
-          cd overrides
           packwiz curseforge export
           mv ./*.zip "Sky SC Client 1.7.10 v1.0.zip"
       
